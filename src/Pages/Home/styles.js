@@ -7,49 +7,18 @@ export const Container = styled.div`
   max-height: 100vh;
 `;
 
-export const Nav = styled.nav`
-  padding: 0 30px;
-  display: flex;
-  justify-content: space-between;
-`;
-
-export const Logo = styled.img`
-  width: 110px;
-  display: flex;
-`;
-
-export const Ul = styled.ul`
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: end;
-`;
-
-export const Link = styled.li`
-  display: flex;
-  font-size: 18px;
-  color: #000;
-  text-decoration: none;
-
-  span {
-    padding: 0 1rem;
-  }
-`;
-
 export const Main = styled.main`
+  padding: .75rem 3rem 1rem 3rem;
   display: flex;
   height: calc(100vh - 75.39px);
-  
-  section {
-    width: 50%;
-  }
 `;
 
 export const Background = styled.section`
-  width: 50%;
+  width: 40%;
   background-image: url(${ImgFavela});
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-y: center;
 `;
 
 export const ImageFav = styled.img`
@@ -59,28 +28,38 @@ export const ImageFav = styled.img`
 
 export const Section = styled.section`
   padding: 0 2rem;
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
 `;
 
 export const ImgLogo = styled.img`
-  width: 50%;
+  width: 45%;
+`;
+
+export const LogoText = styled.h1`
+  padding-bottom: 1.4rem;
+  color: var(--color_black);
+  font-size: 1rem;
+  font-family: HandSean;
+  max-width: 330px;
+  text-align: center;
 `;
 
 export const Footer = styled.div`
-  position: absolute;
-  bottom: 20px;
+  width: 100%;
   min-height: 3rem;
 `;
 
 export const ContentHighlight = styled.div`
   margin-bottom: 2rem;
-  background: green;
-  display: flex;
   width: 100%;
+  height: 3rem;
+  background: var(--color_mustard);
+  display: flex;
   justify-content: space-between;
+  border: 1px solid #0000007d;
 `;
 
 export const BackHighlight = styled.div`
@@ -89,18 +68,24 @@ export const BackHighlight = styled.div`
 
 export const TextHighlight = styled.p`
   padding: 0 .75rem;
-  width: inherit;
-  background: green;
-  text-align: center;
+  font-size: 1.3rem;
+  color: var(--color_white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const Text = styled.p`
-  font-size: 1rem;
-  max-width: 560px;
+  padding-bottom: 1rem;
+  max-width: 470px;
+  font-size: .85rem;
+  font-family: FallingSky;
+  color: var(--color_lightGray);
+  text-align: center;
 `;
 
 export const Span = styled.span`
-  width: 3rem;
+  width: 2.5rem;
   background: ${props => props.color};
 `;
 

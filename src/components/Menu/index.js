@@ -15,27 +15,27 @@ import * as S from './styles';
       },
       {
         id: 1,
-        name: 'As comunidades',
+        name: 'Edital 2023',
         router: '',
       },
       {
         id: 2,
-        name: 'Realizadores',
+        name: 'As comunidades',
         router: '',
       },
       {
         id: 3,
-        name: 'Contato',
+        name: 'Galerias',
         router: '/contato',
       },
       {
         id: 4,
-        name: 'Redes Sociais',
+        name: 'Realizadores',
         router: '',
       },
       {
         id: 5,
-        name: 'Outros',
+        name: 'Equipe',
         router: '',
       },
     ];

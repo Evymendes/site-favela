@@ -22,8 +22,8 @@ import {
           <S.Background />
           <S.Section>
             <>
-              <S.ImgLogo src={CompleteLogo} alt='Logo'  />
-              {/* <p>Programa de Educação Socioambiental do parque nacional da Tijuca</p> */}
+              <S.ImgLogo src={Logo} alt='Logo'  />
+              <S.LogoText>Programa de Educação Socioambiental do parque nacional da Tijuca</S.LogoText>
             </>
             <S.Text>
               Realizado em parceria com quatro comunidades do entorno da Floresta
@@ -31,13 +31,15 @@ import {
             </S.Text>
             <S.Footer>
               <S.ContentHighlight>
-                <S.TextHighlight> Edital de Acesso a Recursos 2023</S.TextHighlight>
+                <S.Span color={`var(--color_green)`} />
+                <S.TextHighlight> Edital de Recursos 2023 </S.TextHighlight>
                 <S.BackHighlight>
-                  <S.Span color='yellow'/>
-                  <S.Span color='blue'/>
-                  <S.Span color='red'/>
+                  <S.Span color={`var(--color_brown)`} />
+                  <S.Span color={`var(--color_white)`} />
+                  <S.Span color={`var(--color_blue)`} />
                 </S.BackHighlight>
               </S.ContentHighlight>
+              <p>Realização</p>
               <S.ContentPartnerships>
                 <S.ImgPartnerships src={PNTijuca} alt='Logo PNTijuca'  />
                 <S.ImgPartnerships src={Corcovado} alt='Logo Corcovado'  />

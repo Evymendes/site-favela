@@ -4,13 +4,13 @@ import {
 } from '../../assets';
 
 export const Nav = styled.nav`
-  padding: 0 30px;
+  padding: 0 3rem;
   display: flex;
   justify-content: space-between;
 `;
 
 export const Logo = styled.img`
-  width: 110px;
+  width: 5.625rem;
   display: flex;
 `;
 
@@ -25,10 +25,15 @@ export const Li = styled.li`
   display: flex;
 
   a {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: ${props => props.currentPage ? '#000' : '#ccc'};
+    font-family: HandSean;
     text-decoration: none;
     cursor: pointer;
+
+    span  {
+      color: #000;
+    }
 
     :hover  {
       color: #000;
