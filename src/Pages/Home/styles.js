@@ -9,12 +9,13 @@ export const Container = styled.div`
 
 export const Main = styled.main`
   padding: .75rem 3rem 1rem 3rem;
+  height: calc(100vh -  45px);
   display: flex;
-  height: calc(100vh - 75.39px);
+  justify-content: space-between;
 `;
 
 export const Background = styled.section`
-  width: 40%;
+  width: 47%;
   background-image: url(${ImgFavela});
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,8 +28,9 @@ export const ImageFav = styled.img`
 `;
 
 export const Section = styled.section`
-  padding: 0 2rem;
-  width: 60%;
+  position: relative;
+  margin: 1rem 2rem 0 3.2rem;
+  width: 53%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,17 +51,26 @@ export const LogoText = styled.h1`
 
 export const Footer = styled.div`
   width: 100%;
-  min-height: 3rem;
+  position: absolute;
+  bottom: 0;
 `;
 
 export const ContentHighlight = styled.div`
   margin-bottom: 2rem;
   width: 100%;
-  height: 3rem;
+  min-height: 3rem;
   background: var(--color_mustard);
   display: flex;
   justify-content: space-between;
   border: 1px solid #0000007d;
+`;
+
+export const TextAchievement = styled.p`
+  padding-bottom: 1.25rem;
+  font-size: .5rem;
+  font-family: HandSean; 
+  color: var(--color_black);
+  text-align: center;
 `;
 
 export const BackHighlight = styled.div`
@@ -69,6 +80,7 @@ export const BackHighlight = styled.div`
 export const TextHighlight = styled.p`
   padding: 0 .75rem;
   font-size: 1.3rem;
+  font-family: FallingSky Bold; 
   color: var(--color_white);
   display: flex;
   justify-content: center;
@@ -99,10 +111,10 @@ export const ContentPartnerships = styled.span`
 `;
 
 export const ImgPartnerships = styled.img`
-  width: 5rem;
+  width: 6rem;
   object-fit: contain;
 `;
 
 export const ImgICM = styled.img`
-  width: 2rem;
+  width: 3.5rem;
 `;

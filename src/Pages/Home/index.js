@@ -39,10 +39,10 @@ import {
                   <S.Span color={`var(--color_blue)`} />
                 </S.BackHighlight>
               </S.ContentHighlight>
-              <p>Realização</p>
+              <S.TextAchievement>Realização</S.TextAchievement>
               <S.ContentPartnerships>
-                <S.ImgPartnerships src={PNTijuca} alt='Logo PNTijuca'  />
                 <S.ImgPartnerships src={Corcovado} alt='Logo Corcovado'  />
+                <S.ImgPartnerships src={PNTijuca} alt='Logo PNTijuca'  />
                 <S.ImgICM src={ICMBio} alt='Logo ICMBio'  />
                 <S.ImgPartnerships src={PrecisaSer} alt='Logo PrecisaSer'  />
               </S.ContentPartnerships>

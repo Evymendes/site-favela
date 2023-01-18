@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Logo } from '../../assets';
+import {
+  Logo,
+  Face,
+  Instagram
+} from '../../assets';
 
 import * as S from './styles';
   
@@ -20,7 +24,7 @@ import * as S from './styles';
       },
       {
         id: 2,
-        name: 'As comunidades',
+        name: 'As Comunidades',
         router: '',
       },
       {
@@ -53,6 +57,24 @@ import * as S from './styles';
                 </Link>
               </S.Li>)
             }
+            <li>
+              <a 
+                rel="noopener"
+                target="_blank" 
+                href='https://pt-br.facebook.com/favelaparque/' 
+              >
+                <S.ImgIcon src={Face} alt='Icon Face' />
+              </a>
+            </li>
+            <li>
+              <a 
+                rel="noopener"
+                target="_blank"
+                href='https://instagram.com/favelaparque?igshid=YmMyMTA2M2Y='
+              >
+                <S.ImgIcon src={Instagram} alt='Icon Instagram' />
+              </a>
+            </li>
           </S.Ul>
         </S.Nav> 
       </header>
