@@ -6,7 +6,7 @@ import {
   ICMBio,
   Corcovado,
   PrecisaSer,
-  PNTijuca
+  PNTijuca,
 } from '../../assets';
 
   import Menu from '../../components/Menu';
