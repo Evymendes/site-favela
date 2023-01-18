@@ -10,7 +10,7 @@ import * as S from './styles';
   
   function Menu() {
     const [currentPage, setCurrentPage] = useState(0);
-
+    const [open, setOpen] = useState(false)
     const listMenu = [
       {
         id: 0,
@@ -44,11 +44,23 @@ import * as S from './styles';
       },
     ];
 
+    const renderIconBurger = () => (
+      <S.StyledBurger
+        open={open}
+        onClick={() => setOpen(!open)}
+      >
+        <div />
+        <div />
+        <div />
+      </S.StyledBurger>
+    )
+
     return (
       <header>
+        <S.Logo src={Logo} alt='Logo'  />
         <S.Nav>
-          <S.Logo src={Logo} alt='Logo'  />
-          <S.Ul>
+          {renderIconBurger()}
+          {/* <S.Ul>
             {listMenu.map(i =>
               <S.Li currentPage={i.id === currentPage} href={i.router}>
                 <Link to={i.router}>
@@ -75,6 +87,36 @@ import * as S from './styles';
                 <S.ImgIcon src={Instagram} alt='Icon Instagram' />
               </a>
             </li>
+          </S.Ul> */}
+           <S.Ul open={open}>
+              {listMenu.map(i =>
+                <S.Li currentPage={i.id === currentPage} href={i.router}>
+                  <Link to={i.router}>
+                    {i.name}
+                    {i.id !== listMenu.length -1 && <span>|</span>}
+                  </Link>
+                </S.Li>)
+              }
+              <S.ContentIcon>
+              <li>
+                <a 
+                  rel="noopener"
+                  target="_blank" 
+                  href='https://pt-br.facebook.com/favelaparque/' 
+                >
+                  <S.ImgIcon src={Face} alt='Icon Face' />
+                </a>
+              </li>
+              <li>
+                <a 
+                  rel="noopener"
+                  target="_blank"
+                  href='https://instagram.com/favelaparque?igshid=YmMyMTA2M2Y='
+                >
+                  <S.ImgIcon src={Instagram} alt='Icon Instagram' />
+                </a>
+              </li>
+            </S.ContentIcon>
           </S.Ul>
         </S.Nav> 
       </header>
