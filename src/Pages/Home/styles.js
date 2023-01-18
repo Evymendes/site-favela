@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import {
   ImgFavela,
 } from '../../assets';
