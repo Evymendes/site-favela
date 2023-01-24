@@ -1,44 +1,44 @@
 import styled from "styled-components";
-import {
-  ImgFavela
-} from '../../assets';
+
+export const Header = styled.header`
+  display: flex;
+`;
 
 export const Nav = styled.nav`
+  display: flex;
   padding: .75rem 3rem 0 3rem;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
 
-  @media screen and (max-width: 970px) {
-    background: pink;
+  @media (max-width: 768px) {
+    margin: auto;
+    padding: .75rem 0 1rem 0;
+    width: 90%;
   }
 `;
 
 export const Logo = styled.img`
   width: 4rem;
-  display: flex;
 `;
 
 export const Ul = styled.ul`
   list-style: none;
   display: flex;
-  flex-flow: row nowrap;
-  z-index: 1;
-
-  li {
-    padding: 18px 10px;
-  }
-
-  @media (max-width: 768px) {
+  align-items: flex-end;
+  z-index: 2;
+  
+  @media (max-width: 970px) {
+    padding-top: 3.5rem;
     flex-flow: column nowrap;
-    background-color: #0D2538;
+    align-items: flex-start;
+    background-color: var(--color_green);
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
     height: 100vh;
     width: 300px;
-    padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
 
     li {
@@ -49,30 +49,23 @@ export const Ul = styled.ul`
 `;
 
 export const ContentIcon = styled.div`
-  padding: 1rem 0 0 2rem;
   display: flex;
-
+  
   li {
     padding: 0;
-    margin: 0;
+  }
+  
+  @media (max-width: 970px) {
+    padding: 1rem 0 0 2rem;
   }
 `;
-
-// export const Ul = styled.ul`
-//   display: flex;
-//   align-items: center;
-//   flex-wrap: wrap;
-//   justify-content: end;
-// `;
 
 export const Li = styled.li`
   display: flex;
 
   a {
     font-size: 1rem;
-    color: #000;
-
-    // color: ${props => props.currentPage ? '#000' : '#ccc'};
+    color: ${props => props.currentPage ? '#000' : '#ccc'};
     font-family: HandSean;
     text-decoration: none;
     cursor: pointer;
@@ -85,7 +78,9 @@ export const Li = styled.li`
       color: #000;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 970px) {
+      color: var(--color_white);
+
       span  {
         display: none;
       }
@@ -107,7 +102,7 @@ export const ImgIcon = styled.img`
   width: 1.125rem;
   cursor: pointer;
 
-  @media (max-width: 768px) {
+  @media (max-width: 970px) {
     margin-left: 0;
     margin-right: 1rem;
     width: 1.563rem;
@@ -117,12 +112,9 @@ export const ImgIcon = styled.img`
 export const StyledBurger = styled.div`
   display: none;
   
-  @media (max-width: 768px) {
-    width: 2rem;
-    height: 2rem;
-    position: fixed;
-    top: 15px;
-    right: 20px;
+  @media (max-width: 970px) {
+    width: ${({ open }) => !open && '2rem'};
+    height: 1.5rem;
     z-index: 20;
     display: none;
     display: flex;
@@ -131,8 +123,8 @@ export const StyledBurger = styled.div`
   }
 
   div {
-    width: 2rem;
-    height: 0.25rem;
+    width: ${({ open }) => open && '1.6rem'};
+    height: .10rem;
     background-color: ${({ open }) => open ? '#fff' : '#333'};
     border-radius: 10px;
     transform-origin: 1px;

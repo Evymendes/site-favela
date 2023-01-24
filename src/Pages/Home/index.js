@@ -1,8 +1,5 @@
 import {
   Logo,
-  CompleteLogo,
-  ImgFavela,
-  LogoYellow,
   ICMBio,
   Corcovado,
   PrecisaSer,
@@ -34,7 +31,7 @@ import {
                 <S.Span color={`var(--color_green)`} />
                 <S.TextHighlight> Edital de Recursos 2023 </S.TextHighlight>
                 <S.BackHighlight>
-                  <S.Span color={`var(--color_brown)`} />
+                  <S.Span none color={`var(--color_brown)`} />
                   <S.Span color={`var(--color_white)`} />
                   <S.Span color={`var(--color_blue)`} />
                 </S.BackHighlight>
