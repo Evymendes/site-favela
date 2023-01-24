@@ -1,14 +1,3 @@
-import {
-  Logo,
-  CompleteLogo,
-  ImgFavela,
-  LogoYellow,
-  ICMBio,
-  Corcovado,
-  PrecisaSer,
-  PNTijuca
-} from '../../assets';
-
   import Menu from '../../components/Menu';
 
   import * as S from './styles';

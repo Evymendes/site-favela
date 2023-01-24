@@ -28,6 +28,21 @@ export const Background = styled.section`
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
+  // width: 100%;
+  position: relative;
+  z-index: 1;
+
+  :before {
+    content: '';
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: -1;
+  }
 
   @media (max-width: 768px) {
     display: none;
@@ -49,33 +64,6 @@ export const Section = styled.section`
 
   @media (max-width: 970px) {
     margin: 1rem 0 0 3.2rem;
-  }
-  
-  @media (max-width: 768px) {
-    margin: 0;
-    padding-top: 1rem;
-    width: 100%;
-    background-image: url(${ImgFavela});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-size: cover;
-    width: 100%;
-    color: white;
-    position: relative;
-    z-index: 1;
-
-    :before {
-      content: '';
-      background-color: white;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-      opacity: .8;
-      z-index: -1;
-    }
   }
 `;
 
