@@ -13,6 +13,21 @@ import {
   
   function Home() {
 
+    const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('../../files/DiagnosticoSocioambientalParticipativo.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = '../../files/DiagnosticoSocioambientalParticipativo.pdf';
+                alink.click();
+            })
+        })
+    }
+
     return (
       <S.Container>
         <Menu />
@@ -43,6 +58,11 @@ import {
               <S.BackText>Para conhecer mais, clique nos links abaixo:</S.BackText>
 
               <S.BackText>“Diagnóstico Socioambiental Participativo”.</S.BackText>
+                <S.BackText>Seu navegador não tem um plugin pra PDF</S.BackText>
+                <a href="../../files/DiagnosticoSocioambientalParticipativo.pdf" target="_blank">abre aaqui</a>
+                <button onClick={onButtonClick}>
+                    Download PDF
+                </button>
               <S.BackText> Proposta do instituto Precisa Ser</S.BackText>
             </S.ContentText>
             </S.Background>
@@ -56,10 +76,10 @@ import {
               <div>
                 <S.TextAchievement>Realização</S.TextAchievement>
                 <S.ContentPartnerships>
-                  <S.ImgPartnerships src={Corcovado} alt='Logo Corcovado'  />
-                  <S.ImgPartnerships src={PNTijuca} alt='Logo PNTijuca'  />
-                  <S.ImgICM src={ICMBio} alt='Logo ICMBio'  />
-                  <S.ImgPartnerships src={PrecisaSer} alt='Logo PrecisaSer'  />
+                    <S.ImgPartnerships src={Corcovado} alt='Logo Corcovado'  />
+                    <S.ImgPartnerships src={PNTijuca} alt='Logo PNTijuca'  />
+                    <S.ImgICM src={ICMBio} alt='Logo ICMBio'  />
+                    <S.ImgPartnerships src={PrecisaSer} alt='Logo PrecisaSer'  />
                 </S.ContentPartnerships>
               </div>
               {/* <S.ImagemFavela src={ImgFavela} alt='Image Favela'  /> */}

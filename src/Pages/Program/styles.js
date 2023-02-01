@@ -13,6 +13,10 @@ export const Main = styled.main`
   height: calc(100vh -  70px);
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const Background = styled.section`
@@ -37,7 +41,8 @@ export const Background = styled.section`
   }
 
   @media (max-width: 768px) {
-    display: none;
+    width: 100vw;
+    height: 80%;
   }
 `;
 
@@ -87,6 +92,12 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 768px) {
+    width: 100vw;
+    height:  20%;
+    flex-direction: row;
+  }
 `;
 
 export const ContentLogo = styled.div`
@@ -97,12 +108,21 @@ export const ContentLogo = styled.div`
   flex-direction: column;
   align-items: center;
   // height: 190px;
+
+  @media (max-width: 768px) {
+    width: 100vw;
+    height: 100%;
+  }
 `;
 
 export const BackgBlack = styled.div`
   width: 100%;
   height: 1rem;
   background: var(--color_black);
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const ImgLogo = styled.img`
@@ -128,13 +148,17 @@ export const Footer = styled.div`
     height: auto;
   }
 
+  @media (max-width: 768px) {
+    height: 100%;
+  }
+
   @media (max-width: 375px) {
     position: relative;
   }
 
-  @media (min-height: 760px) {
-    bottom: 30px;
-  }
+  // @media (min-height: 760px) {
+  //   bottom: 30px;
+  // }
 `;
 
 export const ImagemFavela = styled.img`
@@ -211,24 +235,42 @@ export const Span = styled.span`
   }
 `;
 
-export const ContentPartnerships = styled.span`
+export const ContentPartnerships = styled.div`
   padding-bottom: 5px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  // flex-direction: row;
 
   img {
     padding-right: 1rem;
+  }
+
+  @media (max-width: 768px) {
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 100px 2fr;
+    gap: 20px 10px;
+    row-gap: 20px;
+    column-gap: 10px;
   }
 `;
 
 export const ImgPartnerships = styled.img`
   width: 25%;
   object-fit: contain;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const ImgICM = styled.img`
   width: 3.5rem;
+
+  @media (max-width: 768px) {
+    width: 56%;
+  }
 `;
 
 export const DivImage = styled.div`
@@ -237,4 +279,8 @@ export const DivImage = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top 60% left 0;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
