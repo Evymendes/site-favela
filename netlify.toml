@@ -12,10 +12,11 @@
   # a base has not been set. This sample publishes the directory
   # located at the absolute path "root/project/build-output"
 
-  publish = "build-output/"
+  publish = "/build"
+  base = "/"
 
   # Default build command.
-  command = "echo 'default context'"
+  command = "npm run build"
 
 [[plugins]]
   # Installs the Lighthouse Build Plugin for all deploy contexts
@@ -79,12 +80,13 @@
 # A basic redirect rule
 [[redirects]]
   from = "/*"
-  to = "/blog/:splat"
+  to = "/src/index.js"
 
 # A redirect rule with many of the supported properties
 [[redirects]]
   from = "/old-path"
   to = "/new-path"
+  status= 200
 
   # The default HTTP status code is 301, but you can
   # define a different one.
