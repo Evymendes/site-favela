@@ -13,10 +13,26 @@
   # located at the absolute path "root/project/build-output"
 
   publish = "/build"
-  base = "/"
+  base = ""
 
   # Default build command.
-  command = "npm run build"
+  command = "CI=false yarn build"
+
+[context.production]
+  publish = "build/"
+  command = "CI=false yarn build"
+
+  [context.development]
+  publish = "build/"
+  command = "CI=false yarn build"
+
+[context.deploy-preview]
+  publish = "build/"
+  command = "CI=false yarn build"
+  
+[context.deploy-preview.environment]
+  NODE_ENV = "main"
+  AMBIENT = "main"
 
 [[plugins]]
   # Installs the Lighthouse Build Plugin for all deploy contexts
