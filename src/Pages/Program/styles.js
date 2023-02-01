@@ -6,29 +6,21 @@ import {
 
 export const Container = styled.div`
   max-height: 100vh;
+  overflow: hidden;
 `;
 
 export const Main = styled.main`
-  padding: .75rem 3rem 1rem 3rem;
-  height: calc(100vh -  45px);
+  height: calc(100vh -  70px);
   display: flex;
   justify-content: space-between;
-
-  @media (max-width: 768px) {
-    margin: auto;
-    padding: .75rem 0 1rem 0;
-    width: 90%;
-    height: calc(100vh - 61px);
-  }
 `;
 
 export const Background = styled.section`
-  width: 47%;
+  width: 80%;
   background-image: url(${ImgFavela});
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: center;
-  // width: 100%;
+  background-position: 0 37%;
   position: relative;
   z-index: 1;
 
@@ -49,6 +41,40 @@ export const Background = styled.section`
   }
 `;
 
+export const ContentText = styled.p`
+  padding: 4.5rem 3rem;
+  height: 100%;
+  overflow-y: scroll;
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent; 
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent; 
+  }
+`;
+
+export const BackText = styled.p`
+  padding-bottom: .75rem;
+  max-width: 695px;
+  font-size: 1rem;
+  color: var(--color_lightGray);
+  font-family: FiraSans;
+`;
+
 export const ImageFav = styled.img`
   max-width: 100%;
   height: 100%;
@@ -56,15 +82,27 @@ export const ImageFav = styled.img`
 
 export const Section = styled.section`
   position: relative;
-  margin: 1rem 2rem 0 3.2rem;
-  width: 53%;
+  width: 30%;
+  height: calc(100vh - 70px);
   display: flex;
   flex-direction: column;
   align-items: center;
+`;
 
-  @media (max-width: 970px) {
-    margin: 1rem 0 0 3.2rem;
-  }
+export const ContentLogo = styled.div`
+  padding-top: 1rem;
+  min-height: 127px;
+  background: var(--color_mustard);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // height: 190px;
+`;
+
+export const BackgBlack = styled.div`
+  width: 100%;
+  height: 1rem;
+  background: var(--color_black);
 `;
 
 export const ImgLogo = styled.img`
@@ -73,17 +111,22 @@ export const ImgLogo = styled.img`
 
 export const LogoText = styled.h1`
   padding-bottom: 1rem;
+  max-width: 10rem;
   color: var(--color_black);
-  font-size: 1rem;
+  font-size: .5rem;
   font-family: HandSean;
-  max-width: 330px;
   text-align: center;
 `;
 
 export const Footer = styled.div`
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  min-height: 60%;
+  height: 79%;
+  text-align: center;
+
+  div:fist-child {
+    height: auto;
+  }
 
   @media (max-width: 375px) {
     position: relative;
@@ -94,10 +137,18 @@ export const Footer = styled.div`
   }
 `;
 
+export const ImagemFavela = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0rem -5rem;
+`;
+
+
 export const ContentHighlight = styled.div`
   margin-bottom: 2rem;
   width: 100%;
-  min-height: 54px;
+  // min-height: 54px;
   background: var(--color_mustard);
   display: flex;
   justify-content: space-between;
@@ -111,7 +162,7 @@ export const ContentHighlight = styled.div`
 `;
 
 export const TextAchievement = styled.p`
-  padding-bottom: 1.25rem;
+  padding-top: 0.5rem;
   font-size: .5rem;
   font-family: HandSean; 
   color: var(--color_black);
@@ -161,6 +212,7 @@ export const Span = styled.span`
 `;
 
 export const ContentPartnerships = styled.span`
+  padding-bottom: 5px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -171,10 +223,18 @@ export const ContentPartnerships = styled.span`
 `;
 
 export const ImgPartnerships = styled.img`
-  width: 6rem;
+  width: 25%;
   object-fit: contain;
 `;
 
 export const ImgICM = styled.img`
   width: 3.5rem;
+`;
+
+export const DivImage = styled.div`
+  height: 100%;
+  background-image: url(${ImgFavela});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top 60% left 0;
 `;
