@@ -20,7 +20,7 @@
 
 [context.production]
   publish = "build/"
-  command = "CI=false yarn build"
+  command = "CI=true yarn build"
 
   [context.development]
   publish = "build/"
@@ -29,7 +29,7 @@
 [context.deploy-preview]
   publish = "build/"
   command = "CI=false yarn build"
-  
+
 [context.deploy-preview.environment]
   NODE_ENV = "main"
   AMBIENT = "main"
