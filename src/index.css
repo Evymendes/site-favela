@@ -5,6 +5,36 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "FallingSky";
+  src: url(./Theme/Fonts/FallingSky/FallingSky.woff);
+}
+
+@font-face {
+  font-family: "FallingSkyLight";
+  src: url(./Theme/Fonts/FallingSky/FallingSkyMed.woff);
+}
+
+@font-face {
+  font-family: "FallingSky Bold";
+  src: url(./Theme/Fonts/FallingSky/FallingSkyBd.woff);
+}
+
+@font-face {
+  font-family: "HandSean";
+  src: url(./Theme/Fonts/HandOfSean/Hand_Of_Sean_Demo.ttf);
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url(./Theme/Fonts/FiraSans/FiraSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "FiraSans-Medium";
+  src: url(./Theme/Fonts/FiraSans/FiraSans-Medium.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -37,6 +67,16 @@ menu, nav, section, button {
 
 html {
   font-size: 16px;
+}
+
+:root {
+  --color_green: #008742;
+  --color_mustard:  #e89f02;
+  --color_brown: #b33f10;
+  --color_white: #fdfeff;
+  --color_blue: #0076b3;
+  --color_black: #050505;
+  --color_lightGray:  #656565;
 }
 
 ul {

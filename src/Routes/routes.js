@@ -2,7 +2,8 @@ import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 import Home from "../Pages/Home";
-import Contact from "../Pages/Contact";
+import Program from "../Pages/Program";
+import Contact from "../Pages/Program";
 
 const RoutesScreens = () => {
    return(
@@ -11,7 +12,7 @@ const RoutesScreens = () => {
            {/* <Route component = { Home }  path="/" exact /> */}
            <Route path="/" element={<Home/>} exact />
            <Route path="/contato" element={<Contact/>} exact />
-           {/* <Route component = { Contact }  path="/contato" /> */}
+           <Route path="/o-programa" element={<Program />} exact />
         </Routes>
        </BrowserRouter>
    )
