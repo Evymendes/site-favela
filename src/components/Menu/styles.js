@@ -5,15 +5,15 @@ export const Header = styled.header`
 `;
 
 export const Nav = styled.nav`
+  padding: 0 3rem 0 3rem;
+  height: 70px;
   display: flex;
-  padding: .75rem 3rem 0 3rem;
-  display: flex;
-  align-items: flex-end;
   justify-content: space-between;
+  align-items: center;
 
   @media (max-width: 768px) {
     margin: auto;
-    padding: .75rem 0 1rem 0;
+    padding: 0 0 1rem 0;
     width: 90%;
   }
 `;

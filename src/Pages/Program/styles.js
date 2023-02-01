@@ -6,29 +6,25 @@ import {
 
 export const Container = styled.div`
   max-height: 100vh;
+  overflow: hidden;
 `;
 
 export const Main = styled.main`
-  padding: .75rem 3rem 1rem 3rem;
-  height: calc(100vh -  45px);
+  height: calc(100vh -  70px);
   display: flex;
   justify-content: space-between;
 
   @media (max-width: 768px) {
-    margin: auto;
-    padding: .75rem 0 1rem 0;
-    width: 90%;
-    height: calc(100vh - 61px);
+    flex-direction: column;
   }
 `;
 
 export const Background = styled.section`
-  width: 47%;
+  width: 80%;
   background-image: url(${ImgFavela});
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: center;
-  // width: 100%;
+  background-position: 0 37%;
   position: relative;
   z-index: 1;
 
@@ -45,8 +41,43 @@ export const Background = styled.section`
   }
 
   @media (max-width: 768px) {
-    display: none;
+    width: 100vw;
+    height: 80%;
   }
+`;
+
+export const ContentText = styled.p`
+  padding: 4.5rem 3rem;
+  height: 100%;
+  overflow-y: scroll;
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent; 
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent; 
+  }
+`;
+
+export const BackText = styled.p`
+  padding-bottom: .75rem;
+  max-width: 695px;
+  font-size: 1rem;
+  color: var(--color_lightGray);
+  font-family: FiraSans;
 `;
 
 export const ImageFav = styled.img`
@@ -56,14 +87,41 @@ export const ImageFav = styled.img`
 
 export const Section = styled.section`
   position: relative;
-  margin: 1rem 2rem 0 3.2rem;
-  width: 53%;
+  width: 30%;
+  height: calc(100vh - 70px);
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  @media (max-width: 970px) {
-    margin: 1rem 0 0 3.2rem;
+  @media (max-width: 768px) {
+    width: 100vw;
+    height:  20%;
+    flex-direction: row;
+  }
+`;
+
+export const ContentLogo = styled.div`
+  padding-top: 1rem;
+  min-height: 127px;
+  background: var(--color_mustard);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // height: 190px;
+
+  @media (max-width: 768px) {
+    width: 100vw;
+    height: 100%;
+  }
+`;
+
+export const BackgBlack = styled.div`
+  width: 100%;
+  height: 1rem;
+  background: var(--color_black);
+
+  @media (max-width: 768px) {
+    display: none;
   }
 `;
 
@@ -73,31 +131,48 @@ export const ImgLogo = styled.img`
 
 export const LogoText = styled.h1`
   padding-bottom: 1rem;
+  max-width: 10rem;
   color: var(--color_black);
-  font-size: 1rem;
+  font-size: .5rem;
   font-family: HandSean;
-  max-width: 330px;
   text-align: center;
 `;
 
 export const Footer = styled.div`
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  min-height: 60%;
+  height: 79%;
+  text-align: center;
+
+  div:fist-child {
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    height: 100%;
+  }
 
   @media (max-width: 375px) {
     position: relative;
   }
 
-  @media (min-height: 760px) {
-    bottom: 30px;
-  }
+  // @media (min-height: 760px) {
+  //   bottom: 30px;
+  // }
 `;
+
+export const ImagemFavela = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0rem -5rem;
+`;
+
 
 export const ContentHighlight = styled.div`
   margin-bottom: 2rem;
   width: 100%;
-  min-height: 54px;
+  // min-height: 54px;
   background: var(--color_mustard);
   display: flex;
   justify-content: space-between;
@@ -111,7 +186,7 @@ export const ContentHighlight = styled.div`
 `;
 
 export const TextAchievement = styled.p`
-  padding-bottom: 1.25rem;
+  padding-top: 0.5rem;
   font-size: .5rem;
   font-family: HandSean; 
   color: var(--color_black);
@@ -160,21 +235,52 @@ export const Span = styled.span`
   }
 `;
 
-export const ContentPartnerships = styled.span`
+export const ContentPartnerships = styled.div`
+  padding-bottom: 5px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  // flex-direction: row;
 
   img {
     padding-right: 1rem;
   }
+
+  @media (max-width: 768px) {
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 100px 2fr;
+    gap: 20px 10px;
+    row-gap: 20px;
+    column-gap: 10px;
+  }
 `;
 
 export const ImgPartnerships = styled.img`
-  width: 6rem;
+  width: 25%;
   object-fit: contain;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const ImgICM = styled.img`
   width: 3.5rem;
+
+  @media (max-width: 768px) {
+    width: 56%;
+  }
+`;
+
+export const DivImage = styled.div`
+  height: 100%;
+  background-image: url(${ImgFavela});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top 60% left 0;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
