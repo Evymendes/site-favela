@@ -33,11 +33,16 @@ function Menu() {
     {
       id: 3,
       name: 'Galerias',
-      router: '/contato',
+      router: '/galeria',
     },
     {
       id: 4,
       name: 'Realizadores',
+      router: '',
+    },
+    {
+      id: 4,
+      name: 'Você no parque',
       router: '',
     },
     {
