@@ -12,7 +12,7 @@ import Team from "../Pages/Team";
 
 const RoutesScreens = () => {
    return(
-       <BrowserRouter>
+       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
            <Route path="/" element={<Home/>} exact />
            <Route path="/o-programa" element={<Program />} />
@@ -22,6 +22,7 @@ const RoutesScreens = () => {
            <Route path="/realizadores" element={<Directors />} />
            <Route path="/vocenoparque" element={<YouInThePark />} />
            <Route path="/equipe" element={<Team />} />
+           <Route path="/*" element={<Home/>} exact />
         </Routes>
        </BrowserRouter>
    )
