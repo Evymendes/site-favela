@@ -12,14 +12,35 @@ function Directors() {
         as ações.
       </S.BackText>
       <S.BackText>
-        <strong>O Parque Nacional da Tijuca (link)</strong>
+        <a
+          href="https://parquenacionaldatijuca.rio/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <strong>O Parque Nacional da Tijuca:</strong>
+        </a>
         (texto que será enviado por Isaura)
         </S.BackText>
         <S.BackText>
-        <strong>O Trem do Corcovado (link)</strong>
+        <a
+          href="https://www.tremdocorcovado.rio/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <strong>O Trem do Corcovado:</strong>
+        </a>
         (texto que será enviado por Isa)
         </S.BackText>
-        <S.BackText><strong>O Instituto Precisa Ser (link)</strong>
+        <S.BackText>
+          <a
+            href="https://institutoprecisaser.org/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <strong>
+              O Instituto Precisa Ser:
+            </strong>
+          </a>
         O Precisa Ser é um instituto de tecnologias digitais e sociais, sem fins lucrativos,
         criado em 2016. com um longo histórico de suporte e desenvolvimento de inovação
         social, ele atua como uma rede que ajuda líderes e apoiadores em ações que
