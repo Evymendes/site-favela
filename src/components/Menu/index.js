@@ -23,27 +23,32 @@ function Menu() {
     {
       id: 1,
       name: 'Edital 2023',
-      router: '',
+      router: '/edital',
     },
     {
       id: 2,
       name: 'As Comunidades',
-      router: '',
+      router: '/as-comunidades',
     },
     {
       id: 3,
       name: 'Galerias',
-      router: '/contato',
+      router: '/galeria',
     },
     {
       id: 4,
       name: 'Realizadores',
-      router: '',
+      router: '/realizadores',
+    },
+    {
+      id: 4,
+      name: 'Você no parque',
+      router: '/vocenoparque',
     },
     {
       id: 5,
       name: 'Equipe',
-      router: '',
+      router: '/equipe',
     },
   ];
 

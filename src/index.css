@@ -84,3 +84,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+a:visited {
+    color: #656565;
+}
