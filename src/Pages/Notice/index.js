@@ -29,12 +29,12 @@ function Notice() {
         vice-versa.
         Esta primeira ação visa identificar propostas de interesse comunitário, qualificar seus
         proponentes e ações e financiar as ações ao final do processo.
-
       </S.BackText>
       <S.BackText>
         <a href="../../files/EditalDeAcessoARecursos2023.docx" target="_blank">abre aaqui</a>
         <button onClick={onButtonClick}>
-          Baixe aqui o Edital 2023.
+          Baixe aqui o Edital 2023.  
+          {/* não vai mais baixar o edital e sim abrir no próprio site */}
         </button>
       </S.BackText>
     </Layout>
