@@ -6,7 +6,9 @@ function YouAtThePark() {
   return (
     <Layout>
       <S.BackText>
-       <strong>Morro dos Prazeres -</strong>
+       <strong>Morro dos Prazeres</strong>
+      <S.BackText>
+      </S.BackText>
         Localizado em Santa Teresa, esse local é um dos mais interessantes da Cidade Maravilhosa, ponto final do
         charmoso Bonde elétrico que vem da Carioca, atravessa os Arcos da Lapa e cruza quase todo o bairro até o
         ponto do Dois Irmãos.
@@ -49,12 +51,12 @@ function YouAtThePark() {
       <S.BackText>
         No bairro do Cosme Velho, a localização da Fazendinha concentrou a construção das casas mais nobres. Por essa razão, muitas 
         famílias foram progressivamente migrando para os Guararapes. A notícia das facilidades encontradas para a ocupação daquela área 
-        foi se espalhando e novos moradores, amigos e parentes das famílias, vindos de outras localidades, como Minas Gerais, Espírito 
-        Santo e de estados do Nordeste, dirigiram-se também para essa área. Novos conglomerados de barracos foram sendo criados, modelando 
-        a feição do espaço até torná-lo uma típica favela de encosta. Este recorte apresenta fragmentos paisagísticos heterogêneos: floresta 
-        em estágios sucessionais diversos (avançado, alterado e em recomposição) protegida em parte pelo Parque Nacional da Tijuca e outras 
-        áreas protegidas em âmbito municipal; ocorrência esparsa de gramíneas; urbanização com padrões diferenciados: lotes urbanizados 
-        originários de antigos loteamentos e glebas de grandes dimensões não ocupadas em Cosme Velho e Santa Teresa.
+        foi se espalhando e novos moradores, amigos e parentes das famílias. Novos conglomerados de barracos foram sendo criados, 
+        modelando a feição do espaço até torná-lo uma típica favela de encosta. Este recorte apresenta fragmentos paisagísticos 
+        heterogêneos: floresta em estágios sucessionais diversos (avançado, alterado e em recomposição) protegida em parte pelo 
+        Parque Nacional da Tijuca e outras áreas protegidas em âmbito municipal; ocorrência esparsa de gramíneas; urbanização com 
+        padrões diferenciados: lotes urbanizados originários de antigos loteamentos e glebas de grandes dimensões não ocupadas 
+        em Cosme Velho e Santa Teresa.
       </S.BackText>
       <S.BackText>
         Pela proximidade da zona Sul carioca, do Parque Nacional da Tijuca e da estátua do Cristo Redentor, o Complexo Guararapes é uma 

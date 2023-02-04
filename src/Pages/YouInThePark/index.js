@@ -12,6 +12,8 @@ function YouAtThePark() {
         de 2023, unindo o lazer, a vivência ambiental na prática e a descoberta de locais
         especiais do PNT. E de quebra você também pode conhecer o Cristo Redentor no
         passeio especial do Trem do Corcovado.
+        </S.BackText>
+      <S.BackText>
         Inscreva-se aqui e entraremos em contato para agendar as datas das atividades
         comunitárias.
       </S.BackText>
@@ -20,7 +22,7 @@ function YouAtThePark() {
           rel="noreferrer"
           target="_blank"
         >
-          Link para um formulário.
+         Inscreva-se aqui.
         </a>
       </S.BackText>
     </Layout>

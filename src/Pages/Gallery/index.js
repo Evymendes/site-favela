@@ -1,17 +1,17 @@
-import Menu from '../../components/Menu';
+import Layout from '../Layout';
 
-// import * as S from './styles';
-
+import * as S from './styles';
+  
 function Gallery() {
-
   return (
-    <div>
-      <Menu />
-      <p>Aqui nesta página você acompanhará o desenvolvimento visual do Programa a partir do seu lançamento.</p>
-      <p>Por enquanto, veja a preparação para o lançamento:</p>
-    </div>
+    <Layout>
+      <S.BackText>
+        Aqui nesta página você acompanhará o desenvolvimento visual do Programa a partir do seu lançamento.
+      </S.BackText>
+    </Layout>
   );
 }
-
+  
 export default Gallery;
+  
 

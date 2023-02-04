@@ -28,7 +28,7 @@ function Program() {
         ali verificadas.
       </S.BackText>
 
-      <S.BackText>Para conhecer mais, clique nos links abaixo para baixar o arquivo:</S.BackText>
+      <S.BackText>Para conhecer mais, clique nos links para baixar o arquivo em pdf:</S.BackText>
       <S.BackText><a href={FileDiagnosticoSocioambiental} download> “Diagnóstico Socioambiental Participativo”.</a></S.BackText>
       <S.BackText><a href={FileProgramaFavelaParque} download> "Programa Favela Parque"</a></S.BackText>    
     </Layout>
