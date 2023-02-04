@@ -85,6 +85,10 @@ ul {
   padding: 0;
 }
 
+a {
+  text-decoration: underline;
+}
+
 a:visited {
-    color: #656565;
+  color: #656565;
 }

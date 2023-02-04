@@ -74,10 +74,10 @@ export const ContentText = styled.p`
 
 export const BackText = styled.p`
   padding-bottom: .75rem;
-  max-width: 695px;
   font-size: 1rem;
   color: var(--color_lightGray);
   font-family: FiraSans;
+  line-height: 1.5;
 `;
 
 export const ImageFav = styled.img`
