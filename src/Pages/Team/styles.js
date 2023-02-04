@@ -5,7 +5,6 @@ export const ContentTexts = styled.div`
  
   @media (max-width: 768px) {
       padding-bottom: ${props => props.team ? '3rem' : '3rem'};
-
   }
 `;
 
