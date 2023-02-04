@@ -11,6 +11,7 @@ function Directors() {
         que aporta recursos para o Programa e o Instituto Precisa Ser que administra e gere
         as ações.
       </S.BackText>
+      <S.ContentTexts>
       <S.BackText>
         <a
           href="https://parquenacionaldatijuca.rio/"
@@ -39,6 +40,8 @@ function Directors() {
             www.parquenacionaldatijuca.rio
           </a>
         </S.BackText>
+        </S.ContentTexts>
+        <S.ContentTexts>
         <S.BackText>
         <a
           href="https://www.tremdocorcovado.rio/"
@@ -67,6 +70,7 @@ function Directors() {
             https://www.tremdocorcovado.rio/
           </a>
         </S.BackText>
+        </S.ContentTexts>
         <S.BackText>
           <a
             href="https://institutoprecisaser.org/"
