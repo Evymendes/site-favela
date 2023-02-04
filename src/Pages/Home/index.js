@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import {
   Logo,
   ICMBio,
@@ -20,13 +21,14 @@ import {
           <S.Section>
             <>
               <S.ImgLogo src={Logo} alt='Logo'  />
-              <S.LogoText>Programa de Educação Socioambiental do parque nacional da Tijuca</S.LogoText>
+              <S.LogoText>Programa de Educação Socioambiental do Parque Nacional da Tijuca</S.LogoText>
             </>
             <S.Text>
               Realizado em parceria com quatro comunidades do entorno da Floresta
               Nacional da Tijuca: Cerro-Corá, Guararapes, Morro dos Prazeres e Vila Cândido
             </S.Text>
             <S.Footer>
+             <Link to='/edital'>
               <S.ContentHighlight>
                 <S.Span color={`var(--color_green)`} />
                 <S.TextHighlight> Edital de Recursos 2023 </S.TextHighlight>
@@ -43,6 +45,7 @@ import {
                 <S.ImgICM src={ICMBio} alt='Logo ICMBio'  />
                 <S.ImgPartnerships src={PrecisaSer} alt='Logo PrecisaSer'  />
               </S.ContentPartnerships>
+             </Link>
             </S.Footer>
           </S.Section>
         </S.Main>

@@ -1,24 +1,9 @@
 import Layout from '../Layout';
+import FileEdital from '../../files/EditalDeAcessoARecursos2023.docx';
 
 import * as S from './styles';
   
 function Notice() {
-
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch('../../files/EditalDeAcessoARecursos2023.docx').then(response => {
-      response.blob().then(blob => {
-          // Creating new object of PDF file
-          const fileURL = window.URL.createObjectURL(blob);
-          // Setting various property values
-          let alink = document.createElement('a');
-          alink.href = fileURL;
-          alink.download = '../../files/EditalDeAcessoARecursos2023.docx';
-          alink.click();
-      })
-    })
-  }
-
   return (
     <Layout>
       <S.BackText>
@@ -29,13 +14,9 @@ function Notice() {
         vice-versa.
         Esta primeira ação visa identificar propostas de interesse comunitário, qualificar seus
         proponentes e ações e financiar as ações ao final do processo.
-
       </S.BackText>
       <S.BackText>
-        <a href="../../files/EditalDeAcessoARecursos2023.docx" target="_blank">abre aaqui</a>
-        <button onClick={onButtonClick}>
-          Baixe aqui o Edital 2023.
-        </button>
+      <a href={FileEdital} download>Baixe aqui o Edital 2023.</a>
       </S.BackText>
     </Layout>
   );

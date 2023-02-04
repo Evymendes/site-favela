@@ -1,24 +1,10 @@
 import Layout from '../Layout';
+import FileDiagnosticoSocioambiental from '../../files/DiagnosticoSocioambientalParticipativo.pdf';
+import FileProgramaFavelaParque from '../../files/ProgramaFavelaParqueEmAção.pdf';
 
 import * as S from './styles';
   
 function Program() {
-
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch('../../files/DiagnosticoSocioambientalParticipativo.pdf').then(response => {
-      response.blob().then(blob => {
-          // Creating new object of PDF file
-          const fileURL = window.URL.createObjectURL(blob);
-          // Setting various property values
-          let alink = document.createElement('a');
-          alink.href = fileURL;
-          alink.download = '../../files/DiagnosticoSocioambientalParticipativo.pdf';
-          alink.click();
-      })
-    })
-  }
-
   return (
     <Layout>
       <S.BackText>
@@ -43,14 +29,8 @@ function Program() {
       </S.BackText>
 
       <S.BackText>Para conhecer mais, clique nos links abaixo:</S.BackText>
-
-      <S.BackText>“Diagnóstico Socioambiental Participativo”.</S.BackText>
-        <S.BackText>Seu navegador não tem um plugin pra PDF</S.BackText>
-        <a href="../../files/DiagnosticoSocioambientalParticipativo.pdf" target="_blank">abre aaqui</a>
-        <button onClick={onButtonClick}>
-          Download PDF
-        </button>
-      <S.BackText> Proposta do instituto Precisa Ser</S.BackText>
+      <S.BackText><a href={FileDiagnosticoSocioambiental} download> “Diagnóstico Socioambiental Participativo”.</a></S.BackText>
+      <S.BackText><a href={FileProgramaFavelaParque} download> "Programa Favela Parque"</a></S.BackText>    
     </Layout>
   );
 }
