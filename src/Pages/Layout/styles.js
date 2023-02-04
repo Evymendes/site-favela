@@ -46,7 +46,7 @@ export const Background = styled.section`
   }
 `;
 
-export const ContentText = styled.p`
+export const ContentText = styled.div`
   padding: 4.5rem 3rem;
   height: 100%;
   overflow-y: scroll;
@@ -69,6 +69,10 @@ export const ContentText = styled.p`
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: transparent; 
+  }
+
+  @media (max-width: 768px) {
+    padding: 2.5rem 2rem;
   }
 `;
 
@@ -129,6 +133,10 @@ export const BackgBlack = styled.div`
 
 export const ImgLogo = styled.img`
   width: 45%;
+
+  @media (max-width: 768px) {
+    padding-bottom: .5rem;
+  }
 `;
 
 export const LogoText = styled.h1`
