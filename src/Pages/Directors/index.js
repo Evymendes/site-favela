@@ -36,7 +36,7 @@ function Directors() {
             rel="noreferrer"
             target="_blank"
           >
-            www.parquenacionaldatijuca.rio  pp
+            www.parquenacionaldatijuca.rio
           </a>
         </S.BackText>
         <S.BackText>

@@ -25,7 +25,7 @@ import {
           <S.Section>
             <S.ContentLogo>
               <S.ImgLogo src={Logo} alt='Logo'  />
-              <S.LogoText>Programa de Educação Socioambiental do parque nacional da Tijuca</S.LogoText>
+              <S.LogoText>Programa de Educação Socioambiental do Parque Nacional da Tijuca</S.LogoText>
             </S.ContentLogo>
             <S.BackgBlack />
             <S.Footer>

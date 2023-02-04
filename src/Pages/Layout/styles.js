@@ -110,8 +110,10 @@ export const ContentLogo = styled.div`
   // height: 190px;
 
   @media (max-width: 768px) {
+    padding-top: 0;
     width: 100vw;
     height: 100%;
+    justify-content: center;
   }
 `;
 
@@ -149,6 +151,7 @@ export const Footer = styled.div`
   }
 
   @media (max-width: 768px) {
+    padding: 0 0.75rem;
     height: 100%;
   }
 
