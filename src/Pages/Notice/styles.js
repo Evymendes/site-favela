@@ -5,5 +5,5 @@ export const BackText = styled.p`
   font-size: 1rem;
   color: var(--color_lightGray);
   font-family: FiraSans;
-  line-height: 2;
+  line-height: 1.8;
 `;

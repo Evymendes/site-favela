@@ -13,7 +13,7 @@ export const Nav = styled.nav`
 
   @media (max-width: 768px) {
     margin: auto;
-    padding: 0 0 1rem 0;
+    padding: 0;
     width: 90%;
   }
 `;

@@ -30,13 +30,13 @@ function Directors() {
           É administrado pelo Instituto Chico Mendes de Conservação da Biodiversidade, o ICMBio, um órgão federal ligado ao Ministério do Meio Ambiente e Mudança do Clima, com o apoio de diversos parceiros como, por exemplo, a Prefeitura da Cidade do Rio de Janeiro e o Governo do Estado do Rio de Janeiro. 
         </S.BackText>
         <S.BackText>
-          Quer conhecer o Parque? Acesse as redes sociais (@parquenacionaldatijuca) ou o site 
+          Quer conhecer o Parque? Acesse as redes sociais (@parquenacionaldatijuca) ou o site {' '}
           <a
-          href=" www.parquenacionaldatijuca.rio"
-          rel="noreferrer"
-          target="_blank"
-        >
-          www.parquenacionaldatijuca.rio
+            href="www.parquenacionaldatijuca.rio"
+            rel="noreferrer"
+            target="_blank"
+          >
+            www.parquenacionaldatijuca.rio
           </a>
         </S.BackText>
         <S.BackText>
@@ -50,22 +50,23 @@ function Directors() {
 
         </S.BackText>
         <S.BackText>
-          É uma linha férrea localizada na cidade do Rio de Janeiro. A linha começa no bairro do Cosme Velho e segue até o cume do morro do Corcovado, a uma altitude de 710m. O cume é famoso pela estátua do Cristo Redentor e pela vista aérea de várias praias do Rio de Janeiro.
-
-        O sistema é administrado pela empresa Trem do Corcovado, que opera o serviço desde 2014, com prazo de concessão de 20 anos.
-
-        De acordo com a proposta básica de concessão e compensação por uso de área protegida por Unidades de Conservação, a empresa celebrou contrato para apoiar o programa Socioambiental do parque Nacional da Tijuca, que gerou o Programa Favela-Parque,
+          É uma linha férrea localizada na cidade do Rio de Janeiro. A linha começa no bairro do Cosme Velho e segue até o 
+          cume do morro do Corcovado, a uma altitude de 710m. O cume é famoso pela estátua do Cristo Redentor e pela vista 
+          aérea de várias praias do Rio de Janeiro. O sistema é administrado pela empresa Trem do Corcovado, que opera o 
+          serviço desde 2014, com prazo de concessão de 20 anos. De acordo com a proposta básica de concessão e compensação 
+          por uso de área protegida por Unidades de Conservação, a empresa celebrou contrato para apoiar o programa 
+          Socioambiental do parque Nacional da Tijuca, que gerou o Programa Favela-Parque,
         </S.BackText>
         <S.BackText>
-          Quer saber mais sobre o Trem do Corcovado: <a
-          href="https://www.tremdocorcovado.rio/"
-          rel="noreferrer"
-          target="_blank"
+          Quer saber mais sobre o Trem do Corcovado:
+          <a
+            href="https://www.tremdocorcovado.rio/"
+            rel="noreferrer"
+            target="_blank"
           >
             https://www.tremdocorcovado.rio/
-        </a>
-    </S.BackText>
-    
+          </a>
+        </S.BackText>
         <S.BackText>
           <a
             href="https://institutoprecisaser.org/"
