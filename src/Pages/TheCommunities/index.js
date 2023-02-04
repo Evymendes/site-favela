@@ -6,7 +6,7 @@ function YouAtThePark() {
   return (
     <Layout>
       <S.BackText>
-       <strong>Morro dos Prazeres -</strong>
+       <strong>Morro dos Prazeres</strong>
       <S.BackText>
       </S.BackText>
         Localizado em Santa Teresa, esse local é um dos mais interessantes da Cidade Maravilhosa, ponto final do
