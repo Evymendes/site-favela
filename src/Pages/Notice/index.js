@@ -12,6 +12,8 @@ function Notice() {
         (voltado para coletivos já organizados e permanentes nas comunidades) e atividades
         socioambientais de aprofundamento da relação do Parque com as comunidades e
         vice-versa.
+      </S.BackText>
+      <S.BackText>
         Esta primeira ação visa identificar propostas de interesse comunitário, qualificar seus
         proponentes e ações e financiar as ações ao final do processo.
       </S.BackText>

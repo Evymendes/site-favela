@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const Main = styled.main`
   padding: .75rem 3rem 1rem 3rem;
-  height: calc(100vh -  45px);
+  height: calc(100vh -  70px);
   display: flex;
   justify-content: space-between;
 
@@ -95,7 +95,7 @@ export const LogoText = styled.h1`
 export const Footer = styled.div`
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: 2%;
 
   @media (max-width: 375px) {
     position: relative;
@@ -148,6 +148,7 @@ export const TextHighlight = styled.p`
   overflow: hidden;
   text-overflow: ellipsis;
   align-self: center;
+  border: none;
 `;
 
 export const Text = styled.p`
