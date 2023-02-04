@@ -16,7 +16,7 @@ function YouAtThePark() {
         comunitárias.
       </S.BackText>
       <S.BackText>
-        <a href='https://forms.gle/rGfepK7cy9LJmQSu8'
+        <a href=''
           rel="noreferrer"
           target="_blank"
         >
