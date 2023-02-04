@@ -19,8 +19,15 @@ function Directors() {
         >
           <strong>O Parque Nacional da Tijuca:</strong>
         </a>
-        (texto que será enviado por Isaura)
         </S.BackText>
+        <S.BackText>
+      O <strong>Parque Nacional da Tijuca</strong> O Parque Nacional da Tijuca é uma área protegida desde 1861. Na época, a substituição da floresta por lavouras de café gerava uma grave seca que colocava em risco o abastecimento de água da cidade do Rio de Janeiro. Por isso, as fazendas foram desapropriadas e um enorme reflorestamento ajudou a floresta a se regenerar e proteger as nascentes dos principais rios da região. 
+Em 1961, o Maciço da Tijuca - Paineiras, Corcovado, Tijuca, Gávea Pequena, Trapicheiro, Andaraí, Três Rios e Covanca – foi transformado em Parque Nacional, recebendo o nome de Parque Nacional do Rio de Janeiro, com 33 km². Seis anos depois, seu nome foi definitivamente alterado para Parque Nacional da Tijuca e, em 4 de julho de 2004, teve sua área ampliada para 39,51 km², incorporando locais como o Parque Lage, Serra dos Pretos Forros e o Morro da Covanca.
+Hoje, recebe milhões de visitantes todos os anos, que buscam lazer em contato com a natureza, banhos de cachoeira e seus lindos mirantes. Além do famoso Corcovado, o Parque conta com diversos atrativos abertos ao público, como o Pico da Tijuca, a Vista Chinesa e a Pedra da Gávea. 
+É administrado pelo Instituto Chico Mendes de Conservação da Biodiversidade, o ICMBio, um órgão federal ligado ao Ministério do Meio Ambiente e Mudança do Clima, com o apoio da Prefeitura da Cidade do Rio de Janeiro e do Governo do Estado do Rio de Janeiro.
+Inserido no coração da cidade, o menor parque nacional do Brasil tem grande importância econômica e para a vida dos cariocas. Além de compor a paisagem da cidade maravilhosa, contribui para a regulação da temperatura e das chuvas e recebe turistas, esportistas, religiosos e famílias em passeio. Venha conhecer você também, contamos com sua ajuda para preservar essa floresta tão especial!
+      Quer mais informações sobre o Parque? Inserir o site.
+      </S.BackText>
         <S.BackText>
         <a
           href="https://www.tremdocorcovado.rio/"
@@ -29,8 +36,18 @@ function Directors() {
         >
           <strong>O Trem do Corcovado:</strong>
         </a>
-        (texto que será enviado por Isa)
+
         </S.BackText>
+        <S.BackText>
+        O <strong>Trem do Corcovado</strong> é uma linha férrea localizada na cidade do Rio de Janeiro. A linha começa no bairro do Cosme Velho e segue até o cume do morro do Corcovado, a uma altitude de 710m. O cume é famoso pela estátua do Cristo Redentor e pela vista aérea de várias praias do Rio de Janeiro.
+
+        O sistema é administrado pela empresa Trem do Corcovado, que opera o serviço desde 2014, com prazo de concessão de 20 anos.
+
+        De acordo com a proposta básica de concessão e compensação por uso de área protegida por Unidades de Conservação, a empresa celebrou contrato para apoiar o programa Socioambiental do parque Nacional da Tijuca, que gerou o Programa Favela-Parque,
+
+        Quer saber mais sobre o Trem do Corcovado: inserir link para o site
+    </S.BackText>
+    
         <S.BackText>
           <a
             href="https://institutoprecisaser.org/"

@@ -42,7 +42,7 @@ function Menu() {
     },
     {
       id: 4,
-      name: 'Você no parque',
+      name: 'Você no Parque',
       router: '/vocenoparque',
     },
     {
