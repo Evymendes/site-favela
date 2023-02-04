@@ -9,7 +9,7 @@ function Notice() {
       <S.BackText>
         O Edital de Acesso a Recursos 2023 é a primeira iniciativa do Programa Favela-
         Parque.
-        </S.BackText>
+      </S.BackText>
       <S.BackText>
         Ao longo de 2023 teremos ainda o Edital de Fortalecimento Comunitário
         (voltado para coletivos já organizados e permanentes nas comunidades) e atividades
