@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-export const Content = styled.div`
-  display: flex;
-`;
-
 export const BackText = styled.p`
   padding-bottom: .75rem;
   font-size: 1rem;

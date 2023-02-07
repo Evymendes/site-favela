@@ -88,7 +88,7 @@ function Team() {
       </S.ContentTexts>
 
       <S.BackText>
-        <strong>Jacson Lima do Nascimento - </strong> Mobilizador da comunidade <strong>Morro dos Prazeres</strong>.
+        <strong>Jacson Nascimento - </strong> Mobilizador da comunidade <strong>Morro dos Prazeres</strong>.
       </S.BackText>
       <S.BackText>
         Graduando em Relações Internacionais pela Universidade Veiga de Almeida. Atua como colaborador da Agência de Notícias das 
