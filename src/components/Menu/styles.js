@@ -11,7 +11,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1168px) {
     margin: auto;
     padding: 0;
     width: 90%;
@@ -28,7 +28,7 @@ export const Ul = styled.ul`
   align-items: flex-end;
   z-index: 2;
   
-  @media (max-width: 970px) {
+  @media (max-width: 1168px) {
     padding-top: 3.5rem;
     flex-flow: column nowrap;
     align-items: flex-start;
@@ -55,7 +55,7 @@ export const ContentIcon = styled.div`
     padding: 0;
   }
   
-  @media (max-width: 970px) {
+  @media (max-width: 1168px) {
     padding: 1rem 0 0 2rem;
   }
 `;
@@ -78,7 +78,7 @@ export const Li = styled.li`
       color: #000;
     }
 
-    @media (max-width: 970px) {
+    @media (max-width: 1168px) {
       color: var(--color_white);
 
       span  {
@@ -102,7 +102,7 @@ export const ImgIcon = styled.img`
   width: 1.125rem;
   cursor: pointer;
 
-  @media (max-width: 970px) {
+  @media (max-width: 1168px) {
     margin-left: 0;
     margin-right: 1rem;
     width: 1.563rem;
@@ -112,7 +112,7 @@ export const ImgIcon = styled.img`
 export const StyledBurger = styled.div`
   display: none;
   
-  @media (max-width: 970px) {
+  @media (max-width: 1168px) {
     width: ${({ open }) => !open && '2rem'};
     height: 1.5rem;
     z-index: 20;
