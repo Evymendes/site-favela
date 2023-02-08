@@ -70,7 +70,7 @@ function CommunitiesGalleries() {
     },
     {
       id: 4,
-      name: 'Genival André - Líderança dos Prazeres.JPG',
+      name: 'Genival André - Líderança dos Prazeres',
       photos: [
         GenivalAndre,
       ]
