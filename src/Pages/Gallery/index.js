@@ -4,7 +4,6 @@ import Layout from '../Layout';
 import * as S from './styles';
   
 function Gallery() {
-
   const listCommunities = [
     {
       id: 0,
@@ -60,4 +59,3 @@ function Gallery() {
   
 export default Gallery;
   
-
