@@ -11,14 +11,16 @@ export const Img = styled.img`
   max-height: 313px;
   object-fit: contain;
   object-position: top left;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
 `;
 
 export const BackText = styled.p`
   padding-top: 2rem;
   padding-bottom: .75rem;
-  width: max-content;
   font-size: 1.25rem;
   color: var(--color_black);
   font-family: FiraSans;
-  line-height: 1.8;
 `;
