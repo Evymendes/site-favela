@@ -7,13 +7,13 @@ function Notice() {
 
   const renderNotice = () => (
     <>
-      <S.NoticeTitle>
+      <S.NoticeTitle noSpace>
         Programa Favela-Parque
       </S.NoticeTitle>
-      <S.NoticeTitle>
+      <S.NoticeTitle noSpace>
         Edital de Acesso a Recursos para as comunidades do Cerro-Corá, Guararapes/Vila
       </S.NoticeTitle>
-      <S.NoticeTitle>
+      <S.NoticeTitle noSpace>
         Cândido e Prazeres
       </S.NoticeTitle>
       <S.NoticeText>
@@ -116,7 +116,7 @@ function Notice() {
       </S.NoticeTitle>
       <S.Ol>
         <li>
-          <S.NoticeText>Data de Inscrição:</S.NoticeText>
+          <S.NoticeText noSpace>Data de Inscrição:</S.NoticeText>
           <S.NoticeText>
             Após a leitura atenta desse Edital, interessados avaliam se cumprem os requisitos para
             participação e reúnem a documentação necessária e a Proposta a ser submetida e
@@ -124,7 +124,7 @@ function Notice() {
           </S.NoticeText>
         </li>
         <li>
-          <S.NoticeText>Seminário:</S.NoticeText>
+          <S.NoticeText noSpace>Seminário:</S.NoticeText>
           <S.NoticeText>
             Após anúncio das Propostas selecionadas no pós-inscrição, que ocorrerá em 21 de Março,
             será realizado um Seminário para refinamento das regras do Edital não contempladas até
@@ -133,7 +133,7 @@ function Notice() {
           </S.NoticeText>
         </li>
         <li>
-          <S.NoticeText>Curso de Gestão de Projetos:</S.NoticeText>
+          <S.NoticeText noSpace>Curso de Gestão de Projetos:</S.NoticeText>
           <S.NoticeText>
             A seguir, os responsáveis pelas propostas participarão de um Curso de Gestão de Projetos
             com atividades presenciais nas manhãs de sábados dias 01, 15 e 29 de Abril e remotas para
@@ -141,7 +141,7 @@ function Notice() {
           </S.NoticeText>
         </li>
         <li>
-        <S.NoticeText>Projetos Aprovados:</S.NoticeText>
+        <S.NoticeText noSpace>Projetos Aprovados:</S.NoticeText>
         <S.NoticeText>
           Ao final do Curso de Gestão haverá a definição dos Projetos efetivamente aprovados para
           receberem recursos financeiros nesta edição do Programa Favela Parque. Em 03 de maio
@@ -150,7 +150,7 @@ function Notice() {
         </S.NoticeText>
         </li>
         <li>
-          <S.NoticeText>Realização dos Projetos:</S.NoticeText>
+          <S.NoticeText noSpace>Realização dos Projetos:</S.NoticeText>
           <S.NoticeText>
             Os Projetos deverão ser realizados entre 22 de Maio e 20 de Agosto e os repasses de
             recursos ocorrerão em princípio nos dias 24 de Maio (50%), 24 de Julho (40%) e ao final das
@@ -161,7 +161,7 @@ function Notice() {
           </S.NoticeText>
         </li>
         <li>
-          <S.NoticeText>Prestação de Contas:</S.NoticeText>
+          <S.NoticeText noSpace>Prestação de Contas:</S.NoticeText>
           <S.NoticeText>
             A prestação de contas da parcela inicial e breve relato das atividades do Projeto na primeira
             fase ocorrerão até dia 19 de Julho. A prestação de contas e Relatório Final deverão ser
@@ -169,7 +169,7 @@ function Notice() {
           </S.NoticeText>
         </li>
         <li>
-        <S.NoticeText>Resultados Finais:</S.NoticeText>
+        <S.NoticeText noSpace>Resultados Finais:</S.NoticeText>
         <S.NoticeText>
           Apresentações dos resultados às comunidades ocorrerão nos dias 02 e 03 de Setembro com
           participação dos representantes dos Projetos.
@@ -281,10 +281,10 @@ function Notice() {
       Outras informações e/ou dúvidas poderão ser obtidas em contato com a Coordenação do Programa, 
       pelo WhatsApp: (21) 99366-0821, ou com o/a Mobilizador/a de sua comunidade:
     </S.NoticeText>
-    <S.NoticeText>Cerro-Corá | Luciane Medeiros | 98348-7096</S.NoticeText>
-    <S.NoticeText>Guararapes | Leonice Paimx | 99808-0608</S.NoticeText>
-    <S.NoticeText>Vila Cândido | Graciele Teixeira | 99865-6346</S.NoticeText>
-    <S.NoticeText>Prazeres | Jacson Lima | 96531-7978</S.NoticeText>
+    <S.NoticeText noSpace>Cerro-Corá | Luciane Medeiros | 98348-7096</S.NoticeText>
+    <S.NoticeText noSpace>Guararapes | Leonice Paimx | 99808-0608</S.NoticeText>
+    <S.NoticeText noSpace>Vila Cândido | Graciele Teixeira | 99865-6346</S.NoticeText>
+    <S.NoticeText noSpace>Prazeres | Jacson Lima | 96531-7978</S.NoticeText>
     <S.NoticeText>
       Se precisar de ajuda para escrever sua proposta, busque o/a Mobilizador/a da sua comunidade.
     </S.NoticeText>
@@ -345,7 +345,7 @@ function Notice() {
       Importante ressaltar que esse ranking será feito por comunidade (Cerro-Corá,
       Guararapes/Vila Cândido e Prazeres) para buscar uma distribuição coerente de Propostas
       por comunidades, tal como:</S.NoticeText>
-    <S.NoticeText><S.UnderlineText>Cerro-Corá e Prazeres:</S.UnderlineText> até 6 Propostas para cada comunidade.</S.NoticeText>
+    <S.NoticeText noSpace><S.UnderlineText>Cerro-Corá e Prazeres:</S.UnderlineText> até 6 Propostas para cada comunidade.</S.NoticeText>
     <S.NoticeText><S.UnderlineText>Guararapes/Vila Cândido:</S.UnderlineText> até 8 Propostas.</S.NoticeText>
     <S.NoticeTitle>Seminário de Refinamento do Edital</S.NoticeTitle>
     <S.NoticeText>
@@ -398,7 +398,7 @@ function Notice() {
       Gestão de Projetos, com a mentoria de profissionais da Consultoria de Projetos
       Socioambientais Saberes e da Coordenação do Programa Favela-Parque.
     </S.NoticeText>
-    <S.UnderlineText>Será obrigatória:</S.UnderlineText>
+    <S.UnderlineText margin>Será obrigatória:</S.UnderlineText>
     <S.Ol>
       <li>A participação dos integrantes do grupo (pelo menos um, preferencialmente dois) a
     cada dia, do início ao fim das atividades.</li>
@@ -408,13 +408,13 @@ function Notice() {
     </S.Ol>
     <S.NoticeText>Nesta etapa as Propostas se tornam Projetos, elaborando suas metodologias a partir dos
     seguintes conteúdos:</S.NoticeText>
-    <S.NoticeText>
+    <S.NoticeText space>
       Dia 1: Reflexão Inicial/Objetivos/Relevância/Indicadores de Avaliação do Impacto.
     </S.NoticeText>
-    <S.NoticeText>
+    <S.NoticeText space>
       Dia 2: Cronograma/Orçamento/Registro/Prestação de Contas/Ética.
     </S.NoticeText>
-    <S.NoticeText>
+    <S.NoticeText space>
       Dia 3: Leitura e defesa dos Projetos finalizados e definição de aprovados com base nos critérios elencados no Seminário 
       e na avaliação coletiva.
     </S.NoticeText>

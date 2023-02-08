@@ -10,16 +10,16 @@ function Gallery() {
       name: 'Prazeres',
       route: '/galeria-prazeres',
     },
-    {
-      id: 1,
-      name: 'Cerro-Corá',
-      route: '/galeria-cerro-cora',
-    },
-    {
-      id: 2,
-      name: 'Guararapes/Vila Cândido',
-      route: '/galeria-guararapes-e-vila-candido',
-    },
+    // {
+    //   id: 1,
+    //   name: 'Cerro-Corá',
+    //   route: '/galeria-cerro-cora',
+    // },
+    // {
+    //   id: 2,
+    //   name: 'Guararapes/Vila Cândido',
+    //   route: '/galeria-guararapes-e-vila-candido',
+    // },
   ];
   
   return (
@@ -50,7 +50,7 @@ function Gallery() {
       </S.BackText>
       {listCommunities.map(i => (
         <Link to={i.route}>
-          <S.BackText>{i.name}</S.BackText>
+          <S.BackText link>{i.name}</S.BackText>
         </Link>
       ))}
     </Layout>
