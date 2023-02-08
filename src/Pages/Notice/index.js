@@ -435,7 +435,7 @@ function Notice() {
     </S.NoticeText>
     <S.NoticeText>Acesse aqui o formulário e inscreva sua ideia
     <a href='https://forms.gle/rGfepK7cy9LJmQSu8.'
-      rel="noreferrer" target="_blank"> https://forms.gle/rGfepK7cy9LJmQSu8.</a> Você
+      rel="noreferrer" target="_blank"> https://forms.gle/rGfepK7cy9LJmQSu8</a>. Você
       receberá um e-mail com as respostas que deu ao formulário e isso confirma sua inscrição.
       No caso de enviar mais de uma vez a mesma Proposta, será considerada apenas a última
       enviada. Ficaremos muito felizes de recebê-la!
