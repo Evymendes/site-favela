@@ -10,16 +10,16 @@ function Gallery() {
       name: 'Prazeres',
       route: '/galeria-prazeres',
     },
-    // {
-    //   id: 1,
-    //   name: 'Cerro-Corá',
-    //   route: '/galeria-cerro-cora',
-    // },
-    // {
-    //   id: 2,
-    //   name: 'Guararapes/Vila Cândido',
-    //   route: '/galeria-guararapes-e-vila-candido',
-    // },
+    {
+      id: 1,
+      name: 'Cerro-Corá',
+      route: '/galeria-cerro-cora',
+    },
+    {
+      id: 2,
+      name: 'Guararapes/Vila Cândido',
+      route: '/galeria-guararapes-e-vila-candido',
+    },
   ];
   
   return (

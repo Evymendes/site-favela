@@ -34,3 +34,25 @@ export { default as GenivalAndre } from './programLaunch/prazeres/GenivalAndreLi
 export { default as IsauraBredariol } from './programLaunch/prazeres/IsauraBredariolParqueNacionaldaTijuca.jpeg';
 export { default as DJ2B } from './programLaunch/prazeres/DJ2B.jpg';
 export { default as Equipe } from './programLaunch/prazeres/Equipe.jpg';
+
+// Photo Guararapes
+export { default as ABelaVistadosGuararapes } from './programLaunch/guararapes/ABelaVistadosGuararapes.jpg';
+export { default as AlbertoSzafranSubPrefeitDoCentro } from './programLaunch/guararapes/AlbertoSzafranSubPrefeitDoCentro.jpg';
+export { default as Desbravadores2 } from './programLaunch/guararapes/Desbravadores2.jpeg';
+export { default as EquipedeGestaoParqueEquipeSupervisoraeInstitutoPrecisaSer } from './programLaunch/guararapes/EquipedeGestaoParqueEquipeSupervisoraeInstitutoPrecisaSer.jpg';
+export { default as GrupoDesbravadores } from './programLaunch/guararapes/GrupoDesbravadores.jpeg';
+export { default as Guararapes } from './programLaunch/guararapes/Guararapes(2).jpg';
+export { default as Guararapes1 } from './programLaunch/guararapes/Guararapes1.jpeg';
+export { default as Guararapes3 } from './programLaunch/guararapes/Guararapes3.jpeg';
+export { default as Guararapes5 } from './programLaunch/guararapes/Guararapes5.jpeg';
+export { default as LeonardoBrasil } from './programLaunch/guararapes/LeonardoBrasil.jpg';
+
+export { default as CerroCora } from './programLaunch/cerroCora/CerroCora.jpg';
+export { default as CerroCora1 } from './programLaunch/cerroCora/CerroCora1.jpg';
+export { default as CerroCora2 } from './programLaunch/cerroCora/CerroCora2.jpg';
+export { default as CerroCora3 } from './programLaunch/cerroCora/CerroCora3.jpg';
+export { default as CerroCora4 } from './programLaunch/cerroCora/CerroCora4.jpg';
+export { default as CerroCoraDJ2B } from './programLaunch/cerroCora/DJ2B.jpg';
+export { default as JandersonMoradoresEmMovimento } from './programLaunch/cerroCora/JandersonMoradoresEmMovimento.jpg';
+export { default as RicardoRodriguesLiderComunitario } from './programLaunch/cerroCora/RicardoRodriguesLiderComunitario.jpg';
+export { default as VivianePachecoParqueNacionaldaTijuca } from './programLaunch/cerroCora/VivianePachecoParqueNacionaldaTijuca.jpg';
