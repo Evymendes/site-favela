@@ -97,6 +97,10 @@ export const Footer = styled.div`
   position: absolute;
   bottom: 2%;
 
+  a {
+    text-decoration: none;
+  }
+
   @media (max-width: 375px) {
     position: relative;
   }
