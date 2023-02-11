@@ -434,7 +434,7 @@ function Notice() {
       Seleção e Avaliação do Edital do Programa Favela-Parque e sua decisão será soberana.
     </S.NoticeText>
     <S.NoticeText>Acesse aqui o formulário e inscreva sua ideia
-    <a href='https://forms.gle/rGfepK7cy9LJmQSu8.'
+    <a href='https://forms.gle/rGfepK7cy9LJmQSu8'
       rel="noreferrer" target="_blank"> https://forms.gle/rGfepK7cy9LJmQSu8</a>. Você
       receberá um e-mail com as respostas que deu ao formulário e isso confirma sua inscrição.
       No caso de enviar mais de uma vez a mesma Proposta, será considerada apenas a última
