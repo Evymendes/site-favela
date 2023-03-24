@@ -43,7 +43,7 @@ function Menu() {
     {
       id: 4,
       name: 'Você no Parque',
-      router: '/vocenoparque',
+      router: '/voce-no-parque',
     },
     {
       id: 5,

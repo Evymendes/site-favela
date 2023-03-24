@@ -15,23 +15,31 @@ function Notice() {
         locais de aglomeração de pessoas, afixando anúncios e conversando muito, ao longo de 44 dias de inscrições abertas.
       </S.NoticeText>
 
-      <S.NoticeText space>Essa capilaridade de informação e agentes resultou em 40 propostas para avaliação do Comitê de Seleção e 
+      <S.NoticeText space>
+        Essa capilaridade de informação e agentes resultou em 40 propostas para avaliação do Comitê de Seleção e 
         Avaliação e a certeza de estabelecer um processo justo e igualitário de informação e oportunidades para todo/as das 
-        comunidades.  </S.NoticeText>
+        comunidades.
+      </S.NoticeText>
 
       <S.NoticeText space>Obrigado a cada um/a que desenvolveu e inscreveu sua ideia. </S.NoticeText>
 
-      <S.NoticeText space>Inscreva-se nas atividades “Você no Parque”, aproveite atividades e passeios para o Parque e o Trem do 
-        Corcovado e curta nossas redes sociais para estar sempre colaborando conosco e sabendo de oportunidades.</S.NoticeText>
+      <S.NoticeText space>
+        Inscreva-se nas atividades <a href={'/voce-no-parque'}>“Você no Parque”</a>, aproveite atividades e passeios para o Parque e o Trem do 
+        Corcovado e curta nossas redes sociais para estar sempre colaborando conosco e sabendo de oportunidades.
+      </S.NoticeText>
 
-      <S.NoticeText space>Não ter sido selecionado não indica nosso afastamento: o Programa Favela-Parque é construído e reconstruído 
+      <S.NoticeText space>
+        Não ter sido selecionado não indica nosso afastamento: o Programa Favela-Parque é construído e reconstruído 
         permanentemente com a participação, sugestão e críticas de todo/as.  Momentos e oportunidades serão construídos em 
-        conjunto e queremos continuar tendo a sua presença e colaboração.</S.NoticeText>
+        conjunto e queremos continuar tendo a sua presença e colaboração.
+      </S.NoticeText>
 
-      <S.NoticeText space>Nessa primeira edição do Programa, diante de tantas propostas dos próprios comunitários e/ou de relações 
+      <S.NoticeText space>
+        Nessa primeira edição do Programa, diante de tantas propostas dos próprios comunitários e/ou de relações 
         já constituídas internamente, pesou muito o apoio ao empoderamento local - objetivo maior do Programa Favela-Parque. 
-      Apresentamos então os 20 proponentes que foram pré-selecionados para a etapa que definirá os Projetos efetivamente 
-      aprovados para acessar os recursos de 2023:</S.NoticeText>
+        Apresentamos então os 20 proponentes que foram pré-selecionados para a etapa que definirá os Projetos efetivamente 
+        aprovados para acessar os recursos de 2023:
+      </S.NoticeText>
 
       <S.NoticeTitle>Atividades obrigatórias:</S.NoticeTitle>
       <S.NoticeText noSpace>Seminário: 25 de Março (9h às 15h) e </S.NoticeText>
@@ -68,7 +76,10 @@ function Notice() {
         <li>Top Charme</li>
         <li>Baú Alfabetização</li>
       </S.UL>
-      <S.NoticeText paddingBottom>Se você está nesta lista, pelo que contate com urgência a coordenação do Programa para alinharmos detalhes de transporte para o Seminário neste sábado (99366-0821 - Charles).</S.NoticeText>
+      <S.NoticeText paddingBottom>
+        Se você está nesta lista, pelo que contate com urgência a coordenação do Programa para alinharmos detalhes de 
+        transporte para o Seminário neste sábado (99366-0821 - Charles).
+      </S.NoticeText>
     </>
   )
 
