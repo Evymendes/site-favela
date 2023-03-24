@@ -35,15 +35,6 @@ export const UnderlineText = styled.span`
   line-height: ${props => props.margin && '2rem'};
 `;
 
-export const Ol = styled.ol`
-  list-style-type: decimal;
-
-  li {
-    padding-bottom: .5rem;
-    margin-left: 3rem
-  }
-`;
-
 export const UL = styled.ul`
   list-style: none;
 
