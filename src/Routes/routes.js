@@ -26,7 +26,7 @@ const RoutesScreens = () => {
            <Route path="/galeria-cerro-cora" element={<CerroCora />} />
            <Route path="/galeria-guararapes-e-vila-candido" element={<GuararapeseVilaCandido />} />
            <Route path="/realizadores" element={<Directors />} />
-           <Route path="/vocenoparque" element={<YouInThePark />} />
+           <Route path="/voce-no-parque" element={<YouInThePark />} />
            <Route path="/equipe" element={<Team />} />
         </Routes>
        </BrowserRouter>

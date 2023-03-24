@@ -27,6 +27,10 @@ export const NoticeText = styled.p`
   font-family: FiraSans;
   line-height:  1.8rem;
   text-align: justify;
+
+  a {
+    text-decoration: none;
+  }
 `;
 
 export const UnderlineText = styled.span`
