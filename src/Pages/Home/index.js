@@ -31,7 +31,7 @@ import {
              <Link to='/edital'>
               <S.ContentHighlight>
                 <S.Span color={`var(--color_green)`} />
-                <S.TextHighlight> Edital de Recursos 2023 </S.TextHighlight>
+                <S.TextHighlight> Conhecer os pré-selecionados </S.TextHighlight>
                 <S.BackHighlight>
                   <S.Span none color={`var(--color_brown)`} />
                   <S.Span color={`var(--color_white)`} />
