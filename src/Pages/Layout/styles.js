@@ -70,7 +70,13 @@ export const ContentText = styled.div`
   ::-webkit-scrollbar-thumb:hover {
     background: transparent; 
   }
-
+  
+  li.numbered:before {
+    color: red;
+    content: counter(mynum) ": ";
+    counter-increment: mynum;
+    font-weight: bold;
+  }
   @media (max-width: 768px) {
     padding: 2.5rem 2rem;
   }

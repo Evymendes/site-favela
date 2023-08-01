@@ -24,7 +24,8 @@ function Gallery() {
   
   return (
     <Layout>
-      <S.BackText>
+      <S.Content>
+      {/* <S.BackText>
          Lançamento do Programa nas comunidades:
       </S.BackText>
       <S.BackText>
@@ -52,7 +53,23 @@ function Gallery() {
         <Link to={i.route}>
           <S.BackText link>{i.name}</S.BackText>
         </Link>
-      ))}
+      ))} */}
+      <S.BackText>
+        Seja muito bem-vindo/a para uma viagem visual pelas etapas de nosso Programa em 2023!
+      </S.BackText>
+      <S.BackText>
+        Clique em algum desses momentos e conheça detalhes de nossas atividades.
+      </S.BackText>
+      <S.Ol>
+        <S.List>Lançamento do Programa</S.List>
+        <S.List>Seminário de Refinamento do Edital</S.List>
+        <S.List>Curso de Gestão em Projetos</S.List>
+        <S.List>Definição dos Projetos Apoiados em 2023</S.List>
+        <S.List>Apresentando os projetos às comunidades</S.List>
+        <S.List>Lançamento do Livro-Síntese do Programa Favela Parque</S.List>
+        <S.List>Você no parque!</S.List>
+      </S.Ol>
+      </S.Content>
     </Layout>
   );
 }

@@ -145,7 +145,7 @@ export const BackHighlight = styled.div`
 
 export const TextHighlight = styled.p`
   padding: 0 .75rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: FallingSky Bold; 
   color: var(--color_white);
   white-space: nowrap;
