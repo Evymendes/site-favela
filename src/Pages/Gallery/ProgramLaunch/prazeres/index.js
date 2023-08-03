@@ -1,4 +1,5 @@
-import Layout from '../../Layout';
+import Layout from '../../../Layout';
+import ListPhotos from '../../../../components/Gallery';
 import {
   ApresentandoOProgramaUm,
   ApresentandoOProgramaDois,
@@ -20,9 +21,9 @@ import {
   IsauraBredariol,
   DJ2B,
   Equipe
-} from '../../../assets';
+} from '../../../../assets';
 
-import * as S from '../globalPhotoStyle';
+import * as S from '../../globalPhotoStyle';
   
 function CommunitiesGalleries() {
   const listCommunities = [
@@ -159,22 +160,10 @@ function CommunitiesGalleries() {
 
   return (
     <Layout>
-      <S.BackText>
-        Lançamento do Projeto no Morro dos Prazeres.
-      </S.BackText>
-     
-      <S.ContainerPhoto>
-        {listCommunities.map(i => (
-          <>
-            <S.BackText subtitle>{i.name}</S.BackText>
-            <S.ContentPhoto>
-              {i?.photos?.map(imagem => (
-                <S.Img src={imagem.img} alt='' align="left" type={imagem.type} />
-                ))}
-            </S.ContentPhoto>
-          </>
-        ))} 
-      </S.ContainerPhoto>
+      <ListPhotos
+        title='Lançamento do Projeto no Morro dos Prazeres.'
+        list={listCommunities}
+      />
     </Layout>
   );
 }
