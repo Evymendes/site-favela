@@ -15,7 +15,7 @@ function Gallery() {
       </S.BackText>
       <S.Ol>
         <S.List><Link to='/lancamento-do-programa'>Lançamento do Programa</Link></S.List>
-        <S.List><Link to='/Seminário-de-Refinamento'>Seminário de Refinamento do Edita</Link>l</S.List>
+        <S.List><Link to='/seminario-de-refinamento'>Seminário de Refinamento do Edital</Link></S.List>
         <S.List><Link to='/curso-de-gestao'>Curso de Gestão em Projetos</Link></S.List>
         <S.List><Link to='/definicao-dos-projetos'>Definição dos Projetos Apoiados em 2023</Link></S.List>
         <S.List><Link to='/apresentando-os-projetos'>Apresentando os projetos às comunidades</Link></S.List>

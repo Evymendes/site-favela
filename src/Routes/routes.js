@@ -10,6 +10,13 @@ import ProgramLaunch from "../Pages/Gallery/ProgramLaunch";
 import Prazeres from "../Pages/Gallery/ProgramLaunch/prazeres";
 import CerroCora from "../Pages/Gallery/ProgramLaunch/cerroCora";
 import GuararapeseVilaCandido from "../Pages/Gallery/ProgramLaunch/guararapes-vilaCandido";
+import EdictRefinementSeminar from "../Pages/Gallery/EdictRefinementSeminar";
+import DefinitionOfSupportedProjects from "../Pages/Gallery/DefinitionOfSupportedProjects";
+import IntroducingProjectsToCommunities from "../Pages/Gallery/IntroducingProjectsToCommunities";
+import ProjectManagementCourse from "../Pages/Gallery/ProjectManagementCourse";
+import BookRelease from "../Pages/Gallery/BookRelease";
+import LaunchYouInThePark from "../Pages/Gallery/LaunchYouInThePark";
+
 import Directors from "../Pages/Directors";
 import YouInThePark from "../Pages/YouInThePark";
 import Team from "../Pages/Team";
@@ -18,18 +25,24 @@ const RoutesScreens = () => {
    return(
        <BrowserRouter>
         <Routes>
-           <Route path="/" element={<Home/>} exact />
-           <Route path="/o-programa" element={<Program />} />
-           <Route path="/edital" element={<Notice />} />
-           <Route path="/as-comunidades" element={<TheCommunities />} />
-           <Route path="/galeria" element={<Gallery />} />
-           <Route path="/lancamento-do-programa" element={<ProgramLaunch />} />
-           <Route path="/lancamento-do-programa-prazeres" element={<Prazeres />} />
-           <Route path="/lancamento-do-programa-cerro-cora" element={<CerroCora />} />
-           <Route path="/lancamento-do-programa-guararapes-e-vila-candido" element={<GuararapeseVilaCandido />} />
-           <Route path="/realizadores" element={<Directors />} />
-           <Route path="/voce-no-parque" element={<YouInThePark />} />
-           <Route path="/equipe" element={<Team />} />
+           <Route path='/' element={<Home/>} exact />
+           <Route path='/o-programa' element={<Program />} />
+           <Route path='/edital' element={<Notice />} />
+           <Route path='/as-comunidades' element={<TheCommunities />} />
+           <Route path='/galeria' element={<Gallery />} />
+           <Route path='/lancamento-do-programa' element={<ProgramLaunch />} />
+           <Route path='/lancamento-do-programa-prazeres' element={<Prazeres />} />
+           <Route path='/lancamento-do-programa-cerro-cora' element={<CerroCora />} />
+           <Route path='/lancamento-do-programa-guararapes-e-vila-candido' element={<GuararapeseVilaCandido />} />
+           <Route path='/seminario-de-refinamento' element={<EdictRefinementSeminar />} />
+           <Route path='/curso-de-gestao' element={<ProjectManagementCourse />} />
+           <Route path='/definicao-dos-projetos' element={<DefinitionOfSupportedProjects />} />
+           <Route path='/apresentando-os-projetos' element={<IntroducingProjectsToCommunities />} />
+           <Route path='/lancamento-do-livro' element={<BookRelease />} />
+           <Route path='/lancamento-voce-no-parque' element={<LaunchYouInThePark />} />
+           <Route path='/realizadores' element={<Directors />} />
+           <Route path='/voce-no-parque' element={<YouInThePark />} />
+           <Route path='/equipe' element={<Team />} />
         </Routes>
        </BrowserRouter>
    )
