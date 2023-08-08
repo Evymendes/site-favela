@@ -2,7 +2,7 @@ import Layout from '../../Pages/Layout';
 
 import * as S from './styles';
 
-function CommunitiesGalleries({title, list}) {
+function Photos({title, list}) {
 
   return (
     <>
@@ -21,11 +21,10 @@ function CommunitiesGalleries({title, list}) {
             </S.ContentPhoto>
           </>
         ))}
-        {console.log(list)}
       </S.ContainerPhoto>
       </>
   );
 }
   
-export default CommunitiesGalleries;
+export default Photos;
   
