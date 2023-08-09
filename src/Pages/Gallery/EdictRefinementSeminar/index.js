@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Layout from '../../Layout';
-import Photos from '../../../components/Gallery';
+import Photos from './photos';
 
 import {
   ApresentandoOProgramaUm,
@@ -187,10 +187,8 @@ function EdictRefinementSeminar() {
         grupo de proponentes. Fechamos aquele dia memorável com um almoço coletivo.
       </S.BackText>
 
-      <Photos
-        title=''
-        list={listPhotos}
-      />
+      <Photos />
+
     </Layout>
   );
 }

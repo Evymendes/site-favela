@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Layout from '../../Layout';
+import Photos from './photos';
 
 import * as S from './styles';
   
@@ -47,6 +48,8 @@ function DefinitionOfSupportedProjects() {
         sintonia com o Conselho Consultivo Comunitário criado a partir do grupo de WhatsApp com todo/as o/as participantes 
         pré-selecionado/as.
       </S.BackText>
+
+      <Photos />
 
     </Layout>
   );

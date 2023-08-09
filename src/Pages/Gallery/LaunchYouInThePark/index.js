@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Layout from '../../Layout';
+import Photos from './photos';
 
 import * as S from './styles';
   
@@ -28,6 +29,8 @@ function LaunchYouInThePark() {
       <S.BackText>
         História, Química e Biologia, entre cachoeiras e mirantes:  Educação ambiental se faz com alegria, beleza e prazer. 
       </S.BackText>
+
+      <Photos />
 
     </Layout>
   );

@@ -1,14 +1,14 @@
-import Layout from '../../Pages/Layout';
-
 import * as S from './styles';
 
 function Photos({title, list}) {
 
   return (
     <>
-      <S.BackText>
-        {title}
-      </S.BackText>
+      {title && 
+        <S.BackText>
+          {title}
+        </S.BackText>
+      }
      
       <S.ContainerPhoto>
         {list.map(i => (

@@ -49,6 +49,7 @@ function Gallery() {
       <S.BackText>
         Veja a seguir alguns desses momentos.
       </S.BackText>
+      
       {listCommunities.map(i => (
         <Link to={i.route}>
           <S.BackText link>{i.name}</S.BackText>

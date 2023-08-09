@@ -1,170 +1,77 @@
-import Layout from '../../../Layout';
-import ListPhotos from '../../../../components/Gallery';
+import Photos from '../../../components/Gallery';
 import {
-  ApresentandoOProgramaUm,
-  ApresentandoOProgramaDois,
-  ApresentandoOProgramaTres,
-  ApresentandoOProgramaQuatro,
-  ApresentandoOProgramaCinco,
-  ApresentandoOProgramaSeis,
-  ApresentandoOProgramaSete,
-  ApresentandoOProgramaOito,
-  ApresentandoOProgramaNove,
-  MarcosBandeiraDancarinoeCoreografoUm,
-  MarcosBandeiraDancarinoeCoreografoDois,
-  MarcosBandeiraDancarinoeCoreografoTres,
-  MarcosBandeiraDancarinoeCoreografoQuatro,
-  MarcosBandeiraDancarinoeCoreografoCinco,
-  CharlesSiqueira,
-  CrisdosPrazeres,
-  GenivalAndre,
-  IsauraBredariol,
-  DJ2B,
-  Equipe
-} from '../../../../assets';
-
-import * as S from '../../globalPhotoStyle';
+  LaunchYouInTheParkOne,
+  LaunchYouInTheParkTwo,
+  LaunchYouInTheParkThree,
+  LaunchYouInTheParkFour,
+  LaunchYouInTheParkFive,
+  LaunchYouInTheParkSix,
+  LaunchYouInTheParkSeven,
+  LaunchYouInTheParkEight,
+  LaunchYouInTheParkNine,
+  LaunchYouInTheParkTen,
+  LaunchYouInTheParkEleven
+} from '../../../assets';
   
 function PhotosLaunchYouInThePark() {
-  const listCommunities = [
+  const listPhotos = [
     {
       id: 0,
       type: '',
-      name: 'Apresentando o programa',
+      name: '',
       photos: [
         {
-          img: ApresentandoOProgramaUm,
+          img: LaunchYouInTheParkOne,
           type: '',
         },
         {
-          img: ApresentandoOProgramaDois,
+          img: LaunchYouInTheParkTwo,
           type: '',
         },
         {
-          img: ApresentandoOProgramaTres,
+          img: LaunchYouInTheParkThree,
           type: '',
         },
         {
-          img: ApresentandoOProgramaSete,
+          img: LaunchYouInTheParkFour,
           type: '',
         },
         {
-          img: ApresentandoOProgramaCinco,
+          img: LaunchYouInTheParkFive,
           type: '',
         },
         {
-          img: ApresentandoOProgramaSeis,
+          img: LaunchYouInTheParkSix,
           type: '',
         },
         {
-          img: ApresentandoOProgramaQuatro,
-          type: 'standing',
-        },
-        {
-          img: ApresentandoOProgramaOito,
-          type: 'standing',
-        },
-        {
-          img: ApresentandoOProgramaNove,
-          type: 'standing',
-        }
-      ]
-    },
-    {
-      id: 1,
-      name: 'Marcos Bandeira, Dançarino e Coreógrafo',
-      photos: [
-        {
-          img: MarcosBandeiraDancarinoeCoreografoDois,
+          img: LaunchYouInTheParkSeven,
           type: '',
         },
         {
-          img: MarcosBandeiraDancarinoeCoreografoQuatro,
+          img: LaunchYouInTheParkEight,
           type: '',
         },
         {
-          img: MarcosBandeiraDancarinoeCoreografoUm,
-          type: 'standing',
+          img: LaunchYouInTheParkNine,
+          type: '',
         },
         {
-          img: MarcosBandeiraDancarinoeCoreografoTres,
-          type: 'standing',
+          img: LaunchYouInTheParkTen,
+          type: '',
         },
         {
-          img: MarcosBandeiraDancarinoeCoreografoCinco,
-          type: 'standing',
-        }
-      ]
-    },
-    {
-      id: 2,
-      name: 'Charles Siqueira - Coordenador do Programa',
-      photos: [
-        {
-          img: CharlesSiqueira,
+          img: LaunchYouInTheParkEleven,
           type: '',
         }
       ]
-    },
-    {
-      id: 3,
-      name: 'Cris dos Prazeres - Instituto Precisa Ser',
-      photos: [
-        {
-          img: CrisdosPrazeres,
-          type: 'standing',
-        }
-      ]
-    },
-    {
-      id: 4,
-      name: 'Genival André - Líderança dos Prazeres',
-      photos: [
-        {
-          img: GenivalAndre,
-          type: '',
-        }
-      ]
-    },
-    {
-      id: 5,
-      name: 'Isaura Bredariol - Parque Nacional da Tijuca',
-      photos: [
-        {
-          img: IsauraBredariol,
-          type: '',
-        }
-      ]
-    },
-    {
-      id: 6,
-      name: 'DJ 2B',
-      photos: [
-        {
-          img: DJ2B,
-          type: 'standing',
-        }
-      ]
-    },
-    {
-      id: 7,
-      name: 'Equipe',
-      photos: [
-        {
-          img: Equipe,
-          type: '',
-        }
-      ]
-    },
+    }
   ];
 
   return (
-    <Layout>
-      <ListPhotos
-        title='Lançamento do Projeto no Morro dos Prazeres.'
-        list={listCommunities}
-      />
-    </Layout>
+    <Photos
+      list={listPhotos}
+    />
   );
 }
   

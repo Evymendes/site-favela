@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Layout from '../../Layout';
+import Photos from './photos';
 
 import * as S from './styles';
   
@@ -27,11 +28,12 @@ function BookRelease() {
         Programa nas comunidades.
       </S.BackText>
 
-      <S.BackText>
+      {/* <S.BackText>
         Para baixar o livro, clique aqui: (vou mandar o link).
-      </S.BackText>
+      </S.BackText> */}
 
-      
+      <Photos />
+
     </Layout>
   );
 }

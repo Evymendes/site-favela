@@ -1,170 +1,156 @@
-import Layout from '../../../Layout';
-import ListPhotos from '../../../../components/Gallery';
+import Photos from '../../../components/Gallery';
 import {
-  ApresentandoOProgramaUm,
-  ApresentandoOProgramaDois,
-  ApresentandoOProgramaTres,
-  ApresentandoOProgramaQuatro,
-  ApresentandoOProgramaCinco,
-  ApresentandoOProgramaSeis,
-  ApresentandoOProgramaSete,
-  ApresentandoOProgramaOito,
-  ApresentandoOProgramaNove,
-  MarcosBandeiraDancarinoeCoreografoUm,
-  MarcosBandeiraDancarinoeCoreografoDois,
-  MarcosBandeiraDancarinoeCoreografoTres,
-  MarcosBandeiraDancarinoeCoreografoQuatro,
-  MarcosBandeiraDancarinoeCoreografoCinco,
-  CharlesSiqueira,
-  CrisdosPrazeres,
-  GenivalAndre,
-  IsauraBredariol,
-  DJ2B,
-  Equipe
-} from '../../../../assets';
-
-import * as S from '../../globalPhotoStyle';
+  LaunchYouInTheParkOne,
+  LaunchYouInTheParkTwo,
+  LaunchYouInTheParkThree,
+  LaunchYouInTheParkFour,
+  LaunchYouInTheParkFive,
+  LaunchYouInTheParkSix,
+  LaunchYouInTheParkSeven,
+  LaunchYouInTheParkEight,
+  LaunchYouInTheParkNine,
+  LaunchYouInTheParkTen,
+  LaunchYouInTheParkEleven,
+  IntroducingProjectsToCommunitiesThirteen,
+  IntroducingProjectsToCommunitiesFourteen,
+  IntroducingProjectsToCommunitiesFifteen,
+  IntroducingProjectsToCommunitiesSixteen,
+  IntroducingProjectsToCommunitiesSeventeen,
+  IntroducingProjectsToCommunitiesEighteen,
+  IntroducingProjectsToCommunitiesNineteen,
+  IntroducingProjectsToCommunitiesTwenty,
+  IntroducingProjectsToCommunitiesTwentyOne,
+  IntroducingProjectsToCommunitiesTwentyTwo,
+  IntroducingProjectsToCommunitiesTwentyThree,
+  IntroducingProjectsToCommunitiesTwentyFour,
+  IntroducingProjectsToCommunitiesTwentyFive,
+  IntroducingProjectsToCommunitiesTwentySix,
+  IntroducingProjectsToCommunitiesTwentySeven
+} from '../../../assets';
   
 function PhotosProjectManagementCourse() {
-  const listCommunities = [
+  const listPhotos = [
     {
       id: 0,
       type: '',
-      name: 'Apresentando o programa',
+      name: '',
       photos: [
         {
-          img: ApresentandoOProgramaUm,
+          img: ProjectManagementCourseOne,
           type: '',
         },
         {
-          img: ApresentandoOProgramaDois,
+          img: ProjectManagementCourseTwo,
           type: '',
         },
         {
-          img: ApresentandoOProgramaTres,
+          img: ProjectManagementCourseThree,
           type: '',
         },
         {
-          img: ApresentandoOProgramaSete,
+          img: ProjectManagementCourseFour,
           type: '',
         },
         {
-          img: ApresentandoOProgramaCinco,
+          img: ProjectManagementCourseFive,
           type: '',
         },
         {
-          img: ApresentandoOProgramaSeis,
+          img: ProjectManagementCourseSix,
           type: '',
         },
         {
-          img: ApresentandoOProgramaQuatro,
-          type: 'standing',
-        },
-        {
-          img: ApresentandoOProgramaOito,
-          type: 'standing',
-        },
-        {
-          img: ApresentandoOProgramaNove,
-          type: 'standing',
-        }
-      ]
-    },
-    {
-      id: 1,
-      name: 'Marcos Bandeira, Dançarino e Coreógrafo',
-      photos: [
-        {
-          img: MarcosBandeiraDancarinoeCoreografoDois,
+          img: ProjectManagementCourseSeven,
           type: '',
         },
         {
-          img: MarcosBandeiraDancarinoeCoreografoQuatro,
+          img: ProjectManagementCourseEight,
           type: '',
         },
         {
-          img: MarcosBandeiraDancarinoeCoreografoUm,
-          type: 'standing',
+          img: ProjectManagementCourseNine,
+          type: '',
         },
         {
-          img: MarcosBandeiraDancarinoeCoreografoTres,
-          type: 'standing',
+          img: ProjectManagementCourseTen,
+          type: '',
         },
         {
-          img: MarcosBandeiraDancarinoeCoreografoCinco,
-          type: 'standing',
-        }
-      ]
-    },
-    {
-      id: 2,
-      name: 'Charles Siqueira - Coordenador do Programa',
-      photos: [
-        {
-          img: CharlesSiqueira,
+          img: ProjectManagementCourseEleven,
           type: '',
-        }
-      ]
-    },
-    {
-      id: 3,
-      name: 'Cris dos Prazeres - Instituto Precisa Ser',
-      photos: [
+        },
         {
-          img: CrisdosPrazeres,
-          type: 'standing',
-        }
-      ]
-    },
-    {
-      id: 4,
-      name: 'Genival André - Líderança dos Prazeres',
-      photos: [
-        {
-          img: GenivalAndre,
+          img: ProjectManagementCourseTwelve,
           type: '',
-        }
-      ]
-    },
-    {
-      id: 5,
-      name: 'Isaura Bredariol - Parque Nacional da Tijuca',
-      photos: [
+        },
         {
-          img: IsauraBredariol,
+          img: IntroducingProjectsToCommunitiesThirteen,
           type: '',
-        }
-      ]
-    },
-    {
-      id: 6,
-      name: 'DJ 2B',
-      photos: [
+        },
         {
-          img: DJ2B,
-          type: 'standing',
-        }
-      ]
-    },
-    {
-      id: 7,
-      name: 'Equipe',
-      photos: [
+          img: IntroducingProjectsToCommunitiesFourteen,
+          type: '',
+        },
         {
-          img: Equipe,
+          img: IntroducingProjectsToCommunitiesFifteen,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesSixteen,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesSeventeen,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesEighteen,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesNineteen,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwenty,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentyOne,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentyTwo,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentyThree,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentyFour,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentyFive,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentySix,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentySeven,
           type: '',
         }
       ]
-    },
+    }
   ];
 
   return (
-    <Layout>
-      <ListPhotos
-        title='Lançamento do Projeto no Morro dos Prazeres.'
-        list={listCommunities}
-      />
-    </Layout>
+    <Photos
+      list={listPhotos}
+    />
   );
 }
   

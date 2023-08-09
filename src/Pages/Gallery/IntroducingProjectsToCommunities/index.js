@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Layout from '../../Layout';
+import Photos from './photos';
 
 import * as S from './styles';
   
@@ -18,7 +19,6 @@ function IntroducingProjectsToCommunities() {
         Num final de semana pra lá de festivo celebramos o conjunto de aprovados com moradore/as do Morro dos Prazeres e 
         Cerro-Corá (no sábado, dia 20/5) e do Morro dos Guararapes/Vila Cândido (no domingo, 21/5).
       </S.BackText>
-
 
       <S.BackText>
         Nos Prazeres, atividades educativas voltadas para crianças e suas responsáveis, na quadra dos Prazeres pra conhecer as 
@@ -69,6 +69,8 @@ function IntroducingProjectsToCommunities() {
       <S.BackText>
         Dias de integração de comunidades e projetos que ficarão na memória de todo/as nós!
       </S.BackText>
+
+      <Photos />
 
     </Layout>
   );
