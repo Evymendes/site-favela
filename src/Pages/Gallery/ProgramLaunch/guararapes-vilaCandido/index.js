@@ -1,4 +1,5 @@
-import Layout from '../../Layout';
+import Layout from '../../../Layout';
+import ListPhotos from '../../../../components/Gallery';
 import {
   ABelaVistadosGuararapes,
   AlbertoSzafranSubPrefeitDoCentro,
@@ -10,9 +11,9 @@ import {
   Guararapes3,
   Guararapes5,
   LeonardoBrasil
-} from '../../../assets';
+} from '../../../../assets';
 
-import * as S from '../globalPhotoStyle';
+import * as S from '../../globalPhotoStyle';
   
 function GuararapesVilaCandido() {
   const listCommunities = [
@@ -102,21 +103,10 @@ function GuararapesVilaCandido() {
 
   return (
     <Layout>
-      <S.BackText>
-        Lançamento do Projeto no Guararapes Vila-Candido.
-      </S.BackText>
-      <S.ContainerPhoto>
-        {listCommunities.map(i => (
-          <>
-            <S.BackText subtitle>{i.name}</S.BackText>
-            <S.ContentPhoto>
-              {i?.photos?.map(imagem => (
-                <S.Img src={imagem.img} alt='Fotos da comunidade Guararapes e Vila-Candido' align="left" type={imagem.type}/>
-              ))}
-            </S.ContentPhoto>
-          </>
-        ))}
-      </S.ContainerPhoto>
+      <ListPhotos
+        title='Lançamento do Projeto no Guararapes Vila-Candido.'
+        list={listCommunities}
+      />
     </Layout>
   );
 }

@@ -1,4 +1,5 @@
-import Layout from '../../Layout';
+import Layout from '../../../Layout';
+import ListPhotos from '../../../../components/Gallery';
 import {
   CerroCora,
   CerroCora1,
@@ -9,9 +10,9 @@ import {
   JandersonMoradoresEmMovimento,
   RicardoRodriguesLiderComunitario,
   VivianePachecoParqueNacionaldaTijuca
-} from '../../../assets';
+} from '../../../../assets';
 
-import * as S from '../globalPhotoStyle';
+import * as S from '../../globalPhotoStyle';
   
 function CerroCoraScreen() {
   const listCommunities = [
@@ -85,22 +86,10 @@ function CerroCoraScreen() {
 
   return (
     <Layout>
-      <S.BackText>
-        Lançamento do Projeto no Cerro-Corá.
-      </S.BackText>
-     
-      <S.ContainerPhoto>
-        {listCommunities.map(i => (
-          <>
-            <S.BackText subtitle>{i.name}</S.BackText>
-            <S.ContentPhoto>
-              {i?.photos?.map(imagem => (
-                <S.Img src={imagem.img} alt='Fotos da comunidade cerro cora' align="left" type={imagem.type}/>
-              ))}
-            </S.ContentPhoto>
-          </>
-        ))} 
-      </S.ContainerPhoto>
+      <ListPhotos
+        title='Lançamento do Projeto no Cerro-Corá.'
+        list={listCommunities}
+      />
     </Layout>
   );
 }

@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const Content = styled.div`
-  background: pink;
   padding: 0 0 0 3rem;
+  
+  a {
+    text-decoration: none;
+  }
 `;
 
 export const BackText = styled.p`
