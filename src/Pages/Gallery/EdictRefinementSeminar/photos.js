@@ -24,19 +24,19 @@ function PhotosEdictRefinementSeminar() {
         },
         {
           img: EdictRefinementSeminarTwo,
-          type: '',
+          type: 'standing',
         },
         {
           img: EdictRefinementSeminarThree,
-          type: '',
+          type: 'standing',
         },
-        // {
-        //   img: EdictRefinementSeminarFour,
-        //   type: '',
-        // },
+        {
+          img: EdictRefinementSeminarFour,
+          type: 'standing',
+        },
         {
           img: EdictRefinementSeminarFive,
-          type: '',
+          type: 'standing',
         },
         {
           img: EdictRefinementSeminarSix,
@@ -48,11 +48,11 @@ function PhotosEdictRefinementSeminar() {
         },
         {
           img: EdictRefinementSeminarEight,
-          type: '',
+          type: 'standing',
         },
         {
           img: EdictRefinementSeminarNine,
-          type: '',
+          type: 'standing',
         }
       ]
     }

@@ -1,21 +1,34 @@
 import Photos from '../../../components/Gallery';
 import {
-  DefinitionOfSupportedProjectsOne,
-  DefinitionOfSupportedProjectsTwo,
-  DefinitionOfSupportedProjectsThree,
-  DefinitionOfSupportedProjectsFour,
-  DefinitionOfSupportedProjectsFive,
-  DefinitionOfSupportedProjectsSix,
-  DefinitionOfSupportedProjectsSeven,
-  DefinitionOfSupportedProjectsEight,
-  DefinitionOfSupportedProjectsNine,
-  DefinitionOfSupportedProjectsTen,
-  DefinitionOfSupportedProjectsEleven,
-  DefinitionOfSupportedProjectsTwelve,
-  DefinitionOfSupportedProjectsThirteen,
+  IntroducingProjectsToCommunitiesOne,
+  IntroducingProjectsToCommunitiesTwo,
+  IntroducingProjectsToCommunitiesThree,
+  IntroducingProjectsToCommunitiesFour,
+  IntroducingProjectsToCommunitiesFive,
+  IntroducingProjectsToCommunitiesSix,
+  IntroducingProjectsToCommunitiesSeven,
+  IntroducingProjectsToCommunitiesEight,
+  IntroducingProjectsToCommunitiesNine,
+  IntroducingProjectsToCommunitiesTen,
+  IntroducingProjectsToCommunitiesEleven,
+  IntroducingProjectsToCommunitiesTwelve,
+  IntroducingProjectsToCommunitiesThirteen,
+  IntroducingProjectsToCommunitiesFourteen,
+  IntroducingProjectsToCommunitiesFifteen,
+  IntroducingProjectsToCommunitiesSixteen,
+  IntroducingProjectsToCommunitiesSeventeen,
+  IntroducingProjectsToCommunitiesEighteen,
+  IntroducingProjectsToCommunitiesNineteen,
+  IntroducingProjectsToCommunitiesTwenty,
+  IntroducingProjectsToCommunitiesTwentyOne,
+  IntroducingProjectsToCommunitiesTwentyTwo,
+  IntroducingProjectsToCommunitiesTwentyThree,
+  IntroducingProjectsToCommunitiesTwentyFour,
+  IntroducingProjectsToCommunitiesTwentyFive,
+  IntroducingProjectsToCommunitiesTwentySix,
 } from '../../../assets';
   
-function PhotosDefinitionOfSupportedProjects() {
+function PhotosIntroducingProjectsToCommunities() {
   const listPhotos = [
     {
       id: 0,
@@ -23,57 +36,109 @@ function PhotosDefinitionOfSupportedProjects() {
       name: '',
       photos: [
         {
-          img: DefinitionOfSupportedProjectsOne,
+          img: IntroducingProjectsToCommunitiesOne,
           type: '',
         },
         {
-          img: DefinitionOfSupportedProjectsTwo,
+          img: IntroducingProjectsToCommunitiesTwo,
           type: '',
         },
         {
-          img: DefinitionOfSupportedProjectsThree,
+          img: IntroducingProjectsToCommunitiesThree,
           type: '',
         },
         {
-          img: DefinitionOfSupportedProjectsFour,
+          img: IntroducingProjectsToCommunitiesFour,
           type: '',
         },
         {
-          img: DefinitionOfSupportedProjectsFive,
+          img: IntroducingProjectsToCommunitiesFive,
           type: '',
         },
         {
-          img: DefinitionOfSupportedProjectsSix,
+          img: IntroducingProjectsToCommunitiesSix,
           type: '',
         },
         {
-          img: DefinitionOfSupportedProjectsSeven,
+          img: IntroducingProjectsToCommunitiesSeven,
           type: '',
         },
         {
-          img: DefinitionOfSupportedProjectsEight,
+          img: IntroducingProjectsToCommunitiesEight,
           type: '',
         },
         {
-          img: DefinitionOfSupportedProjectsNine,
+          img: IntroducingProjectsToCommunitiesNine,
           type: '',
         },
         {
-          img: DefinitionOfSupportedProjectsTen,
+          img: IntroducingProjectsToCommunitiesTen,
           type: '',
         },
         {
-          img: DefinitionOfSupportedProjectsEleven,
+          img: IntroducingProjectsToCommunitiesEleven,
           type: '',
         },
         {
-          img: DefinitionOfSupportedProjectsTwelve,
+          img: IntroducingProjectsToCommunitiesTwelve,
           type: '',
         },
         {
-          img: DefinitionOfSupportedProjectsThirteen,
+          img: IntroducingProjectsToCommunitiesThirteen,
           type: '',
         },
+        {
+          img: IntroducingProjectsToCommunitiesFourteen,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesFifteen,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesSixteen,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesSeventeen,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesEighteen,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesNineteen,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwenty,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentyOne,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentyTwo,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentyThree,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentyFour,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentyFive,
+          type: '',
+        },
+        {
+          img: IntroducingProjectsToCommunitiesTwentySix,
+          type: '',
+        }
       ]
     }
   ];
@@ -85,5 +150,5 @@ function PhotosDefinitionOfSupportedProjects() {
   );
 }
   
-export default PhotosDefinitionOfSupportedProjects;
+export default PhotosIntroducingProjectsToCommunities;
   

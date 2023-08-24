@@ -20,7 +20,7 @@ function Gallery() {
         <S.List><Link to='/definicao-dos-projetos'>Definição dos Projetos Apoiados em 2023</Link></S.List>
         <S.List><Link to='/apresentando-os-projetos'>Apresentando os projetos às comunidades</Link></S.List>
         <S.List><Link to='/lancamento-do-livro'>Lançamento do Livro-Síntese do Programa Favela Parque</Link></S.List>
-        <S.List><Link to='/voce-no-parque'>Você no parque!</Link></S.List>
+        <S.List><Link to='/galeria-voce-no-parque'>Você no parque!</Link></S.List>
       </S.Ol>
     </Layout>
   );

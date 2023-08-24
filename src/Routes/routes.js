@@ -39,7 +39,7 @@ const RoutesScreens = () => {
            <Route path='/definicao-dos-projetos' element={<DefinitionOfSupportedProjects />} />
            <Route path='/apresentando-os-projetos' element={<IntroducingProjectsToCommunities />} />
            <Route path='/lancamento-do-livro' element={<BookRelease />} />
-           <Route path='/lancamento-voce-no-parque' element={<LaunchYouInThePark />} />
+           <Route path='/galeria-voce-no-parque' element={<LaunchYouInThePark />} />
            <Route path='/realizadores' element={<Directors />} />
            <Route path='/voce-no-parque' element={<YouInThePark />} />
            <Route path='/equipe' element={<Team />} />

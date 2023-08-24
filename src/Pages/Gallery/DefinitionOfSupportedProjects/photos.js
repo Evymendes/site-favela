@@ -5,8 +5,6 @@ import {
   DefinitionOfSupportedProjectsThree,
   DefinitionOfSupportedProjectsFour,
   DefinitionOfSupportedProjectsFive,
-  LaunchYouInTheParkFiveA,
-  LaunchYouInTheParkFiveB,
   DefinitionOfSupportedProjectsSix,
   DefinitionOfSupportedProjectsSeven,
   DefinitionOfSupportedProjectsEight,
@@ -42,14 +40,6 @@ function PhotosDefinitionOfSupportedProjects() {
         },
         {
           img: DefinitionOfSupportedProjectsFive,
-          type: '',
-        },
-        {
-          img: LaunchYouInTheParkFiveA,
-          type: '',
-        },
-        {
-          img: LaunchYouInTheParkFiveB,
           type: '',
         },
         {

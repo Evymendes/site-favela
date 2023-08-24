@@ -88,7 +88,7 @@ export { default as DefinitionOfSupportedProjectsThirteen } from './Photos/Defin
 export { default as EdictRefinementSeminarOne } from './Photos/EdictRefinementSeminar/EdictRefinementSeminarOne.jpg';
 export { default as EdictRefinementSeminarTwo } from './Photos/EdictRefinementSeminar/EdictRefinementSeminarTwo.jpg';
 export { default as EdictRefinementSeminarThree } from './Photos/EdictRefinementSeminar/EdictRefinementSeminarThree.jpg';
-// export { default as EdictRefinementSeminarFour } from './Photos/EdictRefinementSeminar/EdictRefinementSeminarFour.jpg';
+export { default as EdictRefinementSeminarFour } from './Photos/EdictRefinementSeminar/EdictRefinementSeminarFour.jpg';
 export { default as EdictRefinementSeminarFive } from './Photos/EdictRefinementSeminar/EdictRefinementSeminarFive.jpg';
 export { default as EdictRefinementSeminarSix } from './Photos/EdictRefinementSeminar/EdictRefinementSeminarSix.jpg';
 export { default as EdictRefinementSeminarSeven } from './Photos/EdictRefinementSeminar/EdictRefinementSeminarSeven.jpg';
@@ -137,7 +137,7 @@ export { default as IntroducingProjectsToCommunitiesEight } from './Photos/Intro
 export { default as IntroducingProjectsToCommunitiesNine } from './Photos/IntroducingProjectsToCommunities/introducingProjectsToCommunitiesNine.jpg';
 export { default as IntroducingProjectsToCommunitiesTen } from './Photos/IntroducingProjectsToCommunities/introducingProjectsToCommunitiesTen.jpg';
 export { default as IntroducingProjectsToCommunitiesEleven } from './Photos/IntroducingProjectsToCommunities/introducingProjectsToCommunitiesEleven.jpg';
-// export { default as IntroducingProjectsToCommunitiesTwelve } from './Photos/IntroducingProjectsToCommunities/introducingProjectsToCommunitiesTwelve.jpg';
+export { default as IntroducingProjectsToCommunitiesTwelve } from './Photos/IntroducingProjectsToCommunities/introducingProjectsToCommunitiesTwelve.jpg';
 export { default as IntroducingProjectsToCommunitiesThirteen } from './Photos/IntroducingProjectsToCommunities/introducingProjectsToCommunitiesThirteen.jpg';
 export { default as IntroducingProjectsToCommunitiesFourteen } from './Photos/IntroducingProjectsToCommunities/introducingProjectsToCommunitiesFourteen.jpg';
 export { default as IntroducingProjectsToCommunitiesFifteen } from './Photos/IntroducingProjectsToCommunities/introducingProjectsToCommunitiesFifteen.jpg';
@@ -152,36 +152,3 @@ export { default as IntroducingProjectsToCommunitiesTwentyThree } from './Photos
 export { default as IntroducingProjectsToCommunitiesTwentyFour } from './Photos/IntroducingProjectsToCommunities/introducingProjectsToCommunitiesTwentyFour.jpg';
 export { default as IntroducingProjectsToCommunitiesTwentyFive } from './Photos/IntroducingProjectsToCommunities/introducingProjectsToCommunitiesTwentyFive.jpg';
 export { default as IntroducingProjectsToCommunitiesTwentySix } from './Photos/IntroducingProjectsToCommunities/introducingProjectsToCommunitiesTwentySix.jpg';
-export { default as IntroducingProjectsToCommunitiesTwentySeven } from './Photos/IntroducingProjectsToCommunities/introducingProjectsToCommunitiesTwentySeven.jpg';
-
-
-// thirteen
-// Fourteen
-// Fifteen
-// Sixteen
-// Seventeen
-// Eighteen
-// Nineteen
-// Twenty
-// Twenty-one
-// Twenty-two
-// DefinitionOfSupportedProjectsOne,
-//   DefinitionOfSupportedProjectsTwo,
-//   DefinitionOfSupportedProjectsThree,
-//   DefinitionOfSupportedProjectsFour,
-//   DefinitionOfSupportedProjectsFive,
-//   DefinitionOfSupportedProjectsSix,
-//   DefinitionOfSupportedProjectsSeven,
-//   DefinitionOfSupportedProjectsEight,
-//   DefinitionOfSupportedProjectsNine
-
-//   DefinitionOfSupportedProjectsTen
-
-//   DefinitionOfSupportedProjectsEleven
-//   DefinitionOfSupportedProjectsTwelve
-//   DefinitionOfSupportedProjectsThirteen
-//   DefinitionOfSupportedProjectsFourteen
-//   DefinitionOfSupportedProjectsFifteen
-//   DefinitionOfSupportedProjectsSixteen
-//   DefinitionOfSupportedProjectsSeventeen
-//   DefinitionOfSupportedProjectsEighteen

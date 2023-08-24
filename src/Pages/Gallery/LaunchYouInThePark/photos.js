@@ -5,6 +5,8 @@ import {
   LaunchYouInTheParkThree,
   LaunchYouInTheParkFour,
   LaunchYouInTheParkFive,
+  LaunchYouInTheParkFiveA,
+  LaunchYouInTheParkFiveB,
   LaunchYouInTheParkSix,
   LaunchYouInTheParkSeven,
   LaunchYouInTheParkEight,
@@ -30,14 +32,22 @@ function PhotosLaunchYouInThePark() {
         },
         {
           img: LaunchYouInTheParkThree,
-          type: '',
+          type: 'standing',
         },
         {
           img: LaunchYouInTheParkFour,
-          type: '',
+          type: 'standing',
         },
         {
           img: LaunchYouInTheParkFive,
+          type: '',
+        },
+        {
+          img: LaunchYouInTheParkFiveA,
+          type: '',
+        },
+        {
+          img: LaunchYouInTheParkFiveB,
           type: '',
         },
         {
@@ -62,7 +72,7 @@ function PhotosLaunchYouInThePark() {
         },
         {
           img: LaunchYouInTheParkEleven,
-          type: '',
+          type: 'standing',
         }
       ]
     }

@@ -4,11 +4,22 @@ export const Content = styled.div`
   padding: 0 0 0 3rem;
   
   a {
-    text-decoration: none;
+    p {
+      color: var(--color_blue);
+    }
   }
 `;
 
-export const BackText = styled.p`
+export const Title = styled.h1`
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  color: var(--color_black);
+  font-family: FiraSans;
+  font-weight: bold;
+  line-height: 1.5;
+`;
+
+export const Text = styled.p`
   padding-bottom: .75rem;
   font-size: 1rem;
   color: var(--color_black);

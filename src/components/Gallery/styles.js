@@ -28,9 +28,11 @@ export const BackText = styled.p`
 `;
 
 export const Img = styled.img`
-  max-width: ${props => props.type === 'standing' ? `calc(100% / 3 - 18px)` : '48%'};
+  // max-width: ${props => props.type === 'standing' ? `calc(100% / 3 - 18px)` : '48%'};
+  max-width: ${props => props.type === 'standing' ? `calc(50% - 17px)` : '48%'};
   // max-height: 313px;
-  object-fit: contain;
+  // object-fit: contain;
+  object-fit: cover;
   object-position: top left;
 
   @media (max-width: 800px) {

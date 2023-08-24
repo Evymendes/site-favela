@@ -1,26 +1,35 @@
-import styled from "styled-components";
+// import styled from "styled-components";
 
-export const Content = styled.div`
-  background: pink;
-  padding: 0 0 0 3rem;
-`;
+// export const Content = styled.div`
+//   background: pink;
+//   padding: 0 0 0 3rem;
+// `;
 
-export const BackText = styled.p`
-  padding-bottom: .75rem;
-  font-size: 1rem;
-  color: var(--color_black);
-  font-family: FiraSans;
-  line-height: 1.5;
-`;
+// export const Title = styled.h1`
+//   padding-bottom: .85rem;
+//   font-size: 1rem;
+//   color: var(--color_black);
+//   font-family: FiraSans;
+//   font-weght: bold;
+//   line-height: 1.5;
+// `;
 
-export const Ol = styled.ol`
-  padding-top: 2.5rem;
-`;
+// export const Text = styled.p`
+//   padding-bottom: ${props => props.noSpace ? 0 : '.75rem'};
+//   font-size: 1rem;
+//   color: var(--color_black);
+//   font-family: FiraSans;
+//   line-height: 1.5;
+// `;
 
-export const List = styled.li`
-  padding-bottom: .4rem;
-  font-size: 1rem;
-  color: var(--color_black);
-  font-family: FiraSans;
-  list-style-position: inside;
-`;
+// export const Ol = styled.ol`
+//   padding-top: 2.5rem;
+// `;
+
+// export const List = styled.li`
+//   padding-bottom: .4rem;
+//   font-size: 1rem;
+//   color: var(--color_black);
+//   font-family: FiraSans;
+//   list-style-position: inside;
+// `;

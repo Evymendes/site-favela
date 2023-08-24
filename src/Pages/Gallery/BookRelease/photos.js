@@ -15,7 +15,7 @@ function PhotosBookRelease() {
     {
       id: 0,
       type: '',
-      name: 'Apresentando o programa',
+      name: '',
       photos: [
         {
           img: BookReleaseOne,
