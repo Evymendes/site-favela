@@ -3,14 +3,14 @@ import {
   EdictRefinementSeminarOne,
   EdictRefinementSeminarTwo,
   EdictRefinementSeminarThree,
-  EdictRefinementSeminarFour,
+  // EdictRefinementSeminarFour,
   EdictRefinementSeminarFive,
   EdictRefinementSeminarSix,
   EdictRefinementSeminarSeven,
   EdictRefinementSeminarEight,
   EdictRefinementSeminarNine
 } from '../../../assets';
-  
+
 function PhotosEdictRefinementSeminar() {
   const listPhotos = [
     {
@@ -64,6 +64,5 @@ function PhotosEdictRefinementSeminar() {
     />
   );
 }
-  
+
 export default PhotosEdictRefinementSeminar;
-  

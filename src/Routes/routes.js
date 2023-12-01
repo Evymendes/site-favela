@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
-import Home from "../Pages/Home";
+// import Home from "../Pages/Home";
 import Program from "../Pages/Program";
 import Notice from "../Pages/Notice";
 import TheCommunities from "../Pages/TheCommunities";
@@ -16,35 +16,46 @@ import IntroducingProjectsToCommunities from "../Pages/Gallery/IntroducingProjec
 import ProjectManagementCourse from "../Pages/Gallery/ProjectManagementCourse";
 import BookRelease from "../Pages/Gallery/BookRelease";
 import LaunchYouInThePark from "../Pages/Gallery/LaunchYouInThePark";
+import Recursos from "../Pages/EditalRecursos";
+import Perguntas from "../Pages/EditalRecursos/Perguntas";
+import ProjectsInAction from "../Pages/Gallery/PrejectsInAction"
+
 
 import Directors from "../Pages/Directors";
 import YouInThePark from "../Pages/YouInThePark";
 import Team from "../Pages/Team";
+import MainPage from "../Pages/MainPage";
 
 const RoutesScreens = () => {
-   return(
-       <BrowserRouter>
-        <Routes>
-           <Route path='/' element={<Home/>} exact />
-           <Route path='/o-programa' element={<Program />} />
-           <Route path='/edital' element={<Notice />} />
-           <Route path='/as-comunidades' element={<TheCommunities />} />
-           <Route path='/galeria' element={<Gallery />} />
-           <Route path='/lancamento-do-programa' element={<ProgramLaunch />} />
-           <Route path='/lancamento-do-programa-prazeres' element={<Prazeres />} />
-           <Route path='/lancamento-do-programa-cerro-cora' element={<CerroCora />} />
-           <Route path='/lancamento-do-programa-guararapes-e-vila-candido' element={<GuararapeseVilaCandido />} />
-           <Route path='/seminario-de-refinamento' element={<EdictRefinementSeminar />} />
-           <Route path='/curso-de-gestao' element={<ProjectManagementCourse />} />
-           <Route path='/definicao-dos-projetos' element={<DefinitionOfSupportedProjects />} />
-           <Route path='/apresentando-os-projetos' element={<IntroducingProjectsToCommunities />} />
-           <Route path='/lancamento-do-livro' element={<BookRelease />} />
-           <Route path='/lancamento-voce-no-parque' element={<LaunchYouInThePark />} />
-           <Route path='/realizadores' element={<Directors />} />
-           <Route path='/voce-no-parque' element={<YouInThePark />} />
-           <Route path='/equipe' element={<Team />} />
-        </Routes>
-       </BrowserRouter>
+   return (
+      <BrowserRouter>
+         <Routes>
+            <Route path='/' element={<MainPage />} exact />
+            <Route path='/recursos' element={<Recursos />} />
+            <Route path='recursos/perguntas-mais-frequentes' element={<Perguntas />} />
+
+            <Route path='/o-programa' element={<Program />} />
+            <Route path='/edital' element={<Notice />} />
+            <Route path='/as-comunidades' element={<TheCommunities />} />
+            <Route path='/galeria' element={<Gallery />} />
+            <Route path='/lancamento-do-programa' element={<ProgramLaunch />} />
+            <Route path='/lancamento-do-programa-prazeres' element={<Prazeres />} />
+            <Route path='/lancamento-do-programa-cerro-cora' element={<CerroCora />} />
+            <Route path='/lancamento-do-programa-guararapes-e-vila-candido' element={<GuararapeseVilaCandido />} />
+            <Route path='/seminario-de-refinamento' element={<EdictRefinementSeminar />} />
+            <Route path='/curso-de-gestao' element={<ProjectManagementCourse />} />
+            <Route path='/definicao-dos-projetos' element={<DefinitionOfSupportedProjects />} />
+            <Route path='/apresentando-os-projetos' element={<IntroducingProjectsToCommunities />} />
+            <Route path='/lancamento-do-livro' element={<BookRelease />} />
+            <Route path='/lancamento-voce-no-parque' element={<LaunchYouInThePark />} />
+
+            <Route path='/projetos-em-andamento' element={<ProjectsInAction />} />
+
+            <Route path='/realizadores' element={<Directors />} />
+            <Route path='/voce-no-parque' element={<YouInThePark />} />
+            <Route path='/equipe' element={<Team />} />
+         </Routes>
+      </BrowserRouter>
    )
 }
 

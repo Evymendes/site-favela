@@ -75,9 +75,15 @@ export const ContentText = styled.p`
 export const BackText = styled.p`
   padding-bottom: .75rem;
   font-size: 1rem;
-  color: var(--color_lightGray);
+  color: #fff;
   font-family: FiraSans;
   line-height: 1.8;
+  width: 100%;
+  text-align: start;
+
+  @media(max-width: 875px) {
+    font-size: 0.875rem;
+  }
 `;
 
 export const ImageFav = styled.img`
@@ -155,10 +161,6 @@ export const Footer = styled.div`
   @media (max-width: 375px) {
     position: relative;
   }
-
-  // @media (min-height: 760px) {
-  //   bottom: 30px;
-  // }
 `;
 
 export const ImagemFavela = styled.img`

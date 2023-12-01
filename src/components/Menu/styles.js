@@ -2,16 +2,23 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0 -6px 10px 5px red;
+
 `;
 
 export const Nav = styled.nav`
-  padding: 0 3rem 0 3rem;
+  max-width: 1500px;
+  width: 100%;
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  @media (max-width: 1168px) {
+  @media (max-width: 1519px) {
     margin: auto;
     padding: 0;
     width: 90%;
@@ -19,7 +26,7 @@ export const Nav = styled.nav`
 `;
 
 export const Logo = styled.img`
-  width: 4rem;
+  width: 7rem;
 `;
 
 export const Ul = styled.ul`
@@ -54,6 +61,13 @@ export const ContentIcon = styled.div`
   li {
     padding: 0;
   }
+
+  > span {
+   font-size: 1rem;
+    color: #000;
+    font-family: HandSean;
+    padding-left: 1rem;
+}
   
   @media (max-width: 1168px) {
     padding: 1rem 0 0 2rem;
@@ -64,18 +78,31 @@ export const Li = styled.li`
   display: flex;
 
   a {
-    font-size: 1rem;
-    color: ${props => props.currentPage ? '#000' : '#ccc'};
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000;
     font-family: HandSean;
     text-decoration: none;
     cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    transition: color 0.3s, background-color 0.3s;
+
+    @media(max-width: 1443px) {
+    font-size: 1rem;
+  }
+
+  @media(max-width: 1443px) {
+    font-size: 0.875rem;
+  }
 
     span  {
       color: #000;
     }
 
     :hover  {
-      color: #000;
+      color: #fff;
+      background:  #e89f02;
     }
 
     @media (max-width: 1168px) {

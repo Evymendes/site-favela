@@ -6,21 +6,45 @@ export const Content = styled.div`
 `;
 
 export const BackText = styled.p`
+  padding-top: 1rem;
   padding-bottom: .75rem;
   font-size: 1rem;
-  color: var(--color_black);
+  color: #fff;
   font-family: FiraSans;
   line-height: 1.5;
+  width: 100%;
+
+  @media(max-width: 1499px) {
+    width: 100%;
+  }
 `;
 
 export const Ol = styled.ol`
-  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 `;
 
 export const List = styled.li`
-  padding-bottom: .4rem;
   font-size: 1rem;
-  color: var(--color_black);
+  color: #329af1;
   font-family: FiraSans;
   list-style-position: inside;
+  padding: 0.7rem 0.5rem;
+  background: #fff;
+  border-radius: 12px;
+
+  > a {
+    text-decoration: none;
+    color: #329af1;
+  }
+
+  &:hover {
+    background: #329af1;
+    color: #fff;
+
+    > a {
+    color: #fff;
+    }
+  }
 `;

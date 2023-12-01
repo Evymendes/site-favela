@@ -1,57 +1,170 @@
+import styled, { keyframes } from 'styled-components';
 import { Link } from 'react-router-dom';
 import {
-  Logo,
   ICMBio,
   Corcovado,
   PrecisaSer,
   PNTijuca,
+  Logo
 } from '../../assets';
+import * as S from './styles';
 
-  import Menu from '../../components/Menu';
+const images = [Corcovado, PNTijuca, ICMBio, PrecisaSer];
 
-  import * as S from './styles';
-  
-  function Home() {
-
-    return (
-      <S.Container>
-        <Menu />
-        <S.Main>
-          <S.Background />
-          <S.Section>
-            <>
-              <S.ImgLogo src={Logo} alt='Logo'  />
-              <S.LogoText>Programa de Educação Socioambiental do Parque Nacional da Tijuca</S.LogoText>
-            </>
-            <S.Text>
-              Realizado em parceria com quatro comunidades do entorno da Floresta
-              Nacional da Tijuca: Cerro-Corá, Guararapes, Morro dos Prazeres e Vila Cândido
-            </S.Text>
-            <S.Footer>
-             <Link to='/edital'>
-              <S.ContentHighlight>
-                <S.Span color={`var(--color_green)`} />
-                <S.TextHighlight> Conheça os Projetos Apoiados em 2023 </S.TextHighlight>
-                <S.BackHighlight>
-                  <S.Span none color={`var(--color_brown)`} />
-                  <S.Span color={`var(--color_white)`} />
-                  <S.Span color={`var(--color_blue)`} />
-                </S.BackHighlight>
-              </S.ContentHighlight>
-              <S.TextAchievement>Realização</S.TextAchievement>
-              <S.ContentPartnerships>
-                <S.ImgPartnerships src={Corcovado} alt='Logo Corcovado'  />
-                <S.ImgPartnerships src={PNTijuca} alt='Logo PNTijuca'  />
-                <S.ImgICM src={ICMBio} alt='Logo ICMBio'  />
-                <S.ImgPartnerships src={PrecisaSer} alt='Logo PrecisaSer'  />
-              </S.ContentPartnerships>
-             </Link>
-            </S.Footer>
-          </S.Section>
-        </S.Main>
-      </S.Container>
-    );
+const moveBanner = keyframes`
+  0% {
+    transform: translateX(${100 / images.length}%);
   }
-  
-  export default Home;
-  
+  100% {
+    transform: translateX(-${100 / images.length}%);
+  }
+`;
+
+export const ContentPartnerships = styled.span`
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  animation: ${moveBanner} 20s linear infinite;
+  overflow: hidden;
+`;
+
+export const ImgPartnerships = styled.img`
+  width: 6rem;
+  height: auto;
+  object-fit: contain;
+  margin-right: 1rem;
+`;
+
+const BarParces = styled.div`
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2rem;
+  font-family: FiraSans;
+
+  @media(max-width: 1165px) {
+        margin-top: 1rem;
+      }
+
+  > h3 {
+    @media(max-width: 1269px) {
+    margin-bottom: 1rem;
+
+    }
+  }
+
+  @media(max-width: 1269px) {
+    align-items: center;
+  justify-content: center;
+  }
+
+  > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
+    > p {
+      font-size: 1.2rem;
+      @media(max-width: 1269px) {
+        margin-bottom: 1rem;
+      }
+    }
+
+    @media(max-width: 1269px) {
+    align-items: center;
+  justify-content: center;
+  }
+    > figure{
+      display: flex;
+      align-items: center;
+       gap: 2rem;
+
+       @media(max-width: 447px){
+        display: none;
+    }
+        .icm-img {
+        width: 60px;
+
+        @media(max-width: 557px) {
+        width: 40px;
+        }
+      }
+        .corcovado-img {
+        width: 160px;
+
+        @media(max-width: 557px) {
+        width: 130px;
+        }
+      }
+        .precisaser-img {
+        width: 70px;
+
+        @media(max-width: 557px) {
+        width: 40px;
+        }
+      }
+        .pnt-img {
+        width: 140px;
+
+        @media(max-width: 557px) {
+        width: 110px;
+        }
+      }
+  }
+
+  @media(max-width: 1269px) {
+    flex-direction: column;
+  }
+  }
+
+`
+
+// const BoxParces = styled.div`
+//   max-width: 1500px;
+//   width: 100%;
+//   height: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   gap: 2rem;
+// `
+
+
+function Home() {
+  return (
+    <>
+      <S.Container>
+        <S.BoxContent>
+          <S.Main>
+            <S.Section>
+              <>
+                <S.ImgLogo src={Logo} alt='Logo' />
+                <S.LogoText>Programa de Educação Socioambiental do Parque Nacional da Tijuca</S.LogoText>
+              </>
+            </S.Section>
+          </S.Main>
+        </S.BoxContent>
+        <Link to="/recursos">
+          <S.TextHighlight> Edital 2024 </S.TextHighlight>
+        </Link>
+      </S.Container>
+      <BarParces>
+        <h3>Realização</h3>
+        <div>
+          <p>Em parceria com quatro comunidades do entorno da Floresta Nacional da Tijuca: Cerro-Corá, Guararapes, Morro dos Prazeres e Vila Cândido</p>
+          <figure>
+            <img src={Corcovado} alt='' className='corcovado-img' />
+            <img src={PNTijuca} alt='' className='pnt-img' />
+            <img src={ICMBio} alt='' className='icm-img' />
+            <img src={PrecisaSer} alt='' className='precisaser-img' />
+          </figure>
+        </div>
+      </BarParces>
+    </>
+  );
+}
+
+export default Home;

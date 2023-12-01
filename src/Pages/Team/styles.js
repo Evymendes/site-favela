@@ -11,7 +11,7 @@ export const ContentTexts = styled.div`
 export const BackText = styled.p`
   padding-bottom: .75rem;
   font-size: 1rem;
-  color: var(--color_lightGray);
+  color: #fff;
   font-family: FiraSans;
   line-height: 1.8;
 `;

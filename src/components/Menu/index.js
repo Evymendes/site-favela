@@ -1,54 +1,46 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
-import {
-  Logo,
-  Face,
-  Instagram
-} from '../../assets';
+import Logo from '../../assets/logo.png';
 
 import * as S from './styles';
-  
+
 function Menu() {
-  const [currentPage, setCurrentPage] = useState(0);
   const [open, setOpen] = useState(false);
-  const location  = useLocation();
 
   const listMenu = [
     {
       id: 0,
-      name: 'O Programa',
-      router: '/o-programa',
+      name: 'Favela Parque',
+      anchor: '#o-programa',
     },
     {
       id: 1,
-      name: 'Edital 2023',
-      router: '/edital',
+      name: 'Resultados 2023',
+      anchor: '#edital',
     },
     {
       id: 2,
       name: 'As Comunidades',
-      router: '/as-comunidades',
+      anchor: '#as-comunidades',
     },
     {
       id: 3,
       name: 'Galerias',
-      router: '/galeria',
+      anchor: '#galeria',
     },
     {
       id: 4,
       name: 'Realizadores',
-      router: '/realizadores',
-    },
-    {
-      id: 4,
-      name: 'Você no Parque',
-      router: '/voce-no-parque',
+      anchor: '#realizadores',
     },
     {
       id: 5,
+      name: 'Você no Parque',
+      anchor: '#vocenoparque',
+    },
+    {
+      id: 6,
       name: 'Equipe',
-      router: '/equipe',
+      anchor: '#equipe',
     },
   ];
 
@@ -63,45 +55,24 @@ function Menu() {
     </S.StyledBurger>
   );
 
-  const isPathname = location.pathname;
-
   return (
-    <header>
+    <S.Header id='topo'>
       <S.Nav>
-        <Link to='/'> <S.Logo src={Logo} alt='Logo' /></Link>
+        <a href='#'>
+          <S.Logo src={Logo} alt='Logo' />
+        </a>
         {renderIconBurger()}
         <S.Ul open={open}>
-          {listMenu.map(i =>
-            <S.Li currentPage={isPathname === i.router} href={i.router}>
-              <Link to={i.router}>
-                {i.name}
-                {i.id !== listMenu.length -1 && <span>|</span>}
-              </Link>
-            </S.Li>)
-          }
-          <S.ContentIcon>
-            <li>
-              <a 
-                rel="noopener"
-                target="_blank" 
-                href='https://pt-br.facebook.com/favelaparque/' 
-              >
-                <S.ImgIcon src={Face} alt='Icon Face' />
+          {listMenu.map(item => (
+            <S.Li key={item.id}>
+              <a href={item.anchor} onClick={() => setOpen(false)}>
+                {item.name}
               </a>
-            </li>
-            <li>
-              <a 
-                rel="noopener"
-                target="_blank"
-                href='https://instagram.com/favelaparque?igshid=YmMyMTA2M2Y='
-              >
-                <S.ImgIcon src={Instagram} alt='Icon Instagram' />
-              </a>
-            </li>
-          </S.ContentIcon>
+            </S.Li>
+          ))}
         </S.Ul>
-      </S.Nav> 
-    </header>
+      </S.Nav>
+    </S.Header>
   );
 }
 

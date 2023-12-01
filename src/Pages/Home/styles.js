@@ -1,42 +1,102 @@
-import styled from "styled-components";
+import styled, { keyframes } from 'styled-components';
 
-import {
-  ImgFavela,
-} from '../../assets';
+// import {
+//   ImgFavela,
+// } from '../../assets';
+
+import Banner from "../../assets/banner.jpeg"
+import Mobile from "../../assets/imgFavela.jpg"
+
 
 export const Container = styled.div`
-  max-height: 100vh;
+  width: 100vw;
+  height: 80vh;
+  background-image: url(${Banner});
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3rem 0 0 0;
+  position: relative;
+
+  @media (max-width: 1525px) {
+    height: 70vh;
+  }
+
+  @media (max-width: 1450px) {
+    height: 75vh;
+  }
+
+  @media (max-width: 1362px) {
+    height: 70vh;
+  }
+
+  @media (max-width: 1258px) {
+    height: 60vh;
+  }
+
+  @media(max-width: 1165px) {
+    background-image: url(${Mobile});
+    height: 95vh; 
+  }
+
+  @media (max-width: 768px) {
+    height: 100vh;
+  }
+
+  > a {
+    position: absolute;
+    top: 65%;
+    text-decoration: none;
+    width: 30%;
+    right: 5%;
+    max-width: 700px; 
+    background: #e89f02;
+    padding: 1.7rem;
+    border: 5px solid black;
+    border-radius: 12px;
+    animation: flutterButton 2s infinite ease-in-out;
+
+    &:hover {
+        animation: none;
+    }
+
+    @keyframes flutterButton {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-1rem);
+        }
+    }
+
+    @media (max-width: 1525px) {
+    width: 80%;
+  }
+  } 
+`;
+
+export const BoxContent = styled.div`
+  max-width: 1500px;
+  width: 100%;
+  height: 100%;
 `;
 
 export const Main = styled.main`
-  padding: .75rem 3rem 1rem 3rem;
-  height: calc(100vh -  70px);
+  height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+
 
   @media (max-width: 768px) {
     margin: auto;
     padding: .75rem 0 1rem 0;
     width: 90%;
-    height: calc(100vh - 61px);
+    height: 60%;
   }
-`;
-
-export const Background = styled.section`
-  width: 47%;
-  background-image: url(${ImgFavela});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: center;
-
-  @media (max-width: 768px) {
-    display: none;
-  }
-`;
-
-export const ImageFav = styled.img`
-  max-width: 100%;
-  height: 100%;
 `;
 
 export const Section = styled.section`
@@ -47,6 +107,10 @@ export const Section = styled.section`
   flex-direction: column;
   align-items: center;
 
+  @media (min-width: 1166px) {
+    display: none;
+  }
+
   @media (max-width: 970px) {
     margin: 1rem 0 0 3.2rem;
   }
@@ -55,7 +119,6 @@ export const Section = styled.section`
     margin: 0;
     padding-top: 1rem;
     width: 100%;
-    background-image: url(${ImgFavela});
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -64,18 +127,6 @@ export const Section = styled.section`
     color: white;
     position: relative;
     z-index: 1;
-
-    :before {
-      content: '';
-      background-color: white;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-      opacity: .8;
-      z-index: -1;
-    }
   }
 `;
 
@@ -145,7 +196,7 @@ export const BackHighlight = styled.div`
 
 export const TextHighlight = styled.p`
   padding: 0 .75rem;
-  font-size: 1rem;
+  font-size: 2rem;
   font-family: FallingSky Bold; 
   color: var(--color_white);
   white-space: nowrap;
@@ -153,18 +204,22 @@ export const TextHighlight = styled.p`
   text-overflow: ellipsis;
   align-self: center;
   border: none;
+  width: 100%;
+  text-align: center;
 `;
 
 export const Text = styled.p`
-  padding-bottom: 1rem;
-  max-width: 470px;
-  font-size: .85rem;
+  margin-bottom: 1rem;
+  color: #fff;
   font-family: FallingSky;
-  color: var(--color_lightGray);
+  font-size: 1rem;
+  max-width: 100%;
   text-align: center;
 
-  @media (max-width: 425px) {
+
+  @media (max-width: 768px) {
     max-width: 430px;
+    margin: 1rem 0;
   }
 `;
 
@@ -177,19 +232,30 @@ export const Span = styled.span`
   }
 `;
 
+const moveBanner = keyframes`
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+`;
+
 export const ContentPartnerships = styled.span`
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  gap: 4rem;
 
-  img {
-    padding-right: 1rem;
-  }
+  animation: ${moveBanner} 20s linear infinite;
+  overflow: hidden;
 `;
 
 export const ImgPartnerships = styled.img`
   width: 6rem;
+  height: auto;
   object-fit: contain;
+  margin-right: 1rem; /* Ajuste conforme necessário */
 `;
 
 export const ImgICM = styled.img`

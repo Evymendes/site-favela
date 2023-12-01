@@ -1,18 +1,19 @@
 import styled from "styled-components";
 
-export const Figure = styled.figure`
-  width: 40%;
+export const ImG = styled.figure`
+  width: 25%;
   height: 213px;
 `;
 
 export const ContainerPhoto = styled.div`
-  max-width: 780px;
+  width: 100%;
 `;
 
 export const ContentPhoto = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  width: 100%;
   
   @media (max-width: 820px) {
     flex-direction: column;
@@ -27,11 +28,29 @@ export const BackText = styled.p`
   font-family: FiraSans;
 `;
 
+export const FigureImG = styled.figure`
+  overflow: hidden;
+  position: relative;
+  width: 25%;
+  height: 280px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    img {
+      transform: scale(1.2); /* Ajuste o valor conforme necessário */
+    }
+  }
+`;
+
 export const Img = styled.img`
-  max-width: ${props => props.type === 'standing' ? `calc(100% / 3 - 18px)` : '48%'};
-  // max-height: 313px;
-  object-fit: contain;
-  object-position: top left;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Alterado para cover para preencher a área, ajuste conforme necessário */
+  object-position: center center; /* Ajuste conforme necessário */
+  transition: transform 0.3s ease; /* Adiciona um efeito de transição suave */
 
   @media (max-width: 800px) {
     max-width: 100%;

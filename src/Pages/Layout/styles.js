@@ -5,55 +5,24 @@ import {
 } from '../../assets';
 
 export const Container = styled.div`
-  max-height: 100vh;
-  overflow: hidden;
-`;
-
-export const Main = styled.main`
-  height: calc(100vh -  70px);
+  width: 100%;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
-`;
-
-export const Background = styled.section`
-  width: 80%;
   background-image: url(${ImgFavela});
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 37%;
   position: relative;
   z-index: 1;
+  overflow-x: hidden;
+  padding: 0 2rem 0 2rem;
 
-  :before {
-    content: '';
-    background-color: white;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    opacity: .8;
-    z-index: -1;
-  }
-
-  @media (max-width: 768px) {
-    width: 100vw;
-    height: 80%;
-  }
-`;
-
-export const ContentText = styled.div`
-  padding: 4.5rem 3rem;
-  height: 100%;
-  overflow-y: scroll;
-
-  /* width */
   ::-webkit-scrollbar {
     width: 0;
+    display: none;
   }
 
   /* Track */
@@ -70,15 +39,103 @@ export const ContentText = styled.div`
   ::-webkit-scrollbar-thumb:hover {
     background: transparent; 
   }
+
+  :before {
+    content: '';
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: -1;
+  }
+
+  > div {
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+`;
+
+export const Header = styled.header`
+    display: ${(props) => (!props.showLink ? 'flex' : 'none')};
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0 -6px 10px 5px #fff;
+
+  > img {
+    width: 7rem;
+  }
+`
+
+export const Main = styled.main`
+  height: auto;
+  width: 100%;
+  max-width: 1500px;
+  padding: ${(props) => (!props.showLink ? '2rem 0' : '3rem 0')};
+  display: flex;
+  flex-direction: column;
+
+  > a {
+    align-items: center;
+    gap: 0.7rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    display: ${(props) => (!props.showLink ? 'flex' : 'none')};
+    margin-bottom: 5rem;
+
+    > div {
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+
+    i {
+      font-size: 2rem;
+    }
+  }
+  }
+
+  h2 {
+    margin-bottom: 3rem;
+    color: var(--color_lightGray);
+  }
+
+  @media (max-width: 1499px) {
+      padding: 3rem 1rem;
+  }
+
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+
+export const ContentText = styled.div`
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
   
   li.numbered:before {
     color: red;
     content: counter(mynum) ": ";
     counter-increment: mynum;
     font-weight: bold;
-  }
-  @media (max-width: 768px) {
-    padding: 2.5rem 2rem;
   }
 `;
 
@@ -88,6 +145,10 @@ export const BackText = styled.p`
   font-size: 1rem;
   color: var(--color_lightGray);
   font-family: FiraSans;
+
+  @media(max-width: 1024px) {
+      font-size: 0.875rem;
+    }
 `;
 
 export const ImageFav = styled.img`
@@ -172,10 +233,6 @@ export const Footer = styled.div`
   @media (max-width: 375px) {
     position: relative;
   }
-
-  // @media (min-height: 760px) {
-  //   bottom: 30px;
-  // }
 `;
 
 export const ImagemFavela = styled.img`
@@ -228,6 +285,10 @@ export const TextHighlight = styled.p`
   overflow: hidden;
   text-overflow: ellipsis;
   align-self: center;
+
+  @media(max-width: 1024px) {
+      font-size: 1rem;
+    }
 `;
 
 export const Text = styled.p`
@@ -267,9 +328,7 @@ export const ContentPartnerships = styled.div`
    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 100px 2fr;
-    gap: 20px 10px;
-    row-gap: 20px;
-    column-gap: 10px;
+    gap: 20px;
   }
 `;
 
