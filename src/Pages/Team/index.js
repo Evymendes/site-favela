@@ -15,7 +15,7 @@ const Content = styled.div`
 
 const BoxContent = styled.div`
   width: 100%;
-  max-width: 1500px;
+  max-width: 1440px;
   padding: 3rem 0;
 
   > h2 {
@@ -110,15 +110,15 @@ function Team() {
           </S.ContentTexts>
 
           <S.BackText>
-            <strong>Geyza França - </strong> Mobilizador da comunidade <strong>Morro dos Prazeres</strong>.
+            <strong>Geysa França - </strong> Mobilizadora da comunidade <strong>Morro dos Prazeres</strong>.
           </S.BackText>
           <S.BackText>
-            Graduando em Relações Internacionais pela Universidade Veiga de Almeida. Atua como colaborador da Agência de Notícias das
-            Favelas, onde escreve matérias sobre a realidade de favelas cariocas desde 2020.
-            Morador do Morro dos Prazeres atuou no planejamento e execução de ações no projeto social da Escolinha de Arte e Reforço
-            Escolar (2015 a 2019) e na mesma comunidade foi voluntário no combate à COVID (2020 a 2022).
-            Parceiro do Instituto Fechando o Ciclo (ações de limpezas de praia, praças e conscientização de crianças e adultos sobre
-            o meio ambiente) de 2021 a 2023. Foi Gerente do Hostel Santa Teresa Guest House, de 2017 a 2021.
+            Graduanda em Ciências Ambientais pela UNIRIO, estudante de Agroecologia, educadora ambiental,
+            atuou como assessora no “Chama na Solução” 2023 iniciativa da UNICEF em parceria com o CEDAPS
+            e o IPS, ativista no Morro dos Prazeres desde 2018, atuou no projeto sociocultural infantil
+            denominado “Batalha dos Prazeres”, coordenou coletivamente o projeto “Círculo Matriarcal” no
+            ano de 2019. Atualmente, atua como agricultora na Horta Comunitária dos Prazeres e é integrante
+            do REGA Rio - Rede de Grupos de Agroecologia.
           </S.BackText>
           <S.BackText>
             Telefone: (21) 97446-1013

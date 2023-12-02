@@ -23,7 +23,7 @@ const Content = styled.section`
 
 const BoxContent = styled.div`
   width: 100%;
-  max-width: 1500px;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

@@ -4,12 +4,12 @@ import {
   ImgFavela,
 } from '../../assets';
 
-export const Container = styled.div`
+export const Container = styled.section`
   max-height: 100vh;
   overflow: hidden;
 `;
 
-export const Main = styled.main`
+export const Main = styled.div`
   height: calc(100vh -  70px);
   display: flex;
   justify-content: space-between;

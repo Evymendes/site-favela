@@ -4,7 +4,7 @@ import {
   ImgFavela,
 } from '../../assets';
 
-export const Container = styled.div`
+export const Container = styled.section`
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -53,7 +53,7 @@ export const Container = styled.div`
   }
 
   > div {
-    max-width: 1500px;
+    max-width: 1440px;
     width: 100%;
     display: flex;
   flex-direction: column;
@@ -75,10 +75,10 @@ export const Header = styled.header`
   }
 `
 
-export const Main = styled.main`
+export const Main = styled.div`
   height: auto;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1440px;
   padding: ${(props) => (!props.showLink ? '2rem 0' : '3rem 0')};
   display: flex;
   flex-direction: column;

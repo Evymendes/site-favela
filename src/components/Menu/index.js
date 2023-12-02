@@ -15,7 +15,7 @@ function Menu() {
     {
       id: 1,
       name: 'Resultados 2023',
-      anchor: '#edital',
+      anchor: '#resultados2023',
     },
     {
       id: 2,

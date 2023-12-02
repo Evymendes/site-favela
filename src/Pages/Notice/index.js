@@ -20,7 +20,7 @@ const Content = styled.section`
 
 const BoxContent = styled.div`
   width: 100%;
-  max-width: 1500px;
+  max-width: 1440px;
   padding: 3rem 0 0 0;
 
   > a {
@@ -111,7 +111,7 @@ margin-top: -3px;
 const Notice = () => {
   return (
     <>
-      <Content id='edital'>
+      <Content id='resultados2023'>
         <BoxContent>
           <h2>Resultados
             <p>2023</p>

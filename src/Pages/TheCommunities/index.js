@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 
 const Content = styled.section`
   width: 100%;
-  max-width: 1550px;
+  max-width: 1440px;
   height: auto;
   padding: 3rem 0 3rem 0;
   display: flex;

@@ -36,6 +36,7 @@ export const ImgPartnerships = styled.img`
 `;
 
 const BarParces = styled.div`
+margin-top: 2rem;
   width: 100vw;
   display: flex;
   flex-direction: column;

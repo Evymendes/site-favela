@@ -33,6 +33,9 @@ export const List = styled.li`
   padding: 0.7rem 0.5rem;
   background: #fff;
   border-radius: 12px;
+  list-style: none;
+  text-align: center;
+  box-shadow: -1px 2px 3px #fff;
 
   > a {
     text-decoration: none;

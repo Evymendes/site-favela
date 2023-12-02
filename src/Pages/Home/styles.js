@@ -8,9 +8,9 @@ import Banner from "../../assets/banner.jpeg"
 import Mobile from "../../assets/imgFavela.jpg"
 
 
-export const Container = styled.div`
+export const Container = styled.section`
   width: 100vw;
-  height: 80vh;
+  height: 78vh;
   background-image: url(${Banner});
   background-size: 100%;
   display: flex;
@@ -49,16 +49,17 @@ export const Container = styled.div`
 
   > a {
     position: absolute;
-    top: 65%;
+    top: 70%;
     text-decoration: none;
     width: 30%;
+    max-width: 400px;
     right: 5%;
-    max-width: 700px; 
     background: #e89f02;
     padding: 1.7rem;
     border: 5px solid black;
     border-radius: 12px;
     animation: flutterButton 2s infinite ease-in-out;
+    box-shadow: 2px 5px 4px #000;
 
     &:hover {
         animation: none;
@@ -80,12 +81,12 @@ export const Container = styled.div`
 `;
 
 export const BoxContent = styled.div`
-  max-width: 1500px;
+  max-width: 1440px;
   width: 100%;
   height: 100%;
 `;
 
-export const Main = styled.main`
+export const Main = styled.div`
   height: 100%;
   display: flex;
   justify-content: center;

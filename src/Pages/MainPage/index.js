@@ -22,7 +22,7 @@ const Content = styled.div`
 `
 
 const BoxContent = styled.div`
-  max-width: 1500px;
+  max-width: 1440px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

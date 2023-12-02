@@ -28,7 +28,7 @@ const Content = styled.section`
 
 const BoxContent = styled.div`
   width: 100%;
-  max-width: 1500px;
+  max-width: 1440px;
   padding: 3rem 2rem 3rem 2rem;
 
   > ol, ul {
@@ -111,7 +111,7 @@ const Alert = styled.p`
 const BoxBack = styled.div`
 padding-top: 2rem;
 width: 100%;
-max-width: 1500px;
+max-width: 1440px;
 > div {
   max-width: 246px;
   > a {

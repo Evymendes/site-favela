@@ -29,7 +29,7 @@ const Content = styled.section`
 
 const BoxContent = styled.div`
   width: 100%;
-  max-width: 1500px;
+  max-width: 1440px;
   padding: 3rem 0;  
   display: flex;
   flex-wrap: wrap;

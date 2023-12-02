@@ -14,7 +14,7 @@ export const Content = styled.div`
 `;
 
 export const BoxContent = styled.div`
-  max-width: 1500px;
+  max-width: 1440px;
   width: 60%;
   height: 100%;
   display: flex;
@@ -23,6 +23,8 @@ export const BoxContent = styled.div`
   color: #fff;
   background: #b33f10;
   border-radius: 12px;
+  box-shadow: 3px 5px 8px #b33f10;
+
 
   @media(max-width: 1499px) {
     padding: 3rem 1rem;

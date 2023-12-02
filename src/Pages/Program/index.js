@@ -9,7 +9,7 @@ import * as S from './styles';
 const Content = styled.section`
   width: 100vw;
   height: auto;
-  max-width: 1500px;
+  max-width: 1440px;
   padding: 3rem 0 6rem 0;
   display: flex;
   flex-direction: column;

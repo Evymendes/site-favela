@@ -6,12 +6,13 @@ export const Header = styled.header`
   align-items: center;
   justify-content: center;
   background: #fff;
-  box-shadow: 0 -6px 10px 5px red;
+  box-shadow: 3px 5px 8px #fff;
+  z-index: 2;
 
 `;
 
 export const Nav = styled.nav`
-  max-width: 1500px;
+  max-width: 1440px;
   width: 100%;
   height: 70px;
   display: flex;
