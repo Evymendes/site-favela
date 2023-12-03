@@ -26,13 +26,18 @@ export const BoxContent = styled.div`
   box-shadow: 3px 5px 8px #b33f10;
 
 
-  @media(max-width: 1499px) {
+  @media(max-width: 1591px) {
     padding: 3rem 1rem;
     flex-direction: column;
+    gap: 1.5rem;
   }
 
   @media(max-width: 768px) {
     width: 90%;
+  }
+
+  > div {
+    width: 50%;
   }
 `;
 
@@ -46,7 +51,8 @@ function Gallery() {
           <S.BackText>
             Seja muito bem-vindo/a para uma viagem visual pelas etapas de nosso Programa em 2023!
             <br />
-            Clique em algum desses momentos e conheça detalhes de nossas atividades.
+            <br />
+            Clique em algum desses momentos e conheça detalhes de nossas atividades :
           </S.BackText>
         </div>
         <S.Ol>
