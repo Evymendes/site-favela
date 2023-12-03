@@ -40,7 +40,7 @@ const BoxContent = styled.div`
   }
 
   > img {
-    max-width: 100%;
+   width: 100%;
   }
 
   ${'' /* > a {
@@ -151,18 +151,18 @@ const Edital2024 = () => {
           Edital de Acesso a Recursos para as comunidades do Cerro-Corá, Guararapes/Vila Cândido e Morro dos Prazeres
         </TextBold>
         <Text>Edição 2024 – Ano 2</Text>
-        <Text>O Instituto Precisa Ser, organização não-governamental em atividade no Morro dos Prazeres desde 2017 e instituição executora do Programa Favela Parque, realiza chamada local para iniciativas das comunidades Cerro-Corá, Guararapes/Vila Cândido e Prazeres de acesso a recursos daquele Programa, conforme descrito no Regulamento a seguir.
+        <Text>O Instituto Precisa Ser, organização não-governamental em atividade no Morro dos Prazeres desde 2017 e instituição executora do Programa Favela Parque, realiza chamada local para iniciativas das comunidades Cerro-Corá, Guararapes/Vila Cândido e Prazeres acessarem recursos daquele Programa, conforme descrito no Regulamento a seguir.
         </Text>
-        <Text>O Programa Favela Parque (PFP) é parte do Programa Socioambiental do Parque Nacional da Tijuca, gerido com recursos do contrato de concessão do Trem do Corcovado, conforme item 18.3 de seu projeto básico. Tem o objetivo de apoiar o Desenvolvimento Local Sustentável dos Morros Cerro-Corá, Guararapes/Vila Cândido e Prazeres ampliando suas relações com o Parque Nacional da Tijuca e fortalecendo as organizações comunitárias e o protagonismo social através de atividades de geração de renda, saúde, educação, cultura e ações ambientais engajadas; e fomentando melhoria da qualidade de vida da população residente.
+        <Text>O Programa Favela Parque (PFP) é parte do Programa Socioambiental do Parque Nacional da Tijuca, gerido com recursos do contrato de concessão do Trem do Corcovado, conforme item 18.3 de seu projeto básico. Tem o objetivo de apoiar o Desenvolvimento Local Sustentável dos Morros Cerro-Corá, Guararapes/Vila Cândido e Prazeres ampliando suas relações com o Parque Nacional da Tijuca, fortalecendo as organizações comunitárias e o protagonismo social através de atividades de geração de renda, saúde, educação, cultura e ações ambientais engajadas; e fomentando melhoria da qualidade de vida da população residente.
         </Text>
         <Text>Vem sendo desenvolvido desde 2018, quando foi realizado o Diagnóstico Socioambiental Participativo em parceria com o/as moradore/as daquelas favelas e cujos resultados propuseram o estabelecimento de uma linha de ação permanente, anual e contínua de recursos para o desenvolvimento e implementação de estratégias que melhorem a qualidade de vida da população residente naquelas comunidades, de maneira colaborativa e adequada às realidades ali verificadas e aos objetivos do Programa. Em 2023 realizamos a primeira edição do Programa, que trouxe resultados relevantes àquelas comunidades e cujas informações detalhadas podem ser obtidas acessando o site <a href='/'>www.favelaparque.org</a></Text>
-        <Text>Este Edital de Acesso tem o objetivo de selecionar iniciativas a serem apoiadas com <TextBold>recursos técnicos e financeiros, qualificando agentes e possibilitando o desenvolvimento de projetos comunitários que ocorram e beneficiem as comunidades do Cerro-Corá, Guararapes/Vila Cândido e Prazeres, no período de Fevereiro a Setembro de 2024.
-        </TextBold></Text>
+        <Text>Este Edital de Acesso tem o objetivo de selecionar iniciativas a serem apoiadas com <b>recursos técnicos e financeiros, qualificando agentes e possibilitando o desenvolvimento de projetos comunitários que ocorram e beneficiem as comunidades do Cerro-Corá, Guararapes/Vila Cândido e Prazeres, no período de Fevereiro a Setembro de 2024.
+        </b></Text>
         <Alert>LEIA E RELEIA COM ATENÇÃO TODO O EDITAL ANTES DE SE INSCREVER</Alert>
         <TextBold>Quem pode se inscrever</TextBold>
         <ul>
-          <li>Indivíduos organizados em grupos de, ao menos, 2 pessoas maiores de 18 anos</li>
-          <li>Coletivos informais e Instituições que atuem em, pelo menos, uma das comunidades listadas acima e/ou desejem desenvolver projetos ali com parcerias locais já estabelecidas.</li>
+          <li>• Indivíduos organizados em grupos de, ao menos, 2 pessoas maiores de 18 anos</li>
+          <li>• Coletivos informais e Instituições que atuem em, pelo menos, uma das comunidades listadas acima e/ou desejem desenvolver projetos ali com parcerias locais já estabelecidas.</li>
         </ul>
         <Text><span>Observação importante</span>este Programa visa apoiar coletivos de fato. Antes de inscrever seu grupo reflita sobre a prática interna do compartilhamento de informações e sobre divisão de responsabilidades e horários para dar conta das variadas atividades obrigatórias do escopo do Programa, já listadas ou a serem definidas ao longo do processo pós-aprovação. Se você é o único/a responsável pela iniciativa a propor, aproveite a oportunidade para estabelecer um conjunto maior que possa responder à necessidade de representação em diversos momentos.
         </Text>
@@ -293,7 +293,7 @@ const Edital2024 = () => {
         <Text><b>Relevância para a comunidade e objetivos do Programa: </b>apresenta alguma questão importante para o desenvolvimento daquela comunidade e/ou sua população? Identifica possível solução, ainda que parcial, para algum problema?</Text>
         <Text><b>Capacidade de execução: </b>o/as proponentes demonstram interesse, capacidade e conhecimento para desenvolver as ações do projeto? Têm um cronograma coerente? Os gastos são compatíveis com os recursos a serem disponibilizados?</Text>
         <Text><b>Interação na comunidade: </b>qual o grau de interação dos proponentes com a comunidade?</Text>
-        <Text><b>Sobreposição de públicos e natureza de propostas: </b>Há propostas similares em termos de atividades e/ou público beneficiário?
+        <Text><b>Sobreposição de públicos e natureza de propostas: </b>Há propostas similares em termos de atividades e/ou público beneficiário no mesmo territorio?
         </Text>
         <Text>A pontuação de cada Proposta determinará o conjunto de participantes por comunidade pré-selecionados para o Seminário de Refinamento e no Curso de Gestão de Projetos.</Text>
         <Text>Importante ressaltar que esse ranking será feito por comunidade (Cerro-Corá, Guararapes/Vila Cândido e Prazeres) para buscar uma distribuição coerente de Propostas por comunidades:</Text>
@@ -345,7 +345,7 @@ const Edital2024 = () => {
         <TextBold>Considerações finais</TextBold>
         <Text>As datas deste Edital poderão ser alteradas de acordo com a dinâmica das comunidades e o interesse do Programa.  Comunicaremos com antecedência aos envolvidos.</Text>
         <Text>Questões não tratadas aqui serão deliberadas pelo Comitê de Seleção e Avaliação do Edital do Programa Favela-Parque e sua decisão será soberana.</Text>
-        <Text>Acesse aqui o formulário e inscreva sua ideia: <a href='https://encurtador.com.br/HSTV7' target="_blank"  >https://encurtador.com.br/HSTV7</a>
+        <Text>Acesse aqui o formulário e inscreva sua ideia: <a href='https://encurtador.com.br/HSTV7' target="_blank" rel="noreferrer"  >https://encurtador.com.br/HSTV7</a>
           <br />
           <i>Receberá um e-mail com as respostas que deu ao formulário e isso <span>confirma sua inscrição</span></i>
         </Text>
