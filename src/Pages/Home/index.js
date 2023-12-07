@@ -5,7 +5,6 @@ import {
   Corcovado,
   PrecisaSer,
   PNTijuca,
-  Logo
 } from '../../assets';
 import * as S from './styles';
 
@@ -138,16 +137,6 @@ function Home() {
   return (
     <>
       <S.Container>
-        <S.BoxContent>
-          <S.Main>
-            <S.Section>
-              <>
-                <S.ImgLogo src={Logo} alt='Logo' />
-                <S.LogoText>Programa de Educação Socioambiental do Parque Nacional da Tijuca</S.LogoText>
-              </>
-            </S.Section>
-          </S.Main>
-        </S.BoxContent>
         <Link to="/recursos">
           <S.TextHighlight> Edital 2024 </S.TextHighlight>
         </Link>

@@ -5,7 +5,7 @@ import styled, { keyframes } from 'styled-components';
 // } from '../../assets';
 
 import Banner from "../../assets/banner.jpeg"
-import Mobile from "../../assets/imgFavela.jpg"
+import BaennerMobile from "../../assets/logomobile.jpg"
 
 
 export const Container = styled.section`
@@ -18,7 +18,7 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: round;
   padding: 3rem 0 0 0;
   position: relative;
 
@@ -39,7 +39,7 @@ export const Container = styled.section`
   }
 
   @media(max-width: 1165px) {
-    background-image: url(${Mobile});
+    background-image: url(${BaennerMobile});
     height: 95vh; 
   }
 
@@ -49,7 +49,7 @@ export const Container = styled.section`
 
   > a {
     position: absolute;
-    top: 70%;
+    top: 72%;
     text-decoration: none;
     width: 30%;
     max-width: 400px;
@@ -60,6 +60,13 @@ export const Container = styled.section`
     border-radius: 12px;
     animation: flutterButton 2s infinite ease-in-out;
     box-shadow: 2px 5px 4px #000;
+
+    @media (max-width: 1165px) {
+    width: 60%;
+    max-width: 300px;
+    top: 82% !important;
+    right: 20%;
+  }
 
     &:hover {
         animation: none;
@@ -75,8 +82,8 @@ export const Container = styled.section`
     }
 
     @media (max-width: 1525px) {
-    width: 80%;
-  }
+      width: 80%;
+    }
   } 
 `;
 
@@ -97,37 +104,6 @@ export const Main = styled.div`
     padding: .75rem 0 1rem 0;
     width: 90%;
     height: 60%;
-  }
-`;
-
-export const Section = styled.section`
-  position: relative;
-  margin: 1rem 2rem 0 3.2rem;
-  width: 53%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  @media (min-width: 1166px) {
-    display: none;
-  }
-
-  @media (max-width: 970px) {
-    margin: 1rem 0 0 3.2rem;
-  }
-  
-  @media (max-width: 768px) {
-    margin: 0;
-    padding-top: 1rem;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-size: cover;
-    width: 100%;
-    color: white;
-    position: relative;
-    z-index: 1;
   }
 `;
 

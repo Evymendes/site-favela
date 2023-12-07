@@ -100,6 +100,10 @@ const BoxGraph = styled.figure`
     width: 90%;
     border-radius: 12px;
     box-shadow: #fff 0 0 7px;
+
+      @media(max-width: 768px) {
+        width: 100%;
+      }
   }
 `;
 
@@ -129,7 +133,7 @@ const Notice = () => {
           <Link to="/projetos-em-andamento">Seguir</Link>
           <Text>Em 2023, o Programa atingiu 1009 beneficiários diretos</Text>
           <Text>Os que participaram das atividades dos projetos foram 377 ao todo.</Text>
-          <Text>Já as pessoas que assinaram estiveram nas demais ações comunitárias (eventos de divulgação e celebração, visitas ao PNT e ao Cristo e a participação em Cursos e Seminário) foram: <b>632</b> pessoas. </Text>
+          <Text>Já as pessoas que estiveram nas demais ações comunitárias (eventos de divulgação e celebração, visitas ao PNT e ao Cristo e a participação em Cursos e Seminário) foram: <b>632</b> pessoas. </Text>
           <Text><b>11 coletivos</b> foram diretamente atendidos pelo Edital de Acesso a Recursos, deixando um legado de <b>98 agentes sociais</b> fortalecidos para desenvolver seus grupos e executar atividades. </Text>
           <Text><b>662 horas ofertadas em benefício da população</b> pelos próprios atores sociais das comunidades, apenas no período de duração do Programa (boa parte dos projetos segue em atividade, maximizando aqueles benefícios). A isso se somam as horas de trabalho da <b>Equipe de Gestão</b>, ao longo do ano: <b>4.800 horas.</b></Text>
           <Text>Destacamos dois depoimentos que trazem a grandeza do impacto de nossas ações:</Text>

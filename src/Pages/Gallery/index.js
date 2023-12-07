@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 import * as S from './styles';
 import styled from 'styled-components';
 
+import ImageAPC from "../../assets/Photos/DefinitionOfSupportedProjects/DefinitionOfSupportedProjectsOne.jpg";
+import ImageCGE from "../../assets/Photos/DefinitionOfSupportedProjects/DefinitionOfSupportedProjectsFive.jpg";
+import BookRelease from "../../assets/Photos/BookRelease/BookReleaseTwo.jpg";
+import ProjectAction from "../Gallery/PrejectsInAction/assets/moradores1.jpg";
+import Seminario from "../../assets/Photos/EdictRefinementSeminar/EdictRefinementSeminarOne.jpg";
+
 export const Content = styled.div`
   width: 100vw;
   height: auto;
@@ -18,12 +24,14 @@ export const BoxContent = styled.div`
   width: 60%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 3rem;
   color: #fff;
   background: #b33f10;
   border-radius: 12px;
   box-shadow: 3px 5px 8px #b33f10;
+  text-align: center;
 
 
   @media(max-width: 1591px) {
@@ -37,7 +45,7 @@ export const BoxContent = styled.div`
   }
 
   > div {
-    width: 50%;
+    width: 100%;
   }
 `;
 
@@ -51,18 +59,17 @@ function Gallery() {
           <S.BackText>
             Seja muito bem-vindo/a para uma viagem visual pelas etapas de nosso Programa em 2023!
             <br />
-            <br />
             Clique em algum desses momentos e conheça detalhes de nossas atividades :
           </S.BackText>
         </div>
         <S.Ol>
+          <S.List><Link to='/apresentando-os-projetos'><img src={ImageAPC} alt='' /><p>Apresentando os projetos às comunidades</p></Link></S.List>
+          <S.List><Link to='/curso-de-gestao'> Curso de Gestão em Projetos</Link></S.List>
+          <S.List><Link to='/definicao-dos-projetos'><img src={ImageCGE} alt='' /><p>Definição dos Projetos Apoiados em 2023</p></Link></S.List>
+          <S.List><Link to='/lancamento-do-livro'><img src={BookRelease} alt='' /><p>Lançamento do Livro-Síntese do Programa Favela Parque</p></Link></S.List>
           <S.List><Link to='/lancamento-do-programa'>Lançamento do Programa</Link></S.List>
-          <S.List><Link to='/seminario-de-refinamento'>Seminário de Refinamento do Edital</Link></S.List>
-          <S.List><Link to='/curso-de-gestao'>Curso de Gestão em Projetos</Link></S.List>
-          <S.List><Link to='/definicao-dos-projetos'>Definição dos Projetos Apoiados em 2023</Link></S.List>
-          <S.List><Link to='/apresentando-os-projetos'>Apresentando os projetos às comunidades</Link></S.List>
-          <S.List><Link to='/lancamento-do-livro'>Lançamento do Livro-Síntese do Programa Favela Parque</Link></S.List>
-          <S.List><Link to='/projetos-em-andamento'>Projetos em andamento</Link></S.List>
+          <S.List><Link to='/projetos-em-andamento'><img src={ProjectAction} alt='' /><p>Projetos em andamento</p></Link></S.List>
+          <S.List><Link to='/seminario-de-refinamento'><img src={Seminario} alt='' /><p>Seminário de Refinamento do Edital</p></Link></S.List>
           <S.List><a href='#vocenoparque'>Você no parque!</a></S.List>
         </S.Ol>
       </BoxContent>
