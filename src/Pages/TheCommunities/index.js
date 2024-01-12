@@ -299,6 +299,14 @@ const ExpandButton = styled.button`
   border-radius: 0 0 12px 12px;
 `;
 
+const TextSlide = styled.p`
+  
+  width: 100%;
+  left: 100%;
+  position: absolute;
+  transform: rotate(90deg);
+`
+
 const ExpandableText = ({ title, image, text }) => {
   const [isExpanded, setExpanded] = useState(false);
 
@@ -404,6 +412,7 @@ function YouAtThePark() {
             </SwiperSlide>
           ))}
         </Swiper>
+        <TextSlide>Selecione os botões ou arraste as para navegar no slide</TextSlide>
         {slides.map((item, index) => (
           <ExpandableText key={index} title={item.title} image={item.image} text={item.text} />
         ))}

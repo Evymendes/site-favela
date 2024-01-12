@@ -19,6 +19,8 @@ import LaunchYouInThePark from "../Pages/Gallery/LaunchYouInThePark";
 import Recursos from "../Pages/EditalRecursos";
 import Perguntas from "../Pages/EditalRecursos/Perguntas";
 import ProjectsInAction from "../Pages/Gallery/PrejectsInAction"
+import RegisterOfEvents from "../Pages/Gallery/RegisterOfEvents"
+
 
 
 import Directors from "../Pages/Directors";
@@ -48,8 +50,8 @@ const RoutesScreens = () => {
             <Route path='/apresentando-os-projetos' element={<IntroducingProjectsToCommunities />} />
             <Route path='/lancamento-do-livro' element={<BookRelease />} />
             <Route path='/lancamento-voce-no-parque' element={<LaunchYouInThePark />} />
-
             <Route path='/projetos-em-andamento' element={<ProjectsInAction />} />
+            <Route path='/registros-de-eventos' element={<RegisterOfEvents />} />
 
             <Route path='/realizadores' element={<Directors />} />
             <Route path='/voce-no-parque' element={<YouInThePark />} />

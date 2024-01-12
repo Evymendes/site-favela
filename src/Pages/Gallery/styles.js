@@ -21,10 +21,10 @@ export const BackText = styled.p`
 
 export const Ol = styled.ol`
   display: flex;
-  ${'' /* flex-direction: column; */}
   gap: 1rem;
   overflow-x: scroll;
-  padding-bottom: 1rem;
+  padding: 0 1rem 1rem 1rem;
+  width: 100vw;
 `;
 
 export const List = styled.li`

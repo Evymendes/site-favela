@@ -11,7 +11,7 @@ import {
   PNTijuca,
 } from '../../assets';
 
-import CalenderImg from "../../assets/calender.png";
+import CalenderImg from "../../assets/Edital-img-2024.jpeg";
 
 const Content = styled.section`
   position: relative;
@@ -195,25 +195,28 @@ const Edital2024 = () => {
         <Text><span>Comitê de Seleção e Avaliação:</span>Conjunto de responsáveis por todas as decisões oriundas deste Edital aqui tratadas ou derivadas de questões não contempladas até o momento. Será acionado ou não, de acordo com diferentes situações e necessidades verificadas ao longo do processo e suas decisões serão soberanas. Composto pela Equipe de Gestão (Coordenador e Mobilizadoras comunitárias) e Equipe de Supervisão do contrato do Programa.
         </Text>
         <TextBold>Dinâmica Resumida</TextBold>
-        <Text><span>1) Data de Inscrição</span> <br /><br />Após a leitura atenta desse Edital, os interessados avaliam se cumprem os requisitos para participação, reúnem os dados necessários e inscrevem suas Propostas no prazo estipulado: 01 de Dezembro de 2023 a 14 de Janeiro de 2024.
+        <Text><span>1) Data de Inscrição</span> <br /><br />Após a leitura atenta desse Edital, os interessados avaliam se cumprem os requisitos para participação, reúnem os dados necessários e inscrevem suas Propostas no prazo estipulado: 01 de Dezembro de 2023 a 21 de Janeiro de 2024.
         </Text>
         <Text><span>2) Eventos de Capacitação <br /><br />
         </span>O Programa Favela Parque não fornece apenas recurso financeiro aos projetos: disponibiliza também conteúdos relevantes para dinâmicas e processos de planejamento, comunicação e execução de atividades. Organiza eventos presenciais e/ou online obrigatórios a, pelo menos, UM representante de cada Proposta. Em caso de alternância entre representantes, o coletivo deve se responsabilizar pelo nivelamento interno dos conteúdos trabalhados a cada encontro.
-          <br /> <br />Agende os sábados: 13 e 20 de Janeiro. Organize seu coletivo para participar. <br /><br />
+          <br /> <br />Agende os sábados: 20 e 27 de Janeiro. Organize seu coletivo para participar. <br /><br />
           Além destes (e do Curso de Gestão de Projetos) haverá outros Eventos de Capacitação entre Fevereiro e Agosto em datas já estabelecidas ou não, também obrigatórios para os integrantes dos coletivos pré-selecionados ou que tiverem projetos aprovados no Ciclo correspondente. Qualquer curso ao longo do ano será aberto a todos os inscritos no Edital 2024. O calendário incluído neste documento traz as datas do primeiro trimestre, observe-o com atenção.
         </Text>
-        <Text><span>3) Seminário</span><br /><br />Após anúncio das Propostas pré-selecionadas (dia 21 de Janeiro), será realizado um Seminário para refinamento das regras do Edital não contempladas até aqui, incluindo os critérios de aprovação final e do modelo de participação. O Seminário ocorrerá no dia 27 de Janeiro e a participação de DOIS integrantes será pré-requisito para a continuidade do apoio.
+        <Text><span>3) Seminário</span><br /><br />Após anúncio das Propostas pré-selecionadas (dia 27 de Janeiro), será realizado um Seminário para refinamento das regras do Edital não contempladas até aqui, incluindo os critérios de aprovação final e do modelo de participação. O Seminário ocorrerá no dia 03 de Fevereiro e a participação de DOIS integrantes será pré-requisito para a continuidade do apoio.
         </Text>
-        <Text><span>4) Curso de Gestão de Projetos</span> <br /><br />A seguir, os responsáveis pelas propostas participarão de um Curso de Gestão de Projetos com atividades presenciais obrigatórias (nas manhãs de sábados, dias 03 e 24 de Fevereiro, e 09 e 23 de Março) e online (em horários agendados na semana imediatamente posterior às aulas) para o desenvolvimento de suas Propostas Finais. A participação de UM representante em cada dia do Curso será pré-requisito para a continuidade do apoio.
+        <Text><span>4) Curso de Gestão de Projetos</span> <br /><br />A seguir, os responsáveis pelas propostas participarão de um Curso de Gestão de Projetos com atividades presenciais obrigatórias (nas manhãs de sábados, dias 24 de Fevereiro; 02, 16 de Março e 06 de Abril) e online (em horários agendados na semana imediatamente posterior às aulas) para o desenvolvimento de suas Propostas Finais. A participação de UM representante em cada dia do Curso será pré-requisito para a continuidade do apoio.
         </Text>
-        <Text><span>5) Projetos Aprovados </span> <br /><br />Ao final do Curso de Gestão haverá a definição dos Projetos efetivamente aprovados para receberem recursos financeiros para o primeiro Ciclo desta edição do Programa Favela Parque. Assim, no próprio dia 23 de Março será conhecido o conjunto de Projetos Aprovados. Entre a segunda e terceira semanas de Abril ocorrerão os eventos locais de celebração e apresentação dos Projetos Aprovados às comunidades, com presença obrigatória dos representantes dos Coletivos e seus beneficiários já inscritos.
+        <Text><span>5) Projetos Aprovados </span> <br /><br />Ao final do Curso de Gestão haverá a definição dos Projetos efetivamente aprovados para receberem recursos financeiros para o primeiro Ciclo desta edição do Programa Favela Parque. Assim, no próprio dia 06 de Abril será conhecido o conjunto de Projetos Aprovados. Entre a segunda e terceira semanas de Abril ocorrerão os eventos locais de celebração e apresentação dos Projetos Aprovados às comunidades, com presença obrigatória dos representantes dos Coletivos e seus beneficiários já inscritos.
         </Text>
-        <Text><span>6) Realização dos Projetos</span> <br /><br />O período de realização dos Ciclos dos Projetos será de 01 de Abril e 29 de Setembro.
-          <br /> Ciclo 1 – Atividades de 01 de Abril a 31 de Maio <br /> Ciclo 2 – Atividades de 03 de Junho a 02 de Agosto <br /> Ciclo 3 - Atividades de 01 de Agosto a 29 de Setembro <br /> Repasses ocorrerão sempre na semana seguinte à divulgação dos aprovados em cada Ciclo.
+        <Text><span>6) Realização dos Projetos</span> <br /><br />O período de realização dos Ciclos dos Projetos será de 08 de Abril e 29 de Setembro.
+          <br /> Ciclo 1 – Atividades de 08 de Abril a 01 de Junho <br />
+          Ciclo 2 – Atividades de 03 de Junho a 03 de Agosto <br />
+          Ciclo 3 - Atividades de 05 de Agosto a 29 de Setembro<br />
+          Repasses ocorrerão sempre na semana seguinte à divulgação dos aprovados em cada Ciclo.
         </Text>
         <Text><span>7) Prestação de Contas</span> <br /><br />A prestação de contas ocorrerá com o fechamento do Relatório, até as seguintes datas: <br />
-          Ciclo 1 (todos os Projetos Aprovados após o Curso de Gestão): 19 de Maio (Domingo) <br />
-          Ciclo 2 (apenas os projetos aprovados após o Ciclo 1): 21 de Julho (Domingo) <br />
+          Ciclo 1 (todos os Projetos Aprovados após o Curso de Gestão): 26 de Maio (Domingo) <br />
+          Ciclo 2 (apenas os projetos aprovados após o Ciclo 1): 28 de Julho (Domingo) <br />
           Ciclo 3 (apenas os projetos aprovados após o Ciclo 2): 29 de Setembro (Domingo).
         </Text>
         <Text><span>8) Resultados do Programa</span> <br /><br />Apresentações dos processos do Programa Favela Parque às comunidades ocorrerão em datas a serem combinadas entre a quarta semana de Setembro e a primeira semana de Outubro de 2024, com participação obrigatória dos representantes dos Projetos.
@@ -248,7 +251,7 @@ const Edital2024 = () => {
         <Text>Se o custo total do Projeto for acima de R$ 5 mil e até R$ 10 mil é possível ter um segundo Ciclo de execução após a prestação de contas do primeiro. Caso esteja entre as SEIS mais bem posicionadas naquela avaliação secundária, receberá mais R$ 5 mil para as novas atividades propostas, seguidas de nova avalição ao final daqueles dois meses. </Text>
         <Text>Se o custo total do projeto for de até R$ 15 mil (seis meses de execução), é possível ter um terceiro ciclo, caso seja um dos QUATRO mais bem posicionados na terceira avaliação.</Text>
         <TextBold>Período e Forma de Inscrição de Propostas</TextBold>
-        <Text>O período de inscrição será de <b>01 de Dezembro/23 a 14 de Janeiro de 2024 </b>(às 23h59m), exclusivamente através do preenchimento de formulário próprio no site do Programa. Serão solicitadas as seguintes informações básicas acerca de sua proposta:
+        <Text>O período de inscrição será de <b>01 de Dezembro/23 a 21 de Janeiro de 2024  </b>(às 23h59m), exclusivamente através do preenchimento de formulário próprio no site do Programa. Serão solicitadas as seguintes informações básicas acerca de sua proposta:
         </Text>
 
         <ul>
@@ -271,7 +274,7 @@ const Edital2024 = () => {
           <li>14) Como você ficou sabendo do Programa (Múltipla escolha)?</li>
         </ul>
 
-        <Text>O objetivo da etapa de seleção de Propostas é identificar relevâncias, consistências e capacidade de realização final. Uma vez selecionada, sua Proposta será desenvolvida em conjunto com a equipe de mentores do Curso de Gestão de Projetos, entre Fevereiro e Março de 2024. Assim, desejamos ter entre as Propostas inscritas desde ideias de grupos já experientes como de novos agentes que desejam promover transformações em suas comunidades, mesmo sem experiências na elaboração de Projetos.
+        <Text>O objetivo da etapa de seleção de Propostas é identificar relevâncias, consistências e capacidade de realização final. Uma vez selecionada, sua Proposta será desenvolvida em conjunto com a equipe de mentores do Curso de Gestão de Projetos, entre Fevereiro e Abril de 2024. Assim, desejamos ter entre as Propostas inscritas desde ideias de grupos já experientes como de novos agentes que desejam promover transformações em suas comunidades, mesmo sem experiências na elaboração de Projetos.
         </Text>
         <Text>Outras informações e/ou dúvidas poderão ser obtidas em contato com a Coordenação do Programa, pelo WhatsApp: (21) 99366-0821 ou com a Mobilizadora de sua comunidade:</Text>
         <Text>
@@ -287,7 +290,7 @@ const Edital2024 = () => {
         <Text>
           Uma das principais metas do Programa Favela-Parque é estabelecer um processo transparente, participativo e desenvolvido com as lideranças, instituições locais e a população das comunidades. Ser referência de valorização do saber local, reconhecendo e estimulando a busca dos moradores pelo melhor desenvolvimento das comunidades, com visão e estratégias para superação de desafios que enfrentam. Ao mesmo tempo busca a participação igualitária, maximizando os processos de divulgação, comunicação e avaliação efetivos para evitar privilégios de qualquer comunidade, áreas ou grupos locais em detrimento de outros.
         </Text>
-        <Text>Inicialmente, apenas a seleção pós-inscrição será exclusiva do Comitê de Seleção e Avaliação (Coordenação e Equipe Supervisora do PFP: membros da Câmara Temática de Educação Ambiental, do Parque Nacional da Tijuca, do Trem do Corcovado e três lideranças comunitárias). Ocorrerá até o dia 21 de Janeiro, quando serão divulgadas as 20 Propostas selecionadas para o Seminário de Refinamento e o Curso de Gestão de Projetos.</Text>
+        <Text>Inicialmente, apenas a seleção pós-inscrição será exclusiva do Comitê de Seleção e Avaliação (Coordenação e Equipe Supervisora do PFP: membros da Câmara Temática de Educação Ambiental, do Parque Nacional da Tijuca, do Trem do Corcovado e três lideranças comunitárias). Ocorrerá até o dia 27 de Janeiro, quando serão divulgadas as 20 Propostas selecionadas para o Seminário de Refinamento e o Curso de Gestão de Projetos.</Text>
         <Text>Esta equipe vai elaborar um ranking das Propostas inscritas, pontuando-as de acordo com os seguintes critérios:</Text>
         <Text><b>Objetividade da Proposta: </b>a ideia destacada apresenta visão e organização iniciais para sua elaboração e desenvolvimento nas etapas posteriores?</Text>
         <Text><b>Relevância para a comunidade e objetivos do Programa: </b>apresenta alguma questão importante para o desenvolvimento daquela comunidade e/ou sua população? Identifica possível solução, ainda que parcial, para algum problema?</Text>
@@ -300,16 +303,16 @@ const Edital2024 = () => {
         <Text><span>Cerro-Corá e Prazeres: </span>até 6 Propostas para cada comunidade</Text>
         <Text><span>Guararapes/Vila Cândido:</span>até 8 Propostas</Text>
         <TextBold>Visitas da Equipe de Gestão aos proponentes selecionados</TextBold>
-        <Text>Entre 22 de Janeiro e 08 de Fevereiro ocorrerão visitas presenciais da Equipe de Gestão aos 20 proponentes pré-selecionados, nos locais e horários previstos para a execução das atividades. Essas visitas não são classificatórias, servirão para entender presencialmente a dinâmica de cada proponente e gerar conteúdo para o Curso de Gestão.</Text>
+        <Text>Entre 29 de Janeiro e 08 de Fevereiro ocorrerão visitas presenciais da Equipe de Gestão aos 20 proponentes pré-selecionados, nos locais e horários previstos para a execução das atividades. Essas visitas não são classificatórias, servirão para entender presencialmente a dinâmica de cada proponente e gerar conteúdo para o Curso de Gestão.</Text>
         <TextBold>Eventos de Capacitação</TextBold>
         <Text>Processos de planejamento, comunicação e execução de atividades, presenciais e obrigatórios a pelo menos UM representante principal dos coletivos inscritos no Edital 2024:</Text>
         <Text><span>Curso Organização, Processos e Métodos</span></Text>
-        <Text>Dias 13  e  20 de Janeiro  |  Dois Sábados, das 9h às 12h30</Text>
+        <Text>Dias 20 a 27 de Janeiro  |  Dois Sábados, das 9h às 12h30</Text>
         <Text><span>Curso Ferramentas Administrativas e Recursos Online </span>(Preparatório para o Curso de Gestão)</Text>
-        <Text>Dia 03 de Fevereiro  |  Sábado, das 9h às 12h30  (com outra atividade online na semana seguinte em data a escolher: Dia 06 OU 08 de Fevereiro, das 19 às 21h)</Text>
+        <Text>Dia 24 de Fevereiro  |  Sábado, das 9h às 12h30  (com outra atividade online na semana seguinte em data a escolher: 26 ou 29 de Fevereiro, das 19 às 21h)</Text>
         <Text>Haverá outros Eventos de Capacitação também presenciais após a definição de Projetos Aprovados, abertos a TODOS os proponentes do Edital 2024. Ocorrerão em datas a serem definidas (entre Maio e Agosto), sendo obrigatórias APENAS para os coletivos com projetos em andamento nos Ciclos. </Text>
         <TextBold>Seminário de Refinamento do Edital</TextBold>
-        <Text>É prevista a realização em período integral (de 9 às 14h) do dia 27 de Janeiro (Sábado) do Seminário de Refinamento do Edital do Programa Favela Parque. Almoçaremos juntos.</Text>
+        <Text>É prevista a realização em período integral (de 9 às 14h) do dia 03 de Fevereiro (Sábado) do Seminário de Refinamento do Edital do Programa Favela Parque. Almoçaremos juntos.</Text>
         <Text>Essa etapa é intermediária entre o conjunto de Propostas pré-selecionadas e aquelas que serão efetivamente Projetos Aprovados após o Curso de Gestão. Assim, todas as Propostas participantes do Seminário participarão do Curso, mas nem todas utilizarão os recursos financeiros disponíveis nesta edição do Programa Favela Parque.</Text>
         <Text>A participação integral no Seminário é obrigatória a DOIS integrantes principais da Proposta e o não atendimento desta regra ensejará sua desclassificação. Havendo desistência prévia de um dos integrantes inscritos para o Seminário, será possível efetuar a troca de integrante.</Text>
         <Text>Durante o Seminário serão debatidos e ratificados em conjunto os aspectos, questões e sugestões desenvolvidas na Edição 2023 para a maior eficácia do Edital nesta e em futuras edições; além das regras para o funcionamento do Curso de Gestão, que serão apresentadas pela Equipe de Gestão do Programa. Entre elas estarão:</Text>
@@ -324,7 +327,7 @@ const Edital2024 = () => {
         <Text>No Edital de 2023 o grupo de comunitários criou os Critérios para a definição de Projetos Aprovados pelo PFP e o Seminário visa ratificar ou revisar, em conjunto, os critérios definitivos para a aprovação dos Projetos que receberão os recursos em 2024. Sempre valorizando a relação com o Parque Nacional da Tijuca e sua conservação, melhorando e adaptando as edições posteriores do Programa Favela-Parque e seus Editais à identidade das comunidades e do conjunto de proponentes de cada ano.</Text>
         <Text>Importante ressaltar que, sempre que se estabeleça a elaboração de rankings ou votações em qualquer etapa, cada Proposta/Projeto terá direito a uma manifestação (ou seja, independentemente do tamanho do grupo proponente seu peso será igual aos demais). Os participantes do Seminário poderão propor outras questões relevantes para essa etapa do Favela-Parque que julgarem pertinentes.</Text>
         <TextBold>Curso de Gestão de Projetos</TextBold>
-        <Text>Nos dias 03 e 24 de Fevereiro e 09 e 23 de Março (sábados), das 9 às 13h será realizado o Curso de Gestão de Projetos, com a Consultoria de Projetos Socioambientais Saberes e mentoria da Coordenação do Programa Favela-Parque.</Text>
+        <Text>Nos dias 24 de Fevereiro; 02 e 16 de Março e 06 de Abril (sábados), das 9 às 13h será realizado o Curso de Gestão de Projetos, com a Consultoria de Projetos Socioambientais Saberes e mentoria da Coordenação do Programa Favela-Parque.</Text>
         <Text><span>Será obrigatória:</span></Text>
         <ul>
           <li>1) A participação de UM dos responsáveis pela Proposta a cada dia, do início ao fim das atividades</li>

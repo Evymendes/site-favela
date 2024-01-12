@@ -6,6 +6,10 @@ import Onda from "../../assets/wave.svg"
 import Graph from "../../assets/graphcs.jpeg";
 import GraphHora from "../../assets/graphc-hours.jpg";
 
+import Cozinha from "../../Pages/Gallery/PrejectsInAction/assets/cozinha1.jpg";
+import Moradores from "../../Pages/Gallery/PrejectsInAction/assets/moradores4.jpg";
+import Residuos from "../../Pages/Gallery/PrejectsInAction/assets/residuos3.jpg";
+
 const Content = styled.section`
   position: relative;
   width: 100vw;
@@ -24,17 +28,7 @@ const BoxContent = styled.div`
   padding: 3rem 0 0 0;
 
   > a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #007aff;
-    margin-bottom: 2rem;
-    width: 10rem;
-    height: 4rem;
-    border-radius: 12px;
-    text-decoration: none;
-    color: #fff;
+    width: 100%;
   }
 
   > h2 {
@@ -107,6 +101,35 @@ const BoxGraph = styled.figure`
   }
 `;
 
+const Figure = styled.figure`
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  position: relative;
+  gap: 3rem;
+  margin-bottom: 3rem;
+
+  > img {
+    width: 50%;
+    border-radius: 12px;
+
+    :hover {
+      z-index: 4;
+      transition: 0.3s ease-in;
+      box-shadow: 0 0 1px 1px white;
+    }
+  }
+
+  .image-position {
+    width: 50%;
+    height: 100%;
+    left: 35%;
+    margin-top: 1rem;
+    position: absolute;
+    box-shadow: 0 0 1px 1px white;
+  }
+`
+
 const Wavee = styled.img`
 width: 100vw;
 margin-top: -3px;
@@ -130,9 +153,14 @@ const Notice = () => {
             <img src={GraphHora} alt='graficos' />
           </BoxGraph>
           <Text>Já para aqueles que gostam do “brilho nos olhos” dos beneficiários, veja a seguir uma seleção de fotografias dos Projetos em andamento (se quiser conhecer mais das atividades desenvolvidas em 2023 veja as nossas Galerias </Text>
-          <Link to="/projetos-em-andamento">Seguir</Link>
-          <Text>Em 2023, o Programa atingiu 1009 beneficiários diretos</Text>
-          <Text>Os que participaram das atividades dos projetos foram 377 ao todo.</Text>
+          <Link to="/projetos-em-andamento"><Figure>
+            <img src={Cozinha} alt='galeria' />
+            <img src={Moradores} alt='galeria' className='image-position' />
+            <img src={Residuos} alt='galeria' />
+          </Figure>
+          </Link>
+          <Text>Em 2023, o Programa atingiu <b>1009</b> beneficiários diretos</Text>
+          <Text>Os que participaram das atividades dos projetos foram <b>377</b> ao todo.</Text>
           <Text>Já as pessoas que estiveram nas demais ações comunitárias (eventos de divulgação e celebração, visitas ao PNT e ao Cristo e a participação em Cursos e Seminário) foram: <b>632</b> pessoas. </Text>
           <Text><b>11 coletivos</b> foram diretamente atendidos pelo Edital de Acesso a Recursos, deixando um legado de <b>98 agentes sociais</b> fortalecidos para desenvolver seus grupos e executar atividades. </Text>
           <Text><b>662 horas ofertadas em benefício da população</b> pelos próprios atores sociais das comunidades, apenas no período de duração do Programa (boa parte dos projetos segue em atividade, maximizando aqueles benefícios). A isso se somam as horas de trabalho da <b>Equipe de Gestão</b>, ao longo do ano: <b>4.800 horas.</b></Text>

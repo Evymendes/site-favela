@@ -20,17 +20,17 @@ export const Content = styled.div`
 `;
 
 export const BoxContent = styled.div`
-  max-width: 1440px;
-  width: 60%;
+  width: 100%;
   height: 100%;
   display: flex;
+  align-items: center;  
   flex-direction: column;
   justify-content: space-between;
   padding: 3rem;
   color: #fff;
   background: #b33f10;
   border-radius: 12px;
-  box-shadow: 3px 5px 8px #b33f10;
+  box-shadow: #b33f10 1px 0px 8px;
   text-align: center;
 
 
@@ -70,6 +70,7 @@ function Gallery() {
           <S.List><Link to='/lancamento-do-programa'>Lançamento do Programa</Link></S.List>
           <S.List><Link to='/projetos-em-andamento'><img src={ProjectAction} alt='' /><p>Projetos em andamento</p></Link></S.List>
           <S.List><Link to='/seminario-de-refinamento'><img src={Seminario} alt='' /><p>Seminário de Refinamento do Edital</p></Link></S.List>
+          <S.List><Link to='/registros-de-eventos'>Registro de Eventos</Link></S.List>
           <S.List><a href='#vocenoparque'>Você no parque!</a></S.List>
         </S.Ol>
       </BoxContent>

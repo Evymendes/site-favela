@@ -144,7 +144,7 @@ function Home() {
       <BarParces>
         <h3>Realização</h3>
         <div>
-          <p>Em parceria com quatro comunidades do entorno da Floresta Nacional da Tijuca: Cerro-Corá, Guararapes, Morro dos Prazeres e Vila Cândido</p>
+          <p>Realizado em parceria com quatro comunidades do entorno da Floresta Nacional da Tijuca: Cerro-Corá, Guararapes, Morro dos Prazeres e Vila Cândido</p>
           <figure>
             <img src={Corcovado} alt='' className='corcovado-img' />
             <img src={PNTijuca} alt='' className='pnt-img' />

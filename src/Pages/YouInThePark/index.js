@@ -30,7 +30,7 @@ const BoxContent = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 3px 5px 8px #000;
+  box-shadow: rgb(255, 255, 255) 1px 0px 8px;
 
 
    @media(max-width: 1024px) {
