@@ -60,6 +60,7 @@ export const Container = styled.section`
     border-radius: 12px;
     animation: flutterButton 2s infinite ease-in-out;
     box-shadow: 2px 5px 4px #000;
+    display: none;
 
     @media (max-width: 1165px) {
     width: 60%;

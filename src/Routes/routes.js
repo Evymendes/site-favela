@@ -16,8 +16,8 @@ import IntroducingProjectsToCommunities from "../Pages/Gallery/IntroducingProjec
 import ProjectManagementCourse from "../Pages/Gallery/ProjectManagementCourse";
 import BookRelease from "../Pages/Gallery/BookRelease";
 import LaunchYouInThePark from "../Pages/Gallery/LaunchYouInThePark";
-import Recursos from "../Pages/EditalRecursos";
-import Perguntas from "../Pages/EditalRecursos/Perguntas";
+// import Recursos from "../Pages/EditalRecursos";
+// import Perguntas from "../Pages/EditalRecursos/Perguntas";
 import ProjectsInAction from "../Pages/Gallery/PrejectsInAction"
 import RegisterOfEvents from "../Pages/Gallery/RegisterOfEvents"
 
@@ -33,8 +33,8 @@ const RoutesScreens = () => {
       <BrowserRouter>
          <Routes>
             <Route path='/' element={<MainPage />} exact />
-            <Route path='/recursos' element={<Recursos />} />
-            <Route path='recursos/perguntas-mais-frequentes' element={<Perguntas />} />
+            {/* <Route path='/recursos' element={<Recursos />} /> */}
+            {/* <Route path='recursos/perguntas-mais-frequentes' element={<Perguntas />} /> */}
 
             <Route path='/o-programa' element={<Program />} />
             <Route path='/edital' element={<Notice />} />
