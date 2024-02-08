@@ -137,8 +137,8 @@ function Home() {
   return (
     <>
       <S.Container>
-        <Link to="/recursos">
-          <S.TextHighlight> Edital 2024 </S.TextHighlight>
+        <Link to="/pre-selecao">
+          <S.TextHighlight> Pré-selecionados </S.TextHighlight>
         </Link>
       </S.Container>
       <BarParces>

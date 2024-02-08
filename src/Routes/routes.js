@@ -18,6 +18,7 @@ import BookRelease from "../Pages/Gallery/BookRelease";
 import LaunchYouInThePark from "../Pages/Gallery/LaunchYouInThePark";
 // import Recursos from "../Pages/EditalRecursos";
 // import Perguntas from "../Pages/EditalRecursos/Perguntas";
+import PreSelecao from "../Pages/Pre-selecionados"
 import ProjectsInAction from "../Pages/Gallery/PrejectsInAction"
 import RegisterOfEvents from "../Pages/Gallery/RegisterOfEvents"
 
@@ -35,6 +36,7 @@ const RoutesScreens = () => {
             <Route path='/' element={<MainPage />} exact />
             {/* <Route path='/recursos' element={<Recursos />} /> */}
             {/* <Route path='recursos/perguntas-mais-frequentes' element={<Perguntas />} /> */}
+            <Route path='/pre-selecao' element={<PreSelecao />} />
 
             <Route path='/o-programa' element={<Program />} />
             <Route path='/edital' element={<Notice />} />
