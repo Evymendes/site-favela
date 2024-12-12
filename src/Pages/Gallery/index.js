@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom';
 
 import * as S from './styles';
@@ -49,8 +50,39 @@ export const BoxContent = styled.div`
   }
 `;
 
-function Gallery() {
+const MenubyYear = styled.nav`
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+`;
 
+const MenubyYearOption = styled.button`
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  font-family: HandSean;
+  font-size: 2rem;
+  font-weight: 300;
+
+  :disabled {
+    color: #aeaeae;
+    cursor: not-allowed;
+  }
+
+  :active {
+    color: #e89f02;
+    transform: scale(0.95);
+  }
+`;
+
+function Gallery() {
+    const [activeButton, setActiveButton] = useState(2023);
+  
   return (
     <Content id='galeria'>
       <BoxContent>
@@ -61,6 +93,11 @@ function Gallery() {
             <br />
             Clique em algum desses momentos e conheça detalhes de nossas atividades :
           </S.BackText>
+          <MenubyYear> 
+            <MenubyYearOption active={activeButton === 2023}>2023</MenubyYearOption>
+            <MenubyYearOption active={activeButton === 2024} disabled>2024</MenubyYearOption>
+            <MenubyYearOption active={activeButton === 2025} disabled>2025</MenubyYearOption>
+          </MenubyYear>
         </div>
         <S.Ol>
           <S.List><Link to='/apresentando-os-projetos'><img src={ImageAPC} alt='' /><p>Apresentando os projetos às comunidades</p></Link></S.List>

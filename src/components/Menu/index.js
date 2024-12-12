@@ -15,8 +15,8 @@ function Menu() {
     },
     {
       id: 1,
-      name: 'Resultados 2023',
-      anchor: '#resultados2023',
+      name: 'Resultados',
+      anchor: '#resultados',
     },
     {
       id: 2,
