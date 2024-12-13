@@ -21,8 +21,7 @@ import LaunchYouInThePark from "../Pages/Gallery/LaunchYouInThePark";
 import PreSelecao from "../Pages/Pre-selecionados"
 import ProjectsInAction from "../Pages/Gallery/PrejectsInAction"
 import RegisterOfEvents from "../Pages/Gallery/RegisterOfEvents"
-
-
+import Edital2025 from "../Pages/Edital2025";
 
 import Directors from "../Pages/Directors";
 import YouInThePark from "../Pages/YouInThePark";
@@ -36,7 +35,8 @@ const RoutesScreens = () => {
             <Route path='/' element={<MainPage />} exact />
             {/* <Route path='/recursos' element={<Recursos />} /> */}
             {/* <Route path='recursos/perguntas-mais-frequentes' element={<Perguntas />} /> */}
-            <Route path='/pre-selecao' element={<PreSelecao />} />
+            {/* <Route path='/pre-selecao' element={<PreSelecao />} /> */}
+            <Route path='/edital2025' element={<Edital2025 />} />
 
             <Route path='/o-programa' element={<Program />} />
             <Route path='/edital' element={<Notice />} />
