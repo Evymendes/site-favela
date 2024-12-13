@@ -1,5 +1,5 @@
-
-import styled from 'styled-components';
+import { useState } from 'react'
+import styled, { css } from 'styled-components';
 import { Link } from 'react-router-dom';
 
 import Onda from "../../assets/wave.svg"
@@ -32,22 +32,12 @@ const BoxContent = styled.div`
   }
 
   > h2 {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     color: #fff;
     font-size: 3rem;
     position: relative;
     max-width: 18rem;
     font-weight: 300;
-
-    > p {
-      position: absolute;
-      top: 10%;
-      right: 0;
-      font-size: 1rem;
-      color: yellow;
-      font-weight: 600;
-      transform: rotate(45deg);
-    }
   }
 
   > div {
@@ -130,19 +120,53 @@ const Figure = styled.figure`
   }
 `
 
+const MenubyYear = styled.nav`
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+`;
+
+const MenubyYearOption = styled.button`
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  font-family: HandSean;
+  font-size: 2rem;
+  font-weight: 300;
+
+  :disabled {
+    color: #aeaeae;
+    cursor: not-allowed;
+  }
+
+  ${(props) => (props.selected && !props.disabled) ? css`
+    color: #e89f02;
+    transform: scale(0.95);
+  ` : ''}
+`;
+
 const Wavee = styled.img`
 width: 100vw;
 margin-top: -3px;
 `
 
 const Notice = () => {
+  const [activeButton, setActiveButton] = useState(2023);
+
   return (
     <>
       <Content id='resultados2023'>
         <BoxContent>
-          <h2>Resultados
-            <p>2023</p>
-          </h2>
+          <h2>Resultados</h2>
+          <MenubyYear> 
+            <MenubyYearOption selected={activeButton === 2023}>2023</MenubyYearOption>
+            <MenubyYearOption selected={activeButton === 2024} disabled>2024</MenubyYearOption>
+          </MenubyYear>
           <Text>Fruto dos anos de planejamento e meticulosa construção participativa com as comunidades o Programa Favela Parque nasceu maduro em 2023  e pode já no primeiro ano de atividades estabelecer resultados palpáveis. Grande parte dele pode ser verificada em números:</Text>
           <Text>Total de Recursos aplicados em 2023: <b>R$ 268.291,79</b></Text>
           <BoxGraph>

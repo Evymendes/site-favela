@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom';
 
 import * as S from './styles';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import ImageAPC from "../../assets/Photos/DefinitionOfSupportedProjects/DefinitionOfSupportedProjectsOne.jpg";
 import ImageCGE from "../../assets/Photos/DefinitionOfSupportedProjects/DefinitionOfSupportedProjectsFive.jpg";
@@ -74,10 +74,10 @@ const MenubyYearOption = styled.button`
     cursor: not-allowed;
   }
 
-  :active {
+  ${(props) => (props.selected && !props.disabled) ? css`
     color: #e89f02;
     transform: scale(0.95);
-  }
+  ` : ''}
 `;
 
 function Gallery() {
@@ -94,9 +94,9 @@ function Gallery() {
             Clique em algum desses momentos e conheça detalhes de nossas atividades :
           </S.BackText>
           <MenubyYear> 
-            <MenubyYearOption active={activeButton === 2023}>2023</MenubyYearOption>
-            <MenubyYearOption active={activeButton === 2024} disabled>2024</MenubyYearOption>
-            <MenubyYearOption active={activeButton === 2025} disabled>2025</MenubyYearOption>
+            <MenubyYearOption selected={activeButton === 2023}>2023</MenubyYearOption>
+            <MenubyYearOption selected={activeButton === 2024} disabled>2024</MenubyYearOption>
+            <MenubyYearOption selected={activeButton === 2025} disabled>2025</MenubyYearOption>
           </MenubyYear>
         </div>
         <S.Ol>

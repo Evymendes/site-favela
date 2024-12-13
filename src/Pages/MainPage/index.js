@@ -7,7 +7,7 @@ import Notice from '../Notice';
 import TheCommunities from "../TheCommunities";
 import Gallery from "../Gallery";
 import Directors from "../Directors";
-import YouAtThePark from '../YouInThePark';
+// import YouAtThePark from '../YouInThePark';
 import Team from "../Team";
 import Program from '../Program';
 import Footer from '../Footer';
@@ -54,7 +54,7 @@ const MainPage = () => {
         <TheCommunities />
         <Gallery />
         <Directors />
-        <YouAtThePark />
+        {/* <YouAtThePark /> */}
         <Team />
       </BoxContent>
       <Footer />
