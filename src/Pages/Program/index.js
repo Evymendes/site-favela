@@ -168,9 +168,6 @@ function Program() {
               ali verificadas.
             </S.BackText>
 
-            <S.BackText>
-              Em 2023, realizou o primeiro ano de aplicação nas comunidades, cuja as atividades e resultados, voe pode conhecer melhor clicando aqui :
-            </S.BackText>
             <S.BackText>Para conhecer mais, clique nos links para baixar o arquivo em pdf:</S.BackText>
             <Button href={FileDiagnosticoSocioambiental} download>Diagnóstico Socioambiental Participativo<i class='bx bxs-download'></i></Button>
             <Button href={FileProgramaFavelaParque} download>Programa Favela Parque <i class='bx bxs-download'></i></Button>
