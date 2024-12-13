@@ -33,11 +33,11 @@ function Menu() {
       name: 'Realizadores',
       anchor: '#realizadores',
     },
-    {
-      id: 5,
-      name: 'Você no Parque',
-      anchor: '#vocenoparque',
-    },
+    // {
+    //   id: 5,
+    //   name: 'Você no Parque',
+    //   anchor: '#vocenoparque',
+    // },
     {
       id: 6,
       name: 'Equipe',
