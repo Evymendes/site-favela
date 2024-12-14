@@ -160,7 +160,7 @@ const Notice = () => {
 
   return (
     <>
-      <Content id='resultados2023'>
+      <Content id='resultados'>
         <BoxContent>
           <h2>Resultados</h2>
           <MenubyYear> 

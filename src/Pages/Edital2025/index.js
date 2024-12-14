@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components'
 import { Link } from 'react-router-dom';
 
-
+import pdf from "../../assets/EditaldeAcessoaRecursos2025.pdf"
 
 const Content = styled.section`
   position: relative;
@@ -21,7 +21,11 @@ const Content = styled.section`
 const BoxContent = styled.div`
   width: 100%;
   max-width: 1440px;
-  padding: 3rem 2rem 3rem 2rem;
+  padding: 2rem 0;
+
+  iframe {
+    border: none;
+  }
 `
 
 const BoxBack = styled.div`
@@ -37,12 +41,11 @@ max-width: 1440px;
     color: #000;
     font-weight: 600;
     display: ${(props) => (!props.showLink ? 'flex' : 'none')};
-    margin-bottom: 5rem;
   }
 }
 `;
 
-const TextHighlight = styled.button`
+const TextHighlight = styled.a`
   display: flex;
   justify-content: center;
   background: #e89f02;
@@ -74,9 +77,21 @@ const Edital2025 = () => {
           </Link>
         </div>
       </BoxBack>
-      <TextHighlight> Baixar Edital 2025 </TextHighlight>
+      <TextHighlight
+        href={pdf}
+        download="Edital de acesso a recursos 2025.pdf"
+      >
+        Baixar Edital 2025
+      </TextHighlight>
       <BoxContent>
-        
+        {/* <iframe title="PDF Viewer" src={pdf} width="100%" height="100%"></iframe> */}
+        <div style={{ height: '80vh', width: '100%' }}>
+          <iframe 
+            src={pdf} 
+            style={{ width: '100%', height: '100%' }} 
+            title="PDF Viewer"
+          />
+        </div>
       </BoxContent>
     </Content>
   )
