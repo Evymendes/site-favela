@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 
 export const Header = styled.header`
   display: flex;
@@ -81,10 +81,10 @@ export const Li = styled.li`
   a {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #000;
+    color: ${({ disabled }) => disabled ? '#cecece' : '#000'};
     font-family: HandSean;
     text-decoration: none;
-    cursor: pointer;
+    cursor: ${({ disabled }) => disabled ? 'not-allowed' : 'pointer'};
     padding: 0.5rem 1rem;
     border-radius: 12px;
     transition: color 0.3s, background-color 0.3s;
@@ -101,10 +101,11 @@ export const Li = styled.li`
       color: #000;
     }
 
+    ${({ disabled }) => !disabled && css`
     :hover  {
       color: #fff;
       background:  #e89f02;
-    }
+    }`}
 
     @media (max-width: 1168px) {
       color: var(--color_white);

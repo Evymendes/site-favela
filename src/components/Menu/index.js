@@ -43,6 +43,12 @@ function Menu() {
       name: 'Equipe',
       anchor: '#equipe',
     },
+    {
+      id: 7,
+      name: 'Videoaula',
+      anchor: '#Videoaula',
+      isDisabled: true,
+    },
   ];
 
   const renderIconBurger = () => (
@@ -65,7 +71,7 @@ function Menu() {
         {renderIconBurger()}
         <S.Ul open={open}>
           {listMenu.map(item => (
-            <S.Li key={item.id}>
+            <S.Li key={item.id} disabled={item.isDisabled}>
               <a href={item.anchor} onClick={() => setOpen(false)}>
                 {item.name}
               </a>
