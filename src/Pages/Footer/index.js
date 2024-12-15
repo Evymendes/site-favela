@@ -148,7 +148,17 @@ const Footer = () => {
                   target="_blank"
                   href='https://instagram.com/favelaparque?igshid=YmMyMTA2M2Y='
                 >
-                  <i class='bx bxl-instagram-alt' ></i>
+                  <i class='bx bxl-instagram' ></i>
+
+                </a>
+              </li>
+              <li>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href='https://api.whatsapp.com/send?phone=5521993660821'
+                >
+                  <i class='bx bxl-whatsapp' ></i>
 
                 </a>
               </li>

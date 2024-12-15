@@ -48,27 +48,17 @@ function Team() {
               <strong>A Equipe Supervisora:</strong>
             </S.BackText>
             <S.BackText>
-              Composta por membros do Parque Nacional da Tijuca e da Câmara de Educação
-              Ambiental; do Trem do Corcovado e uma liderança das comunidades do
-              Guararapes/Vila Cândido, Cerro-Corá e Morro dos Prazeres. Reúne-se regularmente a
-              cada três meses, ou sob demandas que surjam ao longo do processo.
+              Composta por membros do Parque Nacional da Tijuca e da Câmara de Educação Ambiental; do Trem do Corcovado e uma liderança das comunidades do Guararapes/Vila Cândido, Cerro-Corá e Morro dos Prazeres. Reúne-se regularmente a cada três meses, ou sob demandas que surjam ao longo do processo.
             </S.BackText>
           </S.ContentTexts>
-          <S.BackText><strong>Equipe de Gestão:</strong></S.BackText>
-          <S.BackText>Equipe executora do Programa, composta por:</S.BackText>
 
-          <S.ContentTexts team>
+          <S.BackText><strong>Gestão do Programa:</strong></S.BackText>
+          <S.ContentTexts>
             <S.BackText>
               <strong> Charles Siqueira - </strong> Coordenador
             </S.BackText>
             <S.BackText>
-              Morador e membro da Associação de Moradores do Morro dos Prazeres.
-              Graduado em Tecnologia em Gestão Ambiental pela Universidade Veiga de Almeida, Rio de Janeiro, Rio de Janeiro.
-              Desenvolveu projetos autorais para populações de áreas periféricas da cidade do Rio de Janeiro com a ONG Instituto Cultural Pólen e outras organizações não governamentais, com destaque para o projeto CriaAtivo Film School e Nave Lab CriaAtivo - qualificação profissional e empreendedorismo em áreas de Cinema e economia criativa para centenas de jovens de favelas e bairros periféricos do Rio de Janeiro, desenvolvidos de 2017 a 2021.
-              Foi Coordenador da Nave do Conhecimento de Triagem, equipamento de Ciência e Tecnologia da Prefeitura do Rio, com administração da REDEH e do Instituto Rio Cultural, entre os anos de 2010 a 2020.
-              Co-produtor do Prêmio de Inovação Comunitária e Coordenador das atividades de Economia Criativa para a Inclusão Social, da Brazil Foundation (Nova York/Rio), entre os anos de 2011 a 2017.
-              Conselheiro da Universidade das Quebradas - Projeto de Extensão do Programa Avançado de Cultura Contemporânea da UFRJ, desde 2011.
-              Palestrante sobre Estratégias de Economia Criativa para a Inclusão Social.
+              Morador e membro da Associação de Moradores do Morro dos Prazeres. Graduado em Tecnologia em Gestão Ambiental pela Universidade Veiga de Almeida, Rio de Janeiro, Rio de Janeiro. Desenvolveu projetos autorais para populações de áreas periféricas da cidade do Rio de Janeiro com a ONG Instituto Cultural Pólen e outras organizações não governamentais, com destaque para o projeto CriaAtivo Film School e Nave Lab CriaAtivo - qualificação profissional e empreendedorismo em áreas de Cinema e economia criativa para centenas de jovens de favelas e bairros periféricos do Rio de Janeiro, desenvolvidos de 2017 a 2021. Foi Coordenador da Nave do Conhecimento de Triagem, equipamento de Ciência e Tecnologia da Prefeitura do Rio, com administração da REDEH e do Instituto Rio Cultural, entre os anos de 2010 a 2020. Co-produtor do Prêmio de Inovação Comunitária e Coordenador das atividades de Economia Criativa para a Inclusão Social, da Brazil Foundation (Nova York/Rio), entre os anos de 2011 a 2017. Conselheiro da Universidade das Quebradas - Projeto de Extensão do Programa Avançado de Cultura Contemporânea da UFRJ, desde 2011. Palestrante sobre Estratégias de Economia Criativa para a Inclusão Social.
             </S.BackText>
             <S.BackText>
               WhatsApp: 21 99366-0821
@@ -77,52 +67,30 @@ function Team() {
               E-mail: charles.siqueira@precisaser.org
             </S.BackText>
           </S.ContentTexts>
-          <S.ContentTexts team>
-            <S.BackText>
-              <strong>Leonice Paimx - </strong> Mobilizadora da comunidade dos <strong>Guararapes</strong>.
-            </S.BackText>
-            <S.BackText>
-              Diretora da Associação de Moradores dos Guararapes desde 2017.
-              Voluntaria no combate à COVID, Primeiros Socorros e Prevenção a Desastres em programa comunitário da Defesa Civil do Rio de Janeiro na comunidade.
-              Capacitadora de instrutores da ONG Uma Janela para o Mundo nos morros dos Guararapes, Cerro Corá, Morro Azul e Sumaré, em 1998.
-              Agente de Desenvolvimento Comunitário em 2002, pelo Programa Vida Nova do Governo do Rio de Janeiro.
-              Multiplicadora do Projeto Jovem Salva Vidas, do HemoRio, em 2002.
-              Formadora do Projeto Núcleo de Resiliência Comunitária, da Associação de Moradores.
-              Co-Fundadora da Brinquedoteca da Comunidade, em 2021.
-            </S.BackText>
-            <S.BackText> Telefone: (21) 99808-0608</S.BackText>
-          </S.ContentTexts>
 
           <S.ContentTexts team>
             <S.BackText>
-              <strong>Luciane Belmiro - </strong>  Mobilizadora da comunidade do <strong>Cerro-Corá</strong>.
+              <strong>O Programa tem dois espaços de fortalecimento organizacional</strong> para os moradores em geral, que podem acessar notebooks e Internet, além de apoio para atividades diversas como reuniões, encontros online, formações à distância etc.
             </S.BackText>
             <S.BackText>
-              Formada pela Universidade Federal Rural do Rio de Janeiro pelo curso de Administração de Empresas.
-              Cria da comunidade do Cerro-Corá, onde faz parte desde 2013 do coletivo Cerro e Moradores em Movimento
-              que se uniu com o objetivo de organizar o movimento popular e trazer cultura e conhecimento para os moradores.
-              Co-fundadora da Biblioteca local e do grupo de Pré-Vestibular que atua na comunidade desde 2014 e também do
-              Museu de Memórias.do Guararapes.
+              <strong>Para agendar seu uso ou buscar maiores informações sobre o Programa, entre em contato com:</strong>
             </S.BackText>
             <S.BackText>
-              Telefone: (21) 98348-7096
+              <strong>Leonice Paimx - </strong> Telefone: (21) 99808-0608
+            </S.BackText>
+            <S.BackText>
+              Apoio na Biblioteca Claudio de Moraes (Largo do 20) na comunidade dos <strong>Guararapes</strong>.
+            </S.BackText>
+
+            <S.BackText>
+              <strong>Luciane Belmiro - </strong>Telefone: (21) 98348-7096
+            </S.BackText>
+            <S.BackText>
+            <S.BackText>
+              Apoio no prédio da Associação de Moradores da comunidade do <strong>Cerro-Corá</strong>.
+            </S.BackText>
             </S.BackText>
           </S.ContentTexts>
-
-          <S.BackText>
-            <strong>Geysa França - </strong> Mobilizadora da comunidade <strong>Morro dos Prazeres</strong>.
-          </S.BackText>
-          <S.BackText>
-            Graduanda em Ciências Ambientais pela UNIRIO, estudante de Agroecologia, educadora ambiental,
-            atuou como assessora no “Chama na Solução” 2023 iniciativa da UNICEF em parceria com o CEDAPS
-            e o IPS, ativista no Morro dos Prazeres desde 2018, atuou no projeto sociocultural infantil
-            denominado “Batalha dos Prazeres”, coordenou coletivamente o projeto “Círculo Matriarcal” no
-            ano de 2019. Atualmente, atua como agricultora na Horta Comunitária dos Prazeres e é integrante
-            do REGA Rio - Rede de Grupos de Agroecologia.
-          </S.BackText>
-          <S.BackText>
-            Telefone: (21) 97446-1013
-          </S.BackText>
         </BoxContent>
       </Content>
     </>
