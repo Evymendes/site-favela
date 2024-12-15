@@ -173,3 +173,25 @@ export const StyledBurger = styled.div`
     }
   }
 `;
+
+export const ListContacts = styled.ul`
+  list-style: none;
+  display: flex;
+  padding: 0 1rem;
+  gap: 0.25rem;
+
+  > li {
+    font-size: 2.25rem;
+
+    > a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+
+  @media (max-width: 1168px) {
+    > li > a {
+      color: #fff;
+    } 
+  }
+`
