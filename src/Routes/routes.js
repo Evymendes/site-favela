@@ -18,10 +18,11 @@ import BookRelease from "../Pages/Gallery/BookRelease";
 import LaunchYouInThePark from "../Pages/Gallery/LaunchYouInThePark";
 // import Recursos from "../Pages/EditalRecursos";
 // import Perguntas from "../Pages/EditalRecursos/Perguntas";
-import PreSelecao from "../Pages/Pre-selecionados"
+// import PreSelecao from "../Pages/Pre-selecionados"
+// import Edital2025 from "../Pages/Edital2025";
 import ProjectsInAction from "../Pages/Gallery/PrejectsInAction"
 import RegisterOfEvents from "../Pages/Gallery/RegisterOfEvents"
-import Edital2025 from "../Pages/Edital2025";
+import Aprovaos2025 from "../Pages/Aprovados2025"
 
 import Directors from "../Pages/Directors";
 import YouInThePark from "../Pages/YouInThePark";
@@ -36,7 +37,8 @@ const RoutesScreens = () => {
             {/* <Route path='/recursos' element={<Recursos />} /> */}
             {/* <Route path='recursos/perguntas-mais-frequentes' element={<Perguntas />} /> */}
             {/* <Route path='/pre-selecao' element={<PreSelecao />} /> */}
-            <Route path='/edital2025' element={<Edital2025 />} />
+            {/* <Route path='/edital2025' element={<Edital2025 />} /> */}
+            <   Route path='/aprovados2025' element={<Aprovaos2025 />} />
 
             <Route path='/o-programa' element={<Program />} />
             <Route path='/edital' element={<Notice />} />

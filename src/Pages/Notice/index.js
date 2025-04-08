@@ -9,6 +9,7 @@ import GraphHora from "../../assets/graphc-hours.jpg";
 import Cozinha from "../../Pages/Gallery/PrejectsInAction/assets/cozinha1.jpg";
 import Moradores from "../../Pages/Gallery/PrejectsInAction/assets/moradores4.jpg";
 import Residuos from "../../Pages/Gallery/PrejectsInAction/assets/residuos3.jpg";
+import { Container } from '../Home/styles';
 
 const Content = styled.section`
   position: relative;
@@ -66,22 +67,21 @@ const Text = styled.p`
   }
 `
 
-const BoxGraph = styled.figure`
+const GraphWrapper = styled.div`
+  max-width: 1440px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: ${(props) => (props.centered ? 'center' : 'flex-start')};
-  margin-bottom: ${(props) => (props.centered ? '4rem' : '2rem')};
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+`
 
-  > p {
-    margin: 0.7rem 0;
-    color: #fff;
-
-  }
-
-
+const BoxGraph = styled.figure`
+  margin-bottom: 2rem;
   > img {
     max-width: ${(props) => (props.centered ? '400px' : '600px')};
-    width: 90%;
+    width: 100%;
     border-radius: 12px;
     box-shadow: #fff 0 0 7px;
 
@@ -93,31 +93,32 @@ const BoxGraph = styled.figure`
 
 const Figure = styled.figure`
   width: 100%;
-  max-width: 300px;
+  max-width: 1440px;
+  width: 70vw;
   display: flex;
   position: relative;
-  gap: 3rem;
-  margin-bottom: 3rem;
+  gap: 2.5%;
+  margin: 0 auto 3rem; 
 
   > img {
-    width: 50%;
+    width: 30%;
     border-radius: 12px;
 
     :hover {
       z-index: 4;
-      transition: 0.3s ease-in;
+      transition: all .2s ease-in;
       box-shadow: 0 0 1px 1px white;
     }
   }
 
-  .image-position {
+  /* .image-position {
     width: 50%;
     height: 100%;
     left: 35%;
     margin-top: 1rem;
     position: absolute;
     box-shadow: 0 0 1px 1px white;
-  }
+  } */
 `
 
 const MenubyYear = styled.nav`
@@ -158,30 +159,30 @@ margin-top: -3px;
 const Notice = () => {
   const [activeButton, setActiveButton] = useState(2023);
 
-  return (
-    <>
-      <Content id='resultados'>
-        <BoxContent>
-          <h2>Resultados</h2>
-          <MenubyYear> 
-            <MenubyYearOption selected={activeButton === 2023}>2023</MenubyYearOption>
-            <MenubyYearOption selected={activeButton === 2024} disabled>2024</MenubyYearOption>
-          </MenubyYear>
+  const renderSelectedYear = () => {
+    switch (activeButton) {
+      case 2024:
+        return <Text>Em construção...</Text>
+      case 2023:
+        return <>
           <Text>Fruto dos anos de planejamento e meticulosa construção participativa com as comunidades o Programa Favela Parque nasceu maduro em 2023  e pode já no primeiro ano de atividades estabelecer resultados palpáveis. Grande parte dele pode ser verificada em números:</Text>
           <Text>Total de Recursos aplicados em 2023: <b>R$ 268.291,79</b></Text>
-          <BoxGraph>
-            <img src={Graph} alt='graficos' />
-          </BoxGraph>
+          <GraphWrapper>
+            <BoxGraph>
+              <img src={Graph} alt='graficos' />
+            </BoxGraph>
 
-          <BoxGraph centered>
-            <img src={GraphHora} alt='graficos' />
-          </BoxGraph>
+            <BoxGraph>
+              <img src={GraphHora} alt='graficos' />
+            </BoxGraph>
+          </GraphWrapper>
           <Text>Já para aqueles que gostam do “brilho nos olhos” dos beneficiários, veja a seguir uma seleção de fotografias dos Projetos em andamento (se quiser conhecer mais das atividades desenvolvidas em 2023 veja as nossas Galerias </Text>
-          <Link to="/projetos-em-andamento"><Figure>
-            <img src={Cozinha} alt='galeria' />
-            <img src={Moradores} alt='galeria' className='image-position' />
-            <img src={Residuos} alt='galeria' />
-          </Figure>
+          <Link to="/projetos-em-andamento">
+            <Figure>
+              <img src={Cozinha} alt='galeria' />
+              <img src={Moradores} alt='galeria'/>
+              <img src={Residuos} alt='galeria' />
+            </Figure>
           </Link>
           <Text>Em 2023, o Programa atingiu <b>1009</b> beneficiários diretos</Text>
           <Text>Os que participaram das atividades dos projetos foram <b>377</b> ao todo.</Text>
@@ -193,6 +194,22 @@ const Notice = () => {
           </Text>
           <Text>“Não tínhamos um coletivo de mulheres (no Cerro-Corá). Então no quesito social ajudou muito pois outras mulheres que não tinham essa visão crítica acabaram por entender aquele espaço. Tanto que ele se tornou mais leve, teve uma importância e um peso social importantes” (Renata Dias, realizadora do “Cozinha Solidária”).
           </Text>
+        </>
+      default:
+        return null
+    }
+  }
+
+  return (
+    <>
+      <Content id='resultados'>
+        <BoxContent>
+          <h2>Resultados</h2>
+          <MenubyYear>
+            <MenubyYearOption selected={activeButton === 2024} onClick={() => setActiveButton(2024)}>2024</MenubyYearOption>
+            <MenubyYearOption selected={activeButton === 2023} onClick={() => setActiveButton(2023)}>2023</MenubyYearOption>
+          </MenubyYear>
+          {renderSelectedYear()}
         </BoxContent>
       </Content>
       <Wavee src={Onda} />
