@@ -1,4 +1,4 @@
-import Photos from '../../../components/Gallery';
+import Photos from '../../../../components/Gallery';
 import {
   EdictRefinementSeminarOne,
   EdictRefinementSeminarTwo,
@@ -9,7 +9,7 @@ import {
   EdictRefinementSeminarSeven,
   EdictRefinementSeminarEight,
   EdictRefinementSeminarNine
-} from '../../../assets';
+} from '../../../../assets';
 
 function PhotosEdictRefinementSeminar() {
   const listPhotos = [

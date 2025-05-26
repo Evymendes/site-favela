@@ -1,5 +1,5 @@
-import Layout from '../../../Layout';
-import ListPhotos from '../../../../components/Gallery';
+import Layout from '../../../../Layout';
+import ListPhotos from '../../../../../components/Gallery';
 import {
   ApresentandoOProgramaUm,
   ApresentandoOProgramaDois,
@@ -21,9 +21,9 @@ import {
   IsauraBredariol,
   DJ2B,
   Equipe
-} from '../../../../assets';
+} from '../../../../../assets';
 
-import * as S from '../../globalPhotoStyle';
+import * as S from '../../../globalPhotoStyle';
   
 function CommunitiesGalleries() {
   const listCommunities = [

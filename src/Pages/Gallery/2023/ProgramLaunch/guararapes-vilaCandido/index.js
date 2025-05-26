@@ -1,5 +1,5 @@
-import Layout from '../../../Layout';
-import ListPhotos from '../../../../components/Gallery';
+import Layout from '../../../../Layout';
+import ListPhotos from '../../../../../components/Gallery';
 import {
   ABelaVistadosGuararapes,
   AlbertoSzafranSubPrefeitDoCentro,
@@ -11,9 +11,9 @@ import {
   Guararapes3,
   Guararapes5,
   LeonardoBrasil
-} from '../../../../assets';
+} from '../../../../../assets';
 
-import * as S from '../../globalPhotoStyle';
+import * as S from '../../../globalPhotoStyle';  
   
 function GuararapesVilaCandido() {
   const listCommunities = [

@@ -1,4 +1,4 @@
-import Layout from '../../Layout';
+import Layout from '../../../Layout';
 import Photos from './photos';
 
 import {
@@ -22,7 +22,7 @@ import {
   // IsauraBredariol,
   // DJ2B,
   // Equipe
-} from '../../../assets';
+} from '../../../../assets';
 
 import * as S from './styles';
 

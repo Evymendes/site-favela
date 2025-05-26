@@ -6,9 +6,9 @@ import Onda from "../../assets/wave.svg"
 import Graph from "../../assets/graphcs.jpeg";
 import GraphHora from "../../assets/graphc-hours.jpg";
 
-import Cozinha from "../../Pages/Gallery/PrejectsInAction/assets/cozinha1.jpg";
-import Moradores from "../../Pages/Gallery/PrejectsInAction/assets/moradores4.jpg";
-import Residuos from "../../Pages/Gallery/PrejectsInAction/assets/residuos3.jpg";
+import Cozinha from "../../Pages/Gallery/2023/PrejectsInAction/assets/cozinha1.jpg";
+import Moradores from "../../Pages/Gallery/2023/PrejectsInAction/assets/moradores4.jpg";
+import Residuos from "../../Pages/Gallery/2023/PrejectsInAction/assets/residuos3.jpg";
 import { Container } from '../Home/styles';
 
 const Content = styled.section`

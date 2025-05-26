@@ -1,4 +1,4 @@
-import Photos from '../../../components/Gallery';
+import Photos from '../../../../components/Gallery';
 import {
   LaunchYouInTheParkOne,
   LaunchYouInTheParkTwo,
@@ -11,7 +11,7 @@ import {
   LaunchYouInTheParkNine,
   LaunchYouInTheParkTen,
   LaunchYouInTheParkEleven
-} from '../../../assets';
+} from '../../../../assets';
   
 function PhotosLaunchYouInThePark() {
   const listPhotos = [

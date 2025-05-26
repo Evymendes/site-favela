@@ -1,4 +1,4 @@
-import Layout from '../../Layout';
+import Layout from '../../../Layout';
 import Photos from './photos';
 
 import * as S from './styles';

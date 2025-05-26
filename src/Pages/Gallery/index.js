@@ -7,7 +7,7 @@ import styled, { css } from 'styled-components';
 import ImageAPC from "../../assets/Photos/DefinitionOfSupportedProjects/DefinitionOfSupportedProjectsOne.jpg";
 import ImageCGE from "../../assets/Photos/DefinitionOfSupportedProjects/DefinitionOfSupportedProjectsFive.jpg";
 import BookRelease from "../../assets/Photos/BookRelease/BookReleaseTwo.jpg";
-import ProjectAction from "../Gallery/PrejectsInAction/assets/moradores1.jpg";
+import ProjectAction from "./2023/PrejectsInAction/assets/moradores1.jpg";
 import Seminario from "../../assets/Photos/EdictRefinementSeminar/EdictRefinementSeminarOne.jpg";
 
 export const Content = styled.div`
@@ -80,6 +80,92 @@ const MenubyYearOption = styled.button`
   ` : ''}
 `;
 
+const galleryData = {
+  2023: [
+    {
+      to: '/2023/apresentando-os-projetos',
+      img: ImageAPC,
+      text: 'Apresentando os projetos às comunidades'
+    },
+    {
+      to: '/2023/curso-de-gestao',
+      text: 'Curso de Gestão em Projetos'
+    },
+    {
+      to: '/2023/definicao-dos-projetos',
+      img: ImageCGE,
+      text: 'Definição dos Projetos Apoiados em 2023'
+    },
+    {
+      to: '/2023/lancamento-do-livro',
+      img: BookRelease,
+      text: 'Lançamento do Livro-Síntese do Programa Favela Parque'
+    },
+    {
+      to: '/2023/lancamento-do-programa',
+      text: 'Lançamento do Programa'
+    },
+    {
+      to: '/2023/projetos-em-andamento',
+      img: ProjectAction,
+      text: 'Projetos em andamento'
+    },
+    {
+      to: '/2023/seminario-de-refinamento',
+      img: Seminario,
+      text: 'Seminário de Refinamento do Edital 2023'
+    },
+    {
+      to: '/2023/registros-de-eventos',
+      text: 'Registro de Eventos'
+    },
+    // { 
+    //   to: '/vocenoparque',
+    //   text: 'Você no parque!'
+    // }
+  ],
+  2024: [
+    {
+      to: '/2024/seminario-de-refinamento',
+      text: 'Seminário de Refinamento do Edital 2024'
+    },
+    {
+      to: '/2024/aprovados',
+      text: 'Aprovados em 2024'
+    },
+    {
+      to: '/2024/atividades-de-formacao',
+      text: 'Atividades de Formação'
+    },
+    {
+      to: '/2024/fortalecimento-organizacional',
+      text: 'Fortalecimento Organizacional'
+    },
+    {
+      to: '/2024/projetos-em-andamento',
+      text: 'Projetos em andamento'
+    },
+    {
+      to: '/2024/interecoes-com-o-parque',
+      text: 'Interações com o Parque'
+    },
+    {
+      to: '/2024/lancamento-do-programa',
+      text: 'Lançamento do Programa'
+    },
+    {
+      to: '/2024/registros-de-eventos',
+      text: 'Registro de Eventos'
+    }
+  ],
+  2025: [
+    // Adicione os itens de 2025 aqui
+    // Exemplo:
+    // { to: '/novo-projeto-2025', img: NovaImagem, text: 'Novo Projeto 2025' }
+  ],
+  // Adicione outros anos conforme necessário
+};
+
 function Gallery() {
     const [activeButton, setActiveButton] = useState(2023);
   
@@ -93,22 +179,35 @@ function Gallery() {
             <br />
             Clique em algum desses momentos e conheça detalhes de nossas atividades :
           </S.BackText>
-          <MenubyYear> 
-            <MenubyYearOption selected={activeButton === 2023}>2023</MenubyYearOption>
-            <MenubyYearOption selected={activeButton === 2024} disabled>2024</MenubyYearOption>
-            <MenubyYearOption selected={activeButton === 2025} disabled>2025</MenubyYearOption>
+          <MenubyYear>
+            {Object.keys(galleryData).sort((a, b) => b - a).map((year) => (
+              <MenubyYearOption
+                key={year}
+                selected={activeButton === Number(year)}
+                onClick={() => setActiveButton(Number(year))}
+                disabled={galleryData[year].length === 0}
+              >
+                {year}
+              </MenubyYearOption>
+            ))}
           </MenubyYear>
         </div>
         <S.Ol>
-          <S.List><Link to='/apresentando-os-projetos'><img src={ImageAPC} alt='' /><p>Apresentando os projetos às comunidades</p></Link></S.List>
-          <S.List><Link to='/curso-de-gestao'> Curso de Gestão em Projetos</Link></S.List>
-          <S.List><Link to='/definicao-dos-projetos'><img src={ImageCGE} alt='' /><p>Definição dos Projetos Apoiados em 2023</p></Link></S.List>
-          <S.List><Link to='/lancamento-do-livro'><img src={BookRelease} alt='' /><p>Lançamento do Livro-Síntese do Programa Favela Parque</p></Link></S.List>
-          <S.List><Link to='/lancamento-do-programa'>Lançamento do Programa</Link></S.List>
-          <S.List><Link to='/projetos-em-andamento'><img src={ProjectAction} alt='' /><p>Projetos em andamento</p></Link></S.List>
-          <S.List><Link to='/seminario-de-refinamento'><img src={Seminario} alt='' /><p>Seminário de Refinamento do Edital</p></Link></S.List>
-          <S.List><Link to='/registros-de-eventos'>Registro de Eventos</Link></S.List>
-          <S.List><a href='#vocenoparque'>Você no parque!</a></S.List>
+          {galleryData[activeButton]?.map((item, idx) => (
+            <S.List key={idx}>
+              {item.to.startsWith('/') ? (
+                <Link to={item.to}>
+                  {item.img && <img src={item.img} alt='' />}
+                  <p>{item.text}</p>
+                </Link>
+              ) : (
+                <a href={item.to}>
+                  {item.img && <img src={item.img} alt='' />}
+                  <p>{item.text}</p>
+                </a>
+              )}
+            </S.List>
+          ))}
         </S.Ol>
       </BoxContent>
     </Content>

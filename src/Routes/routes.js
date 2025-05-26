@@ -6,22 +6,22 @@ import Program from "../Pages/Program";
 import Notice from "../Pages/Notice";
 import TheCommunities from "../Pages/TheCommunities";
 import Gallery from "../Pages/Gallery";
-import ProgramLaunch from "../Pages/Gallery/ProgramLaunch";
-import Prazeres from "../Pages/Gallery/ProgramLaunch/prazeres";
-import CerroCora from "../Pages/Gallery/ProgramLaunch/cerroCora";
-import GuararapeseVilaCandido from "../Pages/Gallery/ProgramLaunch/guararapes-vilaCandido";
-import EdictRefinementSeminar from "../Pages/Gallery/EdictRefinementSeminar";
-import DefinitionOfSupportedProjects from "../Pages/Gallery/DefinitionOfSupportedProjects";
-import IntroducingProjectsToCommunities from "../Pages/Gallery/IntroducingProjectsToCommunities";
-import ProjectManagementCourse from "../Pages/Gallery/ProjectManagementCourse";
-import BookRelease from "../Pages/Gallery/BookRelease";
-import LaunchYouInThePark from "../Pages/Gallery/LaunchYouInThePark";
+import ProgramLaunch from "../Pages/Gallery/2023/ProgramLaunch";
+import Prazeres from "../Pages/Gallery/2023/ProgramLaunch/prazeres";
+import CerroCora from "../Pages/Gallery/2023/ProgramLaunch/cerroCora";
+import GuararapeseVilaCandido from "../Pages/Gallery/2023/ProgramLaunch/guararapes-vilaCandido";
+import EdictRefinementSeminar from "../Pages/Gallery/2023/EdictRefinementSeminar";
+import DefinitionOfSupportedProjects from "../Pages/Gallery/2023/DefinitionOfSupportedProjects";
+import IntroducingProjectsToCommunities from "../Pages/Gallery/2023/IntroducingProjectsToCommunities";
+import ProjectManagementCourse from "../Pages/Gallery/2023/ProjectManagementCourse";
+import BookRelease from "../Pages/Gallery/2023/BookRelease";
+import LaunchYouInThePark from "../Pages/Gallery/2023/LaunchYouInThePark";
 // import Recursos from "../Pages/EditalRecursos";
 // import Perguntas from "../Pages/EditalRecursos/Perguntas";
 // import PreSelecao from "../Pages/Pre-selecionados"
 // import Edital2025 from "../Pages/Edital2025";
-import ProjectsInAction from "../Pages/Gallery/PrejectsInAction"
-import RegisterOfEvents from "../Pages/Gallery/RegisterOfEvents"
+import ProjectsInAction from "../Pages/Gallery/2023/PrejectsInAction"
+import RegisterOfEvents from "../Pages/Gallery/2023/RegisterOfEvents"
 import Aprovaos2025 from "../Pages/Aprovados2025"
 
 import Directors from "../Pages/Directors";
@@ -44,19 +44,23 @@ const RoutesScreens = () => {
             <Route path='/edital' element={<Notice />} />
             <Route path='/as-comunidades' element={<TheCommunities />} />
             <Route path='/galeria' element={<Gallery />} />
-            <Route path='/lancamento-do-programa' element={<ProgramLaunch />} />
-            <Route path='/lancamento-do-programa-prazeres' element={<Prazeres />} />
-            <Route path='/lancamento-do-programa-cerro-cora' element={<CerroCora />} />
-            <Route path='/lancamento-do-programa-guararapes-e-vila-candido' element={<GuararapeseVilaCandido />} />
-            <Route path='/seminario-de-refinamento' element={<EdictRefinementSeminar />} />
-            <Route path='/curso-de-gestao' element={<ProjectManagementCourse />} />
-            <Route path='/definicao-dos-projetos' element={<DefinitionOfSupportedProjects />} />
-            <Route path='/apresentando-os-projetos' element={<IntroducingProjectsToCommunities />} />
-            <Route path='/lancamento-do-livro' element={<BookRelease />} />
-            <Route path='/lancamento-voce-no-parque' element={<LaunchYouInThePark />} />
-            <Route path='/projetos-em-andamento' element={<ProjectsInAction />} />
-            <Route path='/registros-de-eventos' element={<RegisterOfEvents />} />
+            {/* 2023 */}
+            <Route path='/2023/lancamento-do-programa' element={<ProgramLaunch />} />
+            <Route path='/2023/lancamento-do-programa-prazeres' element={<Prazeres />} />
+            <Route path='/2023/lancamento-do-programa-cerro-cora' element={<CerroCora />} />
+            <Route path='/2023/lancamento-do-programa-guararapes-e-vila-candido' element={<GuararapeseVilaCandido />} />
+            <Route path='/2023/seminario-de-refinamento' element={<EdictRefinementSeminar />} />
+            <Route path='/2023/curso-de-gestao' element={<ProjectManagementCourse />} />
+            <Route path='/2023/definicao-dos-projetos' element={<DefinitionOfSupportedProjects />} />
+            <Route path='/2023/apresentando-os-projetos' element={<IntroducingProjectsToCommunities />} />
+            <Route path='/2023/lancamento-do-livro' element={<BookRelease />} />
+            <Route path='/2023/lancamento-voce-no-parque' element={<LaunchYouInThePark />} />
+            <Route path='/2023/projetos-em-andamento' element={<ProjectsInAction />} />
+            <Route path='/2023/registros-de-eventos' element={<RegisterOfEvents />} />
 
+            {/* 2024 */}
+
+            
             <Route path='/realizadores' element={<Directors />} />
             <Route path='/voce-no-parque' element={<YouInThePark />} />
             <Route path='/equipe' element={<Team />} />

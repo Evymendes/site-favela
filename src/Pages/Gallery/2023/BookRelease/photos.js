@@ -1,4 +1,4 @@
-import Photos from '../../../components/Gallery';
+import Photos from '../../../../components/Gallery';
 import {
   BookReleaseOne,
   BookReleaseTwo,
@@ -8,7 +8,7 @@ import {
   BookReleaseSix,
   BookReleaseSeven,
   BookReleaseEight
-} from '../../../assets';
+} from '../../../../assets';
   
 function PhotosBookRelease() {
   const listPhotos = [

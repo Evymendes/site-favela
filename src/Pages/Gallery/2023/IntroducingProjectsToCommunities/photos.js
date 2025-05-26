@@ -1,12 +1,10 @@
-import Photos from '../../../components/Gallery';
+import Photos from '../../../../components/Gallery';
 import {
   DefinitionOfSupportedProjectsOne,
   DefinitionOfSupportedProjectsTwo,
   DefinitionOfSupportedProjectsThree,
   DefinitionOfSupportedProjectsFour,
   DefinitionOfSupportedProjectsFive,
-  LaunchYouInTheParkFiveA,
-  LaunchYouInTheParkFiveB,
   DefinitionOfSupportedProjectsSix,
   DefinitionOfSupportedProjectsSeven,
   DefinitionOfSupportedProjectsEight,
@@ -15,7 +13,7 @@ import {
   DefinitionOfSupportedProjectsEleven,
   DefinitionOfSupportedProjectsTwelve,
   DefinitionOfSupportedProjectsThirteen,
-} from '../../../assets';
+} from '../../../../assets';
   
 function PhotosDefinitionOfSupportedProjects() {
   const listPhotos = [
@@ -42,14 +40,6 @@ function PhotosDefinitionOfSupportedProjects() {
         },
         {
           img: DefinitionOfSupportedProjectsFive,
-          type: '',
-        },
-        {
-          img: LaunchYouInTheParkFiveA,
-          type: '',
-        },
-        {
-          img: LaunchYouInTheParkFiveB,
           type: '',
         },
         {

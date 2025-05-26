@@ -1,5 +1,5 @@
-import Layout from '../../../Layout';
-import ListPhotos from '../../../../components/Gallery';
+import Layout from '../../../../Layout';
+import ListPhotos from '../../../../../components/Gallery';
 import {
   CerroCora,
   CerroCora1,
@@ -10,9 +10,9 @@ import {
   JandersonMoradoresEmMovimento,
   RicardoRodriguesLiderComunitario,
   VivianePachecoParqueNacionaldaTijuca
-} from '../../../../assets';
+} from '../../../../../assets';
 
-import * as S from '../../globalPhotoStyle';
+import * as S from '../../../globalPhotoStyle';
   
 function CerroCoraScreen() {
   const listCommunities = [
