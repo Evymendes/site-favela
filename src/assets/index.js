@@ -185,3 +185,83 @@ export { default as IntroducingProjectsToCommunitiesTwentySeven } from './Photos
 //   DefinitionOfSupportedProjectsSixteen
 //   DefinitionOfSupportedProjectsSeventeen
 //   DefinitionOfSupportedProjectsEighteen
+
+//Galeria 2024
+export { default as EdictRefinementSeminar2024One } from './Photos/2024/EdictRefinementSeminarOne.jpg';
+export { default as EdictRefinementSeminar2024Two } from './Photos/2024/EdictRefinementSeminarTwo.jpg';
+export { default as EdictRefinementSeminar2024Three } from './Photos/2024/EdictRefinementSeminarThree.jpg';
+export { default as EdictRefinementSeminar2024Four } from './Photos/2024/EdictRefinementSeminarFour.jpg';
+export { default as EdictRefinementSeminar2024Five } from './Photos/2024/EdictRefinementSeminarFive.jpg';
+export { default as EdictRefinementSeminar2024Six } from './Photos/2024/EdictRefinementSeminarSix.jpg';
+export { default as EdictRefinementSeminar2024Seven } from './Photos/2024/EdictRefinementSeminarSeven.jpg';
+export { default as EdictRefinementSeminar2024Eight } from './Photos/2024/EdictRefinementSeminarEight.jpg';
+export { default as EdictRefinementSeminar2024Nine } from './Photos/2024/EdictRefinementSeminarNine.jpg';
+
+export { default as AtividadesDeFormacao2024One } from './Photos/2024/Atividades de Formação (1).jpg';
+export { default as AtividadesDeFormacao2024Two } from './Photos/2024/Atividades de Formação (2).jpg';
+export { default as AtividadesDeFormacao2024Three } from './Photos/2024/Atividades de Formação (3).jpg';
+export { default as AtividadesDeFormacao2024Four } from './Photos/2024/Atividades de Formação (4).jpg';
+export { default as AtividadesDeFormacao2024Five } from './Photos/2024/Atividades de Formação (5).jpg';
+export { default as AtividadesDeFormacao2024Six } from './Photos/2024/Atividades de Formação (6).jpg';
+export { default as AtividadesDeFormacao2024Seven } from './Photos/2024/Atividades de Formação (7).jpg';
+export { default as AtividadesDeFormacao2024Eight } from './Photos/2024/Atividades de Formação (8).jpg';
+export { default as AtividadesDeFormacao2024Nine } from './Photos/2024/Atividades de Formação (9).jpg';
+export { default as AtividadesDeFormacao2024Ten } from './Photos/2024/Atividades de Formação (10).jpg';
+export { default as AtividadesDeFormacao2024Eleven } from './Photos/2024/Atividades de Formação (11).jpg';
+export { default as AtividadesDeFormacao2024Twelve } from './Photos/2024/Atividades de Formação (12).jpg';
+export { default as AtividadesDeFormacao2024Thirteen } from './Photos/2024/Atividades de Formação (13).jpg';
+
+export { default as Aprovacao2024 } from './Photos/2024/Aprovação 2024.jpg';
+export { default as Aprovacao2024One } from './Photos/2024/Aprovação 20241.jpg';
+export { default as Aprovacao2024Two } from './Photos/2024/Aprovação 20242.jpg';
+export { default as Aprovacao2024Three } from './Photos/2024/Aprovação 20243.jpg';
+export { default as Aprovacao2024Four } from './Photos/2024/Aprovação 20244.jpg';
+export { default as Aprovacao2024Five } from './Photos/2024/Aprovação 20245.jpg';
+export { default as Aprovacao2024Six } from './Photos/2024/Aprovação 20246.jpg';
+export { default as Aprovacao2024Seven } from './Photos/2024/Aprovação 20247.jpg';
+export { default as Aprovacao2024Eight } from './Photos/2024/Aprovação 20248.jpg';
+export { default as Aprovacao2024Nine } from './Photos/2024/Aprovação 20249.jpg';
+export { default as Aprovacao2024Ten } from './Photos/2024/Aprovação 202410.jpg';
+export { default as Aprovacao2024Eleven } from './Photos/2024/Aprovação 202411.jpg';
+export { default as Aprovacao2024Twelve } from './Photos/2024/Aprovação 202412.jpg';
+
+export { default as EventosPrazeresVacinacao2024 } from './Photos/2024/Eventos Prazeres Vacinação.jpg';
+export { default as EventosCerroCombateFome2024 } from './Photos/2024/Eventos Cerro Combate Fome.jpg';
+export { default as EventosPrazeresMostra2024One } from './Photos/2024/Eventos Prazeres Mostra (1).jpg';
+export { default as EventosPrazeresMostra2024Two } from './Photos/2024/Eventos Prazeres Mostra (2).jpg';
+export { default as EventosPrazeresMostra2024Three } from './Photos/2024/Eventos Prazeres Mostra (3).jpg';
+export { default as EventosPrazeresMostra2024Four } from './Photos/2024/Eventos Prazeres Mostra (4).jpg';
+export { default as EventosPrazeresMostra2024Five } from './Photos/2024/Eventos Prazeres Mostra (5).jpg';
+export { default as EventosPrazeresMostra2024Six } from './Photos/2024/Eventos Prazeres Mostra (6).jpg';
+
+// Galeria 2025
+export { default as BomDiaFavela2025 } from './Photos/2025/Bom Dia Favela.jpg';
+export { default as BomDiaFavela2025One } from './Photos/2025/Bom Dia Favela1.jpg';
+export { default as BomDiaFavela2025Two } from './Photos/2025/Bom Dia Favela2.jpg';
+export { default as BomDiaFavela2025Three } from './Photos/2025/Bom Dia Favela3.jpg';
+export { default as BomDiaFavela2025Four } from './Photos/2025/Bom Dia Favela4.jpg';
+export { default as BomDiaFavela2025Five } from './Photos/2025/Bom Dia Favela5.jpg';
+
+export { default as Seminario2025One } from './Photos/2025/2025 Seminário  (1).jpg';
+export { default as Seminario2025Two } from './Photos/2025/2025 Seminário  (2).jpg';
+export { default as Seminario2025Three } from './Photos/2025/2025 Seminário  (3).jpg';
+export { default as Seminario2025Four } from './Photos/2025/2025 Seminário  (4).jpg';
+export { default as Seminario2025Five } from './Photos/2025/2025 Seminário  (5).jpg';
+export { default as Seminario2025Six } from './Photos/2025/2025 Seminário  (6).jpg';
+export { default as Seminario2025Seven } from './Photos/2025/2025 Seminário  (7).jpg';
+export { default as Seminario2025Eight } from './Photos/2025/2025 Seminário  (8).jpg';
+export { default as Seminario2025Nine } from './Photos/2025/2025 Seminário  (9).jpg';
+export { default as Seminario2025Ten } from './Photos/2025/2025 Seminário  (10).jpg';
+export { default as Seminario2025Eleven } from './Photos/2025/2025 Seminário  (11).jpg';
+export { default as Seminario2025Twelve } from './Photos/2025/2025 Seminário  (12).jpg';
+
+export { default as Aprovacao2025 } from './Photos/2025/2025 Aprovação.jpg';
+export { default as Aprovacao2025One } from './Photos/2025/2025 Aprovação1.jpg';
+export { default as Aprovacao2025Two } from './Photos/2025/2025 Aprovação2.jpg';
+export { default as Aprovacao2025Three } from './Photos/2025/2025 Aprovação3.jpg';
+export { default as Aprovacao2025Four } from './Photos/2025/2025 Aprovação4.jpg';
+export { default as Aprovacao2025Five } from './Photos/2025/2025 Aprovação5.jpg';
+export { default as Aprovacao2025Six } from './Photos/2025/2025 Aprovação6.jpg';
+export { default as Aprovacao2025Seven } from './Photos/2025/2025 Aprovação7.jpg';
+export { default as Aprovacao2025Eight } from './Photos/2025/2025 Aprovação8.jpg';
+export { default as Aprovacao2025Nine } from './Photos/2025/2025 Aprovação9.jpg';

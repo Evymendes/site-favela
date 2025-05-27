@@ -25,8 +25,10 @@ import {
 } from '../../../../assets';
 
 import * as S from './styles';
+import useScrollToTop from '../../../../utils/useScrollToTop';
 
 function EdictRefinementSeminar() {
+  useScrollToTop();
   // const listPhotos = [
   //   {
   //     id: 0,

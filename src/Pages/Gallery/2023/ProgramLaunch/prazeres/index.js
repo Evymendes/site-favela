@@ -23,9 +23,10 @@ import {
   Equipe
 } from '../../../../../assets';
 
-import * as S from '../../../globalPhotoStyle';
-  
+import useScrollToTop from '../../../../../utils/useScrollToTop';
+
 function CommunitiesGalleries() {
+  useScrollToTop();
   const listCommunities = [
     {
       id: 0,

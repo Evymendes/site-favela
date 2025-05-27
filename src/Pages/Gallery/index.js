@@ -9,6 +9,7 @@ import ImageCGE from "../../assets/Photos/DefinitionOfSupportedProjects/Definiti
 import BookRelease from "../../assets/Photos/BookRelease/BookReleaseTwo.jpg";
 import ProjectAction from "./2023/PrejectsInAction/assets/moradores1.jpg";
 import Seminario from "../../assets/Photos/EdictRefinementSeminar/EdictRefinementSeminarOne.jpg";
+import { Aprovacao2024Three, AtividadesDeFormacao2024Twelve, EdictRefinementSeminar2024Four, Seminario2025One } from '../../assets';
 
 export const Content = styled.div`
   width: 100vw;
@@ -127,14 +128,17 @@ const galleryData = {
   2024: [
     {
       to: '/2024/seminario-de-refinamento',
-      text: 'Seminário de Refinamento do Edital 2024'
+      img: EdictRefinementSeminar2024Four,
+      text: 'Seminário'
     },
     {
       to: '/2024/aprovados',
-      text: 'Aprovados em 2024'
+      img: Aprovacao2024Three,
+      text: 'Aprovados'
     },
     {
       to: '/2024/atividades-de-formacao',
+      img: AtividadesDeFormacao2024Twelve,
       text: 'Atividades de Formação'
     },
     {
@@ -146,12 +150,8 @@ const galleryData = {
       text: 'Projetos em andamento'
     },
     {
-      to: '/2024/interecoes-com-o-parque',
-      text: 'Interações com o Parque'
-    },
-    {
-      to: '/2024/lancamento-do-programa',
-      text: 'Lançamento do Programa'
+      to: '/2024/interacoes-com-o-parque-nacional-da-tijuca',
+      text: 'Interações com o Parque Nacional da Tijuca'
     },
     {
       to: '/2024/registros-de-eventos',
@@ -159,15 +159,29 @@ const galleryData = {
     }
   ],
   2025: [
-    // Adicione os itens de 2025 aqui
-    // Exemplo:
-    // { to: '/novo-projeto-2025', img: NovaImagem, text: 'Novo Projeto 2025' }
+    {
+      to: '/2025/seminario-de-refinamento',
+      img: Seminario2025One,
+      text: 'Seminário de Refinamento do Edital'
+    },
+    {
+      to: '/2025/mentorias',
+      text: 'Mentorias'
+    },
+    {
+      to: '/2025/aprovados',
+      text: 'Aprovados'
+    },
+    {
+      to: '/2025/bom-dia-favela',
+      text: 'Bom dia Favela'
+    },
   ],
   // Adicione outros anos conforme necessário
 };
 
 function Gallery() {
-    const [activeButton, setActiveButton] = useState(2023);
+    const [activeButton, setActiveButton] = useState(2025);
   
   return (
     <Content id='galeria'>

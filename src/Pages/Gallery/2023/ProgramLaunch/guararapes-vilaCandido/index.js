@@ -13,9 +13,10 @@ import {
   LeonardoBrasil
 } from '../../../../../assets';
 
-import * as S from '../../../globalPhotoStyle';  
-  
+import useScrollToTop from '../../../../../utils/useScrollToTop';
+
 function GuararapesVilaCandido() {
+  useScrollToTop();
   const listCommunities = [
     {
       id: 0,

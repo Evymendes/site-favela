@@ -1,10 +1,11 @@
-import { Link } from 'react-router-dom';
 import Layout from '../../../Layout';
 import Photos from './photos';
 
 import * as S from './styles';
+import useScrollToTop from '../../../../utils/useScrollToTop';
 
 function IntroducingProjectsToCommunities() {
+  useScrollToTop();
   return (
     <Layout>
       <h2>

@@ -2,8 +2,10 @@ import Layout from '../../../Layout';
 import Photos from './photos';
 
 import * as S from './styles';
+import useScrollToTop from '../../../../utils/useScrollToTop';
 
 function LaunchYouInThePark() {
+  useScrollToTop();
   return (
     <Layout>
       <S.BackText>

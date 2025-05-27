@@ -1,8 +1,10 @@
 import Layout from '../../../Layout';
 
 import * as S from './styles';
+import useScrollToTop from '../../../../utils/useScrollToTop';
 
 function RegisterOfEvents() {
+  useScrollToTop();
   return (
     <Layout>
       <h2>

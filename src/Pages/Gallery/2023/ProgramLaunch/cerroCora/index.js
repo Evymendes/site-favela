@@ -12,9 +12,10 @@ import {
   VivianePachecoParqueNacionaldaTijuca
 } from '../../../../../assets';
 
-import * as S from '../../../globalPhotoStyle';
-  
+import useScrollToTop from '../../../../../utils/useScrollToTop';
+
 function CerroCoraScreen() {
+  useScrollToTop();
   const listCommunities = [
     {
       id: 0,

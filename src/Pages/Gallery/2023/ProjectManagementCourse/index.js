@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom';
 import Layout from '../../../Layout';
 
 import * as S from './styles';
+import useScrollToTop from '../../../../utils/useScrollToTop';
 
 function ProjectManagementCourse() {
+  useScrollToTop();
+  
   return (
     <Layout>
       <h2>
