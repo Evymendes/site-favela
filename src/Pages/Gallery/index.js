@@ -9,7 +9,7 @@ import ImageCGE from "../../assets/Photos/DefinitionOfSupportedProjects/Definiti
 import BookRelease from "../../assets/Photos/BookRelease/BookReleaseTwo.jpg";
 import ProjectAction from "./2023/PrejectsInAction/assets/moradores1.jpg";
 import Seminario from "../../assets/Photos/EdictRefinementSeminar/EdictRefinementSeminarOne.jpg";
-import { Aprovacao2024Three, AtividadesDeFormacao2024Twelve, EdictRefinementSeminar2024Four, Seminario2025One } from '../../assets';
+import { Aprovacao2024Three, Aprovacao2025Nine, AtividadesDeFormacao2024Twelve, BomDiaFavela2025, EdictRefinementSeminar2024Four, Seminario2025One } from '../../assets';
 
 export const Content = styled.div`
   width: 100vw;
@@ -165,15 +165,17 @@ const galleryData = {
       text: 'Seminário de Refinamento do Edital'
     },
     {
+      to: '/2025/aprovados',
+      img: Aprovacao2025Nine,
+      text: 'Aprovados'
+    },
+    {
       to: '/2025/mentorias',
       text: 'Mentorias'
     },
     {
-      to: '/2025/aprovados',
-      text: 'Aprovados'
-    },
-    {
       to: '/2025/bom-dia-favela',
+      img: BomDiaFavela2025,
       text: 'Bom dia Favela'
     },
   ],
