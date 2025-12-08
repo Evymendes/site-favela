@@ -59,8 +59,8 @@ const CloseButton = styled.button`
   user-select: none;
 `;
 
-function ImageSlide({ images, onClose }) {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+function ImageSlide({ images, onClose, initialIndex }) {
+  const [currentImageIndex, setCurrentImageIndex] = useState(initialIndex);
 
   const handleNext = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
