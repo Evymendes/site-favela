@@ -137,8 +137,8 @@ function Home() {
   return (
     <>
       <S.Container>
-        <Link to="/aprovados2025">
-          <S.TextHighlight> Aprovados 2025 </S.TextHighlight>
+        <Link to="/edict2026">
+          <S.TextHighlight> Edital 2026</S.TextHighlight>
         </Link>
       </S.Container>
       <BarParces>

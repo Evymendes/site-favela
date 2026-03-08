@@ -202,9 +202,9 @@ const Notice = () => {
 
   return (
     <>
-      <Content id='resultados'>
+      <Content id='3anos'>
         <BoxContent>
-          <h2>Resultados</h2>
+          <h2>3 anos</h2>
           <MenubyYear>
             <MenubyYearOption selected={activeButton === 2024} onClick={() => setActiveButton(2024)}>2024</MenubyYearOption>
             <MenubyYearOption selected={activeButton === 2023} onClick={() => setActiveButton(2023)}>2023</MenubyYearOption>
