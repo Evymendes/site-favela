@@ -5,9 +5,11 @@ import ImageSlide from './slide/index';
 function Photos({ title, list }) {
   const [showSlide, setShowSlide] = useState(false);
   const [currentImages, setCurrentImages] = useState([]);
+  const [initialIndex, setInitialIndex] = useState(0);
 
-  const openSlide = (images) => {
+  const openSlide = (images, index) => {
     setCurrentImages(images);
+    setInitialIndex(index);
     setShowSlide(true);
   };
 
@@ -26,7 +28,7 @@ function Photos({ title, list }) {
             <S.BackText subtitle>{item.name}</S.BackText>
             <S.ContentPhoto>
               {item?.photos?.map((image, index) => (
-                <S.FigureImG key={index} onClick={() => openSlide(item.photos)}>
+                <S.FigureImG key={index} onClick={() => openSlide(item.photos, index)}>
                   <S.Img src={image.img} alt='' align="left" type={image.type} />
                 </S.FigureImG>
               ))}
@@ -36,7 +38,7 @@ function Photos({ title, list }) {
       </S.ContainerPhoto>
 
       {showSlide && (
-        <ImageSlide images={currentImages} onClose={closeSlide} />
+        <ImageSlide images={currentImages} initialIndex={initialIndex} onClose={closeSlide} />
       )}
     </>
   );

@@ -21,6 +21,7 @@ export const BackText = styled.p`
 
 export const Ol = styled.ol`
   display: flex;
+  justify-content: center;
   gap: 1rem;
   overflow-x: scroll;
   padding: 0 1rem 1rem 1rem;
@@ -37,8 +38,9 @@ export const List = styled.li`
   list-style: none;
   text-align: center;
   box-shadow: -1px 2px 3px #329af1;
-  min-width: 250px;
+  width: 250px;
   height: 250px;
+  overflow: hidden;
  
 
   > a {
@@ -73,7 +75,7 @@ export const List = styled.li`
     background: #329af1;
     color: #fff;
     box-shadow: -1px 2px 3px #329af1;
-    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease;
 
     > a {
       color: #fff;
@@ -82,9 +84,9 @@ export const List = styled.li`
         filter: blur(0);
       }
 
-      > p {
+      /* > p {
         opacity: 0;
-      }
+      } */
     }
   }
 `;
