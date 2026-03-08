@@ -81,7 +81,7 @@ const Edict2026 = () => {
         href={pdf}
         download="EditalDeAcessoARecursos2026.pdf"
       >
-        Baixar Edital 2026 2
+        Baixar Edital 2026
       </TextHighlight>
       <BoxContent>
         {/* <iframe title="PDF Viewer" src={pdf} width="100%" height="100%"></iframe> */}
