@@ -98,28 +98,28 @@ const Notice = () => {
             O Programa Favela Parque está em atividade nos territórios do Cerro-Corá, Guararapes, Prazeres e Vila Cândido desde Outubro de 2022, fruto de um longo processo participativo com as comunidades que definiram em anos anteriores as linhas de atuação do Programa.
           </Text>
           <Text>
-            O <b>Edital de Acesso a Recursos</b> é uma iniciativa de apoio aos atores sociais daquelas comunidades, organizados em coletivos com diferentes atuações. Abrimos uma chamada pública a cada ano e já realizamos 3 edições. Em 2026, seguimos no nosso quarto ano de apoios.
+            O <b>Edital de Acesso a Recursos</b> é uma iniciativa de apoio aos atores sociais daquelas comunidades, organizados em coletivos com diferentes atuações. Abrimos uma chamada pública a cada ano e já realizamos 4 edições. Em 2027 entramos no quinto ano de apoio.
           </Text>
           <Text>
             O <b>Fortalecimento Organizacional</b> do Programa é uma linha que apoia ações das comunidades que beneficiem a população como um todo: mutirões, ações intergrupais de escala maior, eventos tradicionais de cunho aberto e gratuito, etc. Bem como apoios para a <b>Infraestrutura local</b> (apoio aos equipamentos locais, disponibilização de notebook e internet, formação de Conselhos locais, etc).
           </Text>
           <Text>
-            O processo de Formação e Informação consiste em um itinerário formativo disponibilizado aos atores sociais apoiados e outros interessados nas comunidades, garantindo um legado de conhecimento duradouro para o ambiente local. 
+            O processo de <b>Formação e Informação</b> consiste em um itinerário formativo disponibilizado aos atores sociais apoiados e outros interessados nas comunidades, garantindo um legado de conhecimento duradouro para o ambiente local. 
           </Text>
           <Text>
             Já realizamos cursos diversos como: Educação Ambiental de Base Comunitária, Gestão de Projetos, Marketing Digital, Registro Audiovisual, Organização, Processos e Métodos e Análise de Dados,  entre outros.
           </Text>
           <Text>
-            Um dos grandes destaques é o curso permanente de Educação Ambiental de Base Comunitária, coordenado pelo GEASUR – Grupo de Estudos de Educação Ambiental Desde El Sur, conduzido por professores-doutores da UNIRIO. A importância da interação com o saber universitário também está presente na parceria de 2 anos com o Departamento de Psicologia da UFRJ, que acompanha e estimula os atores sociais ao longo de sua jornada de execução dos projetos.
+            Um dos grandes destaques é o curso permanente de Educação Ambiental de Base Comunitária, coordenado pelo GEASUR – Grupo de Estudos de Educação Ambiental Desde El Sur, conduzido por professores-doutores da UNIRIO. A importância da interação com o saber universitário também está presente na parceria de 3 anos com o Departamento de Psicologia da UFRJ, que acompanha e estimula os atores sociais ao longo de sua jornada de execução dos projetos.
           </Text>
           <Text>
-            A Comunicação, o Acompanhamento e a Supervisão do Programa também são um diferencial positivo deste Programa. Todo o processo é participativo e compartilhado em diversas instâncias com os moradores, em constantes devolutivas nas comunidades; e supervisionado pela Equipe de Supervisão do Contrato, composto por membros do ICMBio, do Trem do Corcovado, do Parque Nacional e lideranças das comunidades. 
+            <b>A Comunicação, o Acompanhamento e a Supervisão</b> do Programa também são um diferencial positivo deste Programa. Todo o processo é participativo e compartilhado em diversas instâncias com os moradores, em constantes devolutivas nas comunidades; e supervisionado pela <b>Equipe de Supervisão do Contrato</b>, composto por membros do ICMBio, do Trem do Corcovado, do Parque Nacional e lideranças das comunidades. 
           </Text>
           <Text>
             A <b>interação das favelas com o Parque Nacional da Tijuca</b> e seus atrativos é outra ação constantemente desenvolvida pelo Programa. Seja na vivência com o espaço da floresta, ou na visitação ao morro do Corcovado e ao Cristo Redentor, são momentos que aproximam os dois universos, favorecendo ao engajamento de todos com o meio ambiente que nos cerca. 
           </Text>
           <Text>
-            <b>Acompanhe os 3 anos do Programa Favela Parque em 3 minutos</b>, no vídeo abaixo: 
+            <b>Entenda o Programa Favela Parque em 3 minutos</b>, no vídeo abaixo: 
           </Text>
         </BoxContent>
       </Content>
