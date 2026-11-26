@@ -166,7 +166,7 @@ const Footer = () => {
           </BoxContacts>
         </div>
       </BoxContent>
-      <p> © 2023 Favela Parque. Todos os direitos reservados.</p>
+      <p> © 2026 Favela Parque. Todos os direitos reservados.</p>
     </Content>
   )
 }
