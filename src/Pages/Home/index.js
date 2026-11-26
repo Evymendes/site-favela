@@ -137,9 +137,9 @@ function Home() {
   return (
     <>
       <S.Container>
-        <Link to="/edict2026">
+        {/* <Link to="/edict2026">
           <S.TextHighlight> Edital 2026</S.TextHighlight>
-        </Link>
+        </Link> */}
       </S.Container>
       <BarParces>
         <h3>Realização</h3>
