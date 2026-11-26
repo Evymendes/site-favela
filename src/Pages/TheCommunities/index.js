@@ -160,7 +160,7 @@ function YouAtThePark() {
       <BoxContent>
         <span>
           <h2>As<p>Comunidades</p></h2>
-          <p>Se aventurar pelas ruelas pitorescas do Rio de Janeiro revela não apenas a magnífica paisagem urbana, mas também as histórias vibrantes que permeiam as comunidades locais. Nesta jornada, destacamos dois destinos fascinantes: o Morro dos Prazeres e o Complexo Guararapes.</p>
+          <p>Se aventurar pelas ruelas pitorescas do Rio de Janeiro revela não apenas a magnífica paisagem urbana, mas também as histórias vibrantes que permeiam as comunidades locais. Nesta jornada, destacamos dois destinos fascinantes: o Morro dos Prazeres e o Complexo Guararapes/Cerro Caral.</p>
         </span>
         <SlideContainer>
           {communities.map((item, index) => (

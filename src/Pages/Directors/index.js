@@ -10,7 +10,7 @@ const Content = styled.section`
   justify-content: center;
 `
 
-function Directors() {
+function  Directors() {
   return (
     <Content>
       <Layout showLink>
@@ -18,8 +18,7 @@ function Directors() {
         <S.BackText>
           O Programa Favela Parque é o resultado da união de três instituições: O Parque
           Nacional da Tijuca, dentro de seu programa socioambiental; o Trem do Corcovado,
-          que aporta recursos para o Programa e o Instituto Precisa Ser que administra e gere
-          as ações.
+          que aporta recursos para o Programa e o Instituto Evolux que administra e gere as ações.
         </S.BackText>
         <S.ContentTexts>
           <S.BackText>
@@ -84,7 +83,7 @@ function Directors() {
           <S.ContentTexts>
           <S.BackText>
             <a
-              href=""
+              href="https://www.instagram.com/institutoevolux/"
               rel="noreferrer"
               target="_blank"
             >

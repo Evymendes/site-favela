@@ -48,7 +48,7 @@ function Team() {
               <strong>A Equipe Supervisora:</strong>
             </S.BackText>
             <S.BackText>
-              Composta por membros do Parque Nacional da Tijuca e da Câmara de Educação Ambiental; do Trem do Corcovado e uma liderança das comunidades do Guararapes/Vila Cândido, Cerro-Corá e Morro dos Prazeres. Reúne-se regularmente a cada três meses, ou sob demandas que surjam ao longo do processo.
+              Composta por membros do Parque Nacional da Tijuca e da Câmara de Educação Ambiental; do Trem do Corcovado e uma liderança das comunidades do Guararapes/Vila Cândido, Cerro-Corá e Morro dos Prazeres. Reúne-se regularmente a cada quadrimestre, ou sob demandas que surjam ao longo do processo.
             </S.BackText>
           </S.ContentTexts>
 
@@ -64,7 +64,7 @@ function Team() {
               WhatsApp: 21 99366-0821
             </S.BackText>
             <S.BackText>
-              E-mail: charles.siqueira@precisaser.org
+              E-mail: coordenacaofavelaparque@gmail.com
             </S.BackText>
           </S.ContentTexts>
 
@@ -73,20 +73,7 @@ function Team() {
               <strong>O Programa tem dois espaços de fortalecimento organizacional</strong> para os moradores em geral, que podem acessar notebooks e Internet, além de apoio para atividades diversas como reuniões, encontros online, formações à distância etc.
             </S.BackText>
             <S.BackText>
-              <strong>Para agendar o uso dos equipamentos e espaços nos prédios comunitários que sediam o Favela Parque nas comunidades; ou buscar maiores informações sobre o Programa, entre em contato com:</strong>
-            </S.BackText>
-            <S.BackText>
-              <strong>Jacson Lima - </strong> Telefone: (21) 96531-7978 
-            </S.BackText>
-            <S.BackText>
-            Mobilizador Comunitário da área dos <strong>Prazeres</strong>.
-            </S.BackText>
-
-            <S.BackText>
-              <strong>Processo seletivo em andamento - </strong>Telefone a definir
-            </S.BackText>
-            <S.BackText>
-              Mobilizador/a Comunitário/a da área do <strong>Cerro-Corá e Guararapes/Vila Cândido</strong>.
+              <strong>Para agendar o uso dos equipamentos e espaços nos prédios comunitários que sediam o Favela Parque nas comunidades; ou buscar maiores informações sobre o Programa, entre em contato com a Coorenação</strong>
             </S.BackText>
           </S.ContentTexts>
         </BoxContent>

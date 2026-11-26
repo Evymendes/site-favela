@@ -149,7 +149,7 @@ function Program() {
           <BoxTexts>
             <S.BackText>
               O <strong>Programa Favela Parque </strong> é parte do Programa Socioambiental do Parque Nacional da Tijuca,
-              sendo administrado pelo Instituto Precisa Ser, com recursos do Trem do Corcovado.
+              sendo administrado pelo Instituto Evolux, com recursos do Trem do Corcovado.
             </S.BackText>
 
             <S.BackText>
